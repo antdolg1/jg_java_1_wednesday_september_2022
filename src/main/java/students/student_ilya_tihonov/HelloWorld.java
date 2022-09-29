@@ -1,6 +1,6 @@
 package students.student_ilya_tihonov;
 
-public class helloworld {
+public class HelloWorld {
 
 
     public static void main(String[] args) {
