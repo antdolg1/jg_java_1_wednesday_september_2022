@@ -1,5 +1,3 @@
-![build](https://github.com/antdolg1/jg_java_1_wednesday_september_2022/actions/workflows/build.yaml/badge.svg)
-
 #### JavaGuru: Групповой Проект Java 1 Онлайн - Осень - Среда - 2022
 
 Привет! 👋 Данный документ содержит основную информацию о курсе.
@@ -87,3 +85,5 @@
 #### Обратная связь
 
 * [WhatsApp](https://chat.whatsapp.com/DLt1DIr87laCZALBaU6HpM)
+
+![build](https://github.com/antdolg1/jg_java_1_wednesday_september_2022/actions/workflows/build.yaml/badge.svg)
