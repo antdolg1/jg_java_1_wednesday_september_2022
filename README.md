@@ -86,4 +86,6 @@
 
 * [WhatsApp](https://chat.whatsapp.com/DLt1DIr87laCZALBaU6HpM)
 
+---
+
 ![build](https://github.com/antdolg1/jg_java_1_wednesday_september_2022/actions/workflows/build.yaml/badge.svg)
