@@ -19,7 +19,7 @@ public class level_4_task_11 {
 
         short num5 = 50, num6 =3;
         int res3 = num5 / num6;
-        System.out.println(num5 + " * " + num6 + " = " + res3);
+        System.out.println(num5 + " : " + num6 + " = " + res3);
         System.out.println("Результат: " + res3);
         System.out.println("___________________");
     }
