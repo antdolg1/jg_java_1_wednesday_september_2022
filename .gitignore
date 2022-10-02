@@ -1,0 +1,11 @@
+# Compiled class file
+*.class
+*.iml
+
+#### IntelliJ IDEA dir config ####
+/.idea/
+/idea/
+
+#### IntelliJ IDEA out folder (compilation folder) ####
+/.out/
+/out/
