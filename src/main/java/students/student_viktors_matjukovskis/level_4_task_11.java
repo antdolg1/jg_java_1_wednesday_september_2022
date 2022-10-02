@@ -1,6 +1,4 @@
-package students.students_viktors_matjukovskis;
-
-import java.util.Scanner;
+package students.student_viktors_matjukovskis;
 
 public class level_4_task_11 {
     public static void main(String[]args) {

@@ -1,4 +1,4 @@
-package students.students_viktors_matjukovskis;
+package students.student_viktors_matjukovskis;
 
 public class hello_world {
 
