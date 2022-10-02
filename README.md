@@ -1,5 +1,3 @@
-![build](https://github.com/antdolg1/jg_java_1_wednesday_september_2022/actions/workflows/build.yaml/badge.svg)
-
 #### JavaGuru: Групповой Проект Java 1 Онлайн - Осень - Среда - 2022
 
 Привет! 👋 Данный документ содержит основную информацию о курсе.
@@ -18,8 +16,7 @@
 #### Инструментарий
 
 * **[IDE: Intellij IDEA - Community Edition](https://www.jetbrains.com/idea/)** - Популярная интегрированная среда разработки (**IDE** - **I**ntegrated **D**evelopment **E**nvironment) для создания **Java** программ 
-  * *Замечание:* Рекомендуется установить используя **Toolbox**
-  * [ [Скачать](https://www.jetbrains.com/toolbox-app/download) ]
+  * [ [Скачать](https://www.jetbrains.com/idea/download/#section=windows) ]
 
 
 * **[JDK: Adoptium 17](https://adoptium.net/)** - Комплект разработчика приложений (**JDK** - **J**ava **D**evelopment **K**it) на **Java** необходимый для компиляции и запуска программ
@@ -87,3 +84,7 @@
 #### Обратная связь
 
 * [WhatsApp](https://chat.whatsapp.com/DLt1DIr87laCZALBaU6HpM)
+
+---
+
+![build](https://github.com/antdolg1/jg_java_1_wednesday_september_2022/actions/workflows/build.yaml/badge.svg)
