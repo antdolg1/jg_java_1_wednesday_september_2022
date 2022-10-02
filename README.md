@@ -1,3 +1,5 @@
+![build](https://github.com/javagurulv/jg_java_1_wednesday_september_2022/actions/workflows/build.yaml/badge.svg)
+
 #### JavaGuru: Групповой Проект Java 1 Онлайн - Осень - Среда - 2022
 
 Привет! 👋 Данный документ содержит основную информацию о курсе.
