@@ -9,3 +9,4 @@
 #### IntelliJ IDEA out folder (compilation folder) ####
 /.out/
 /out/
+/target/
