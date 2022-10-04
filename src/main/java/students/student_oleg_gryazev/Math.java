@@ -23,6 +23,10 @@ package students.student_oleg_gryazev;
          System.out.println(finDiv);
          System.out.println(div.divide(50,3));
 
+         int var3 = 50;
+         int var4 = 3;
+         System.out.println(var3*var4);
+
 
      }
 
