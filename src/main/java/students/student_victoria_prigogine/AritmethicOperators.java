@@ -13,14 +13,4 @@ public class AritmethicOperators {
 
         System.out.println("HelloWorld!" + " This is my first Java program!");
         System.out.println();
-        System.out.print("Hello, my name is " + firstName + ". I am " + age + " years old.");
-
-
-
-
-
-
-
-
-    }
-}
+        System.out.print("Hello, my name is " + firstName + ". I am " + age + " years old.");}}

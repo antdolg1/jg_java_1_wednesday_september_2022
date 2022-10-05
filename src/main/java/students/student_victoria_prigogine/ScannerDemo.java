@@ -14,11 +14,5 @@ public class ScannerDemo {
         userNumber = scanner.nextInt();
         System.out.println("______________");
 
-        System.out.println("User entered number: " + userNumber);
-
-
-
-    }
-
-}
+        System.out.println("User entered number: " + userNumber);}}
 
