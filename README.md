@@ -63,6 +63,8 @@
 #### Записи лекций
 
 * [Лекция 1](https://www.youtube.com/watch?v=AnT4083gMz4)
+* [Лекция 2](https://www.youtube.com/watch?v=SAZJN7RmZts)
+
 
 ---
 
