@@ -1,6 +1,6 @@
 package students.student_stivens_veveris;
 
-public class lesson_1_level_4_task_11 {
+public class lesson1_level4_task11 {
 
     public static void main(String[] args) {
 
@@ -19,7 +19,6 @@ public class lesson_1_level_4_task_11 {
 
         System.out.println("Numbers divide: " + divide);
 
-
-
     }
 }
+
