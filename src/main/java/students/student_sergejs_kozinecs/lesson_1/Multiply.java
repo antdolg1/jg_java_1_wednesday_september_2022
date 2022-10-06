@@ -1,4 +1,4 @@
-package students.student_sergejs_kozinecs;
+package students.student_sergejs_kozinecs.lesson_1;
 
 public class Multiply {
     static int multiply(int a, int b) {

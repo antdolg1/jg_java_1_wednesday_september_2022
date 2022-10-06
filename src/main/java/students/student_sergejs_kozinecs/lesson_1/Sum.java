@@ -1,4 +1,4 @@
-package students.student_sergejs_kozinecs;
+package students.student_sergejs_kozinecs.lesson_1;
 
 public class Sum {
     private static int sum(int x, int y) {

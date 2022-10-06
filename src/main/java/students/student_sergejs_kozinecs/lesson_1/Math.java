@@ -1,11 +1,11 @@
-package students.student_sergejs_kozinecs;
+package students.student_sergejs_kozinecs.lesson_1;
 
 public class Math {
     int a;
     int b;
 
     // Testing constructor
-    Math(int a, int b) {
+    public Math(int a, int b) {
         this.a = a;
         this.b = b;
     }
