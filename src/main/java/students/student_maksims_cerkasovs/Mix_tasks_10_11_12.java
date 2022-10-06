@@ -11,7 +11,7 @@ public class Mix_tasks_10_11_12 {
         int multiply = n3 * n4;
         System.out.println(multiply);
         int n5 = 8;
-        int n6= 2;
+        int n6 = 2;
         int division = n5 / n6;
         System.out.println(division);
         int subtract = n5 - n1;
