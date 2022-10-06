@@ -1,4 +1,4 @@
-package students.student_maksims_cerkasovs;
+package students.student_maksims_cerkasovs.lesson_2.level_1;
 
 import java.util.Scanner;
 
