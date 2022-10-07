@@ -1,6 +1,5 @@
 package students.student_ignat_parfenov.lesson2_hw_level2_intern;
 
-import javax.naming.Name;
 import java.util.Scanner;
 
 public class Task8 {public static void main(String[] args) {
