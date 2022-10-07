@@ -1,0 +1,1 @@
+Ссылка на плагин для IDEA, чтобы подсвечивать скобки разным цветом: https://plugins.jetbrains.com/plugin/10080-rainbow-brackets
