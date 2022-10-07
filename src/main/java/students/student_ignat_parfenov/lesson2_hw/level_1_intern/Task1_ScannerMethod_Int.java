@@ -18,5 +18,4 @@ public class Task1_ScannerMethod_Int {
 
     }
 
-
 }
