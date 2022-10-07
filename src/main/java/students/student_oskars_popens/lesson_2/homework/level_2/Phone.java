@@ -1,4 +1,4 @@
-package students.student_oskars_popens.lesson2;
+package students.student_oskars_popens.lesson_2.homework.level_2;
 
 class Phone {
     /* task 4
