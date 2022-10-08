@@ -2,7 +2,7 @@ package students.student_jurij_hlebnikov.lesson2;
 
 import java.util.Scanner;
 
-public class Calculator {
+public class Task1Calculator {
     public static void main(String[] args) {
 
         System.out.println("Please give me two numbers");

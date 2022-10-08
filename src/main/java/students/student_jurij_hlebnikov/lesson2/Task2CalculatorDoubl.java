@@ -2,7 +2,7 @@ package students.student_jurij_hlebnikov.lesson2;
 
 import java.util.Scanner;
 
-public class CalculatorDoubl {
+public class Task2CalculatorDoubl {
 
     public static void main(String[] args) {
 

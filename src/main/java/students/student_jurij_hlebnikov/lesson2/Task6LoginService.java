@@ -1,8 +1,9 @@
 package students.student_jurij_hlebnikov.lesson2;
 
- class BankAccount {
+public class Task6LoginService {
 
     public static void main(String[] args) {
-
+        System.out.println("You can login!");
     }
+
 }
