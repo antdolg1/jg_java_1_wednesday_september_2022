@@ -5,13 +5,19 @@ import java.util.Scanner;
 public class Task9 {public static void main(String[] args) {
 
     Scanner scanner = new Scanner(System.in);
-    System.out.println("Enter the number :");
+    System.out.println("Test Data: " + "\nInput a number:");
     int yourNumber = scanner.nextInt();
+    System.out. println("____________________");
+    System.out.println("Expected result is :");
 
-    int[] array = new int[] { 1-10 };
-    for (int i : array) {
-
-        System.out.println(i*yourNumber);
+    int i = 1;
+    while (i <= 10) {
+    int result = yourNumber * i;
+    System.out.print(yourNumber + " x " + i + " = " + result + "\n");
+        i++;
     }
+
 }
 }
+
+
