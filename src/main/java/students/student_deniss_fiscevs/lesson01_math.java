@@ -1,6 +1,6 @@
 package students.student_deniss_fiscevs;
 
-public class math {
+public class lesson01_math {
 
     public static void main(String[] args) {
         int a = 50;
