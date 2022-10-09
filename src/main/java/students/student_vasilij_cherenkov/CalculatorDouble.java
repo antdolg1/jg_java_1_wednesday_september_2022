@@ -12,10 +12,10 @@ public static void main(String[] args) {
 
     Scanner scannerOne = new Scanner(System.in);
     System.out.println("Введите первое число");
-    firstNumber = scannerOne.nextInt();
+    firstNumber = scannerOne.nextDouble();
     Scanner scannerTwo = new Scanner(System.in);
     System.out.println("Введите второе число");
-    secondNumber = scannerTwo.nextInt();
+    secondNumber = scannerTwo.nextDouble();
 
     double sum= firstNumber + secondNumber;
     double sub= firstNumber - secondNumber;
