@@ -5,9 +5,9 @@ public class Addition {
     public static void main(String args[])
             
     {
-        int n1 = -18888, n2 = 67832, sum;
+        double n1 = 1.5 , n2 = 1.35 , sum ;
         sum = n1 + n2;
-        System.out.println("The sum of numbers is: "+sum);
+        System.out.println(sum);
     }
 
 }
