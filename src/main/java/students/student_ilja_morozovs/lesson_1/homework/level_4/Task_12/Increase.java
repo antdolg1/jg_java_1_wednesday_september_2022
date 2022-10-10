@@ -1,4 +1,4 @@
-package students.student_ilja_morozovs;
+package students.student_ilja_morozovs.lesson_1.homework.level_4.Task_12;
 
 public class Increase {
     private int a=50;
