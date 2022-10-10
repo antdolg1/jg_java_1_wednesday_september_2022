@@ -9,5 +9,4 @@ public class Multiplication {
         System.out.println(sum);
 
     }
-
 }

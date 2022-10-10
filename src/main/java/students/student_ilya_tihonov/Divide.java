@@ -10,5 +10,4 @@ public class Divide {
         System.out.println(sum);
 
     }
-
 }

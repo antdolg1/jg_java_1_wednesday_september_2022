@@ -9,5 +9,4 @@ public class Addition {
         sum = n1 + n2;
         System.out.println(sum);
     }
-
 }
