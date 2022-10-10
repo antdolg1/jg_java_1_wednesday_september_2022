@@ -1,4 +1,4 @@
-package students.student_ilja_morozovs.lessons2.level5;
+package students.student_ilja_morozovs.lessons_2.homework.level_5.Task_18;
 
 public class SizeMatters {
     public static void main(String[] args) {
