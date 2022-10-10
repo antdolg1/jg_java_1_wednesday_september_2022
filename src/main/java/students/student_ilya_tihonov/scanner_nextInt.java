@@ -2,7 +2,7 @@ package students.student_ilya_tihonov;
 
 import java.util.Scanner;
 
-public class ScannerHomework  {
+public class scanner_nextInt {
 
     public static void main(String[] args) {
 
