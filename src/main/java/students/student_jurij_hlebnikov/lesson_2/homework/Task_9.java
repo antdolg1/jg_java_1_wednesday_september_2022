@@ -1,8 +1,8 @@
-package students.student_jurij_hlebnikov.lesson2;
+package students.student_jurij_hlebnikov.lesson_2.homework;
 
 import java.util.Scanner;
 
-public class Task9MultiplicationTable {
+public class Task_9 {
     public static void main(String[] args) {
 
         System.out.println("Please Give me a Number");

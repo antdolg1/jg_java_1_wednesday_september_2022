@@ -1,6 +1,6 @@
-package students.student_jurij_hlebnikov.lesson2;
+package students.student_jurij_hlebnikov.lesson_2.homework;
 
-public class Task6LoginService {
+public class Task_6 {
 
     public static void main(String[] args) {
         System.out.println("You can login!");

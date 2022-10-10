@@ -1,20 +1,21 @@
-package students.student_jurij_hlebnikov.lesson2;
+package students.student_jurij_hlebnikov.lesson_2.homework;
 
 import java.util.Scanner;
 
-public class Task1Calculator {
+public class Task_2 {
+
     public static void main(String[] args) {
 
         System.out.println("Please give me two numbers");
 
         Scanner scanner = new Scanner(System.in);
-        int numberOne = scanner.nextInt();
-        int numberTwo = scanner.nextInt();
+        double numberOne = scanner.nextDouble();
+        double numberTwo = scanner.nextDouble();
 
-        int addition = numberOne + numberTwo;
-        int subtraction = numberOne - numberTwo;
-        int multiplication = numberOne * numberTwo;
-        int division = numberOne / numberTwo;
+        double addition = numberOne + numberTwo;
+        double subtraction = numberOne - numberTwo;
+        double multiplication = numberOne * numberTwo;
+        double division = numberOne / numberTwo;
 
         System.out.println("Their addition");
         System.out.println(addition);

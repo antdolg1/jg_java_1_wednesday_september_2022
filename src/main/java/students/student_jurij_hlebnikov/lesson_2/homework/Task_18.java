@@ -1,6 +1,6 @@
-package students.student_jurij_hlebnikov.lesson2;
+package students.student_jurij_hlebnikov.lesson_2.homework;
 
-class Task18SizeMetters{
+class Task_18 {
 
     public static void main(String[] args) {
         System.out.println("Sorry, I have an errors.");

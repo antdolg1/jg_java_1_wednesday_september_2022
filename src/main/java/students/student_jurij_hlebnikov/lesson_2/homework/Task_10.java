@@ -1,8 +1,8 @@
-package students.student_jurij_hlebnikov.lesson2;
+package students.student_jurij_hlebnikov.lesson_2.homework;
 
 import java.util.Scanner;
 
-public class Task10Radius {
+public class Task_10 {
     public static void main(String[] args) {
 
         System.out.println("Please Enter Radius Langth:");

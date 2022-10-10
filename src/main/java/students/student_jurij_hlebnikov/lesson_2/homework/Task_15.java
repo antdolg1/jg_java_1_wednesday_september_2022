@@ -1,6 +1,6 @@
-package students.student_jurij_hlebnikov.lesson2;
+package students.student_jurij_hlebnikov.lesson_2.homework;
 
-public class Task15PrintNoLn {
+public class Task_15 {
     public static void main(String[] args) {
         System.out.print("Наша Маша");
         System.out.println(" горько плачет");
