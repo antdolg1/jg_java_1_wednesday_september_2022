@@ -1,4 +1,4 @@
-package students.student_ilja_morozovs.lessons2.level3;
+package students.student_ilja_morozovs.lessons_2.homework.level_3.Task_10;
 
 import java.util.Scanner;
 
