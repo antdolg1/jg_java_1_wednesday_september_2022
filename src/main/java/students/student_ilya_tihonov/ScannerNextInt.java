@@ -6,7 +6,7 @@ public class ScannerNextInt {
 
     public static void main(String[] args) {
 
-        int a , b , sum , sum1 , sum2 , sum3;
+        int a, b, sum, sum1, sum2, sum3;
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter eny numbers: ");
@@ -21,7 +21,6 @@ public class ScannerNextInt {
         System.out.println("Subtraction- " + sum1);
         System.out.println("Multiplication- " + sum2);
         System.out.println("Division- " + sum3);
-
 
 
     }
