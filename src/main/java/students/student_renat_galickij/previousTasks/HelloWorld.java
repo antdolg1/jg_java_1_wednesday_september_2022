@@ -1,4 +1,4 @@
-package students.student_renat_galickij;
+package students.student_renat_galickij.previousTasks;
 
 public class HelloWorld {
     public static void main(String[] args) {
