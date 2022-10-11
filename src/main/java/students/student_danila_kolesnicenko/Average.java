@@ -22,5 +22,9 @@ public class Average {
         System.out.println(sum / 3);
 
 
+
+
     }
 }
+
+
