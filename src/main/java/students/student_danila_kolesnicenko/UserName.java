@@ -2,7 +2,7 @@ package students.student_danila_kolesnicenko;
 
 import java.util.Scanner;
 
-public class userName {
+public class UserName {
 
     public static void main(String[] args) {
 
