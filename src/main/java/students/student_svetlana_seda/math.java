@@ -9,6 +9,7 @@ public class math {
         System.out.println(a+b);
                 System.out.println(c/d);
                         System.out.println(c*d);
+
 }
 
 }
