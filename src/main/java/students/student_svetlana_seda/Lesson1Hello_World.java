@@ -1,6 +1,6 @@
 package students.student_svetlana_seda;
 
-public class Hello_World {
+public class Lesson1Hello_World {
 
     public static void main(String[] args) {
 

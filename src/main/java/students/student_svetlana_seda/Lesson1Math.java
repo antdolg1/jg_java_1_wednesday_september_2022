@@ -1,6 +1,6 @@
 package students.student_svetlana_seda;
 
-public class Math {
+public class Lesson1Math {
     public static void main(String[] args) {
     int a=74;
     int b=36;
