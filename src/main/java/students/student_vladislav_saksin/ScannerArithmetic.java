@@ -2,7 +2,7 @@ package students.student_vladislav_saksin;
 
 import java.util.Scanner;
 
-public class ScannerDemo {
+public class ScannerArithmetic {
 
     public static void main(String[] args) {
 
