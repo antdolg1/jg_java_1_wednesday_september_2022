@@ -6,13 +6,13 @@ public class Task11_ArithmeticMean {public static void main(String[] args) {
 
     Scanner scanner = new Scanner(System.in);
         System.out.print("Please enter your first numbers : ");
-        int num1 = scanner.nextInt();
+        double num1 = scanner.nextDouble();
 
         System.out.print("Enter your second number : ");
-        int num2 = scanner.nextInt();
+        double num2 = scanner.nextDouble();
 
         System.out.print("Enter your third number : ");
-        int num3 = scanner.nextInt();
+        double num3 = scanner.nextDouble();
 
         double[] nums = new double[]{num1, num2, num3};
 
