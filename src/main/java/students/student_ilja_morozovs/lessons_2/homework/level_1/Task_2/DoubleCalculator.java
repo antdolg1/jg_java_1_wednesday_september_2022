@@ -3,26 +3,24 @@ package students.student_ilja_morozovs.lessons_2.homework.level_1.Task_2;
 import java.util.Scanner;
 
 public class DoubleCalculator {
-    double resultSum;
-    double resultSubtraction;
-    double resultIncrease;
-    double resultDivide;
-
 
     public static void main(String[] args) {
+        double resultSum;
+        double resultSubtraction;
+        double resultIncrease;
+        double resultDivide;
         Scanner scanner = new Scanner(System.in);
-        DoubleCalculator doubleCalculator = new DoubleCalculator();
         System.out.println("Enter first number: ");
         double firstNumber = scanner.nextDouble();
         System.out.println("Enter second number: ");
         double secondNumber = scanner.nextDouble();
-        doubleCalculator.resultSum = firstNumber + secondNumber;
-        System.out.println("Sum result: " + doubleCalculator.resultSum);
-        doubleCalculator.resultSubtraction = firstNumber - secondNumber;
-        System.out.println("Subtraction result: " + doubleCalculator.resultSubtraction);
-        doubleCalculator.resultIncrease = firstNumber * secondNumber;
-        System.out.println("Increase result: " + doubleCalculator.resultIncrease);
-        doubleCalculator.resultDivide = firstNumber / secondNumber;
-        System.out.println("Divide result: " + doubleCalculator.resultDivide);
+        resultSum = firstNumber + secondNumber;
+        System.out.println("Sum result: " + resultSum);
+        resultSubtraction = firstNumber - secondNumber;
+        System.out.println("Subtraction result: " + resultSubtraction);
+        resultIncrease = firstNumber * secondNumber;
+        System.out.println("Increase result: " + resultIncrease);
+        resultDivide = firstNumber / secondNumber;
+        System.out.println("Divide result: " + resultDivide);
     }
 }
