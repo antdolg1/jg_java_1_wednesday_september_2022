@@ -6,10 +6,10 @@ public class Task1ScannerMethodInt {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Imput the first number : ");
+        System.out.println("Input the first number : ");
         int firstNumber = scanner.nextInt();
 
-        System.out.println("Imput the second number");
+        System.out.println("Input the second number");
         int secondNumber = scanner.nextInt();
 
         System.out.println("Addition result is : " + (firstNumber + secondNumber));
