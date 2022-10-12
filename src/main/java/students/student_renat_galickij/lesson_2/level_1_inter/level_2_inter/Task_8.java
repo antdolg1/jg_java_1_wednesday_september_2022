@@ -1,7 +1,7 @@
-package students.student_renat_galickij.level_2_inter;
+package students.student_renat_galickij.lesson_2.level_1_inter.level_2_inter;
 import java.util.Scanner;
 
-public class task_8 {
+public class Task_8 {
     public static void main(String[] args) {
          String name;
         Scanner scanner = new Scanner(System.in);

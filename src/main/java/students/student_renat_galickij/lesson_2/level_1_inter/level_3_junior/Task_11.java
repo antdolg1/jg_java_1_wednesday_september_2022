@@ -1,7 +1,7 @@
-package students.student_renat_galickij.level_3_junior;
+package students.student_renat_galickij.lesson_2.level_1_inter.level_3_junior;
 import java.util.Scanner;
 
-public class task_11 {
+public class Task_11 {
     public static void main(String[] args) {
         double average;
         Scanner scanner = new Scanner(System.in);

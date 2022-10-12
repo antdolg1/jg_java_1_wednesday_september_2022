@@ -1,8 +1,8 @@
 
-package students.student_renat_galickij.level_1_inter;
+package students.student_renat_galickij.lesson_2.level_1_inter;
 
 import java.util.Scanner;
-public class task_1 {
+public class Task_1 {
     public static void main(String[] args) {
         int addition, subtraction, multiplication;
         double  division;
