@@ -13,8 +13,7 @@ public class Task8 {
         System.out.println("Please, enter your username: ");
           n = scanner.nextLine();
 
-        System.out.println("HELLO, " + name + "!");
-
+        System.out.println("HELLO, " + n + "!");
     }
 
 }
