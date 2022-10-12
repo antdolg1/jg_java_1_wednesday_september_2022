@@ -9,3 +9,4 @@ public class Task_32 {
           комментарий
 
      */
+}
