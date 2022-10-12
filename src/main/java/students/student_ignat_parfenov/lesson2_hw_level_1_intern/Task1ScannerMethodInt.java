@@ -12,9 +12,9 @@ public class Task1ScannerMethodInt {
         System.out.println("Imput the second number");
         int secondNumber = scanner.nextInt();
 
-        System.out.println("Addition result is : " + (firstNumber+secondNumber));
-        System.out.println("Subtraction result is : " + (firstNumber-secondNumber));
-        System.out.println("Multiplication result is : " + firstNumber*secondNumber);
+        System.out.println("Addition result is : " + (firstNumber + secondNumber));
+        System.out.println("Subtraction result is : " + (firstNumber - secondNumber));
+        System.out.println("Multiplication result is : " + firstNumber * secondNumber);
 
     }
 
