@@ -1,4 +1,4 @@
-package students.student_viktors_matjukovskis;
+package students.student_viktors_matjukovskis.lesson2;
 
 import java.util.Scanner;
 
