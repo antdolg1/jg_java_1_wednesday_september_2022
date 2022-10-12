@@ -1,4 +1,4 @@
-package students.student_ignat_parfenov.lesson2_hw_level_2_intern;
+package students.student_ignat_parfenov.lesson2HwLevel2Intern;
 
 import java.util.Scanner;
 
