@@ -1,4 +1,4 @@
-package students.student_oskars_popens;
+package students.student_oskars_popens.lesson1;
 
 public class Summ {
     public static void main(String[] args) {
