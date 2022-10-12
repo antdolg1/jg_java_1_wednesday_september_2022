@@ -11,7 +11,7 @@ public class Task11 {
     public static void main(String[] args) {
         int num1, num2, num3;
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Please enter first number: ");
+        System.out.print("Please enter First number: ");
         num1 = scanner.nextInt();
         System.out.print("Please enter second number: ");
         num2 = scanner.nextInt();
