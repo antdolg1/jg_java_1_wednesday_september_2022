@@ -2,7 +2,7 @@ package students.student_ignat_parfenov.lesson2_hw_level_1_intern;
 
 import java.util.Scanner;
 
-public class Task1_ScannerMethod_Int {
+public class Task1ScannerMethodInt {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
