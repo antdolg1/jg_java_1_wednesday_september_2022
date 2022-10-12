@@ -3,22 +3,21 @@ package students.student_ilja_morozovs.lessons_2.homework.level_3.Task_11;
 import java.util.Scanner;
 
 public class ArithmeticalMean {
-    int numberOne;
-    int numbertwo;
-    int numberthree;
-    double result;
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        ArithmeticalMean arithmeticalMean = new ArithmeticalMean();
+        int numberOne;
+        int numberTwo;
+        int numberThree;
+        double result;
         System.out.println("Enter number one: ");
-        arithmeticalMean.numberOne = scanner.nextInt();
+        numberOne = scanner.nextInt();
         System.out.println("Enter number two: ");
-        arithmeticalMean.numbertwo = scanner.nextInt();
+        numberTwo = scanner.nextInt();
         System.out.println("Enter number three: ");
-        arithmeticalMean.numberthree = scanner.nextInt();
-        arithmeticalMean.result = (arithmeticalMean.numberthree + arithmeticalMean.numbertwo + arithmeticalMean.numberthree) / 2;
-        System.out.println("Arithmetical mean is: " + arithmeticalMean.result);
+        numberThree = scanner.nextInt();
+        result = (numberOne + numberTwo + numberThree) / 3;
+        System.out.println("Arithmetical mean is: " + result);
     }
 }
 
