@@ -8,10 +8,10 @@ public class Task8 {
 
     public static void main(String[] args) {
 
-    String name;
+    String n;
     Scanner scanner = new Scanner(System.in);
         System.out.println("Please, enter your username: ");
-          name = scanner.nextLine();
+          n = scanner.nextLine();
 
         System.out.println("HELLO, " + name + "!");
 
