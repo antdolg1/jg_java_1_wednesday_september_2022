@@ -1,11 +1,10 @@
-package students.student_svetlana_seda;
+package students.student_svetlana_seda.lesson2.level2;
 
 import org.w3c.dom.ls.LSOutput;
 
 import java.util.Scanner;
 
 public class Task8 {
-
     public static void main(String[] args) {
 
     String n;
@@ -14,6 +13,7 @@ public class Task8 {
           n = scanner.nextLine();
 
         System.out.println("HELLO, " + n + "!");
+
     }
 
 }
