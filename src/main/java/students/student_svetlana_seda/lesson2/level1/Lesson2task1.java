@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Lesson2task1 {
     public static void main(String[] args) {
+
         Scanner scanner=new Scanner(System.in);
         System.out.println("Please enter the first number:");
         int firstNumber=scanner.nextInt();
@@ -13,5 +14,7 @@ public class Lesson2task1 {
         System.out.println(firstNumber - secondNumber);
         System.out.println(firstNumber / secondNumber);
         System.out.println(firstNumber * secondNumber);
+
     }
+
 }

@@ -2,6 +2,7 @@ package students.student_svetlana_seda.lesson1;
 
 public class Lesson1Math {
     public static void main(String[] args) {
+
     int a=74;
     int b=36;
     int c=50;
@@ -10,6 +11,6 @@ public class Lesson1Math {
                 System.out.println(c/d);
                         System.out.println(c*d);
 
-}
+    }
 
 }
