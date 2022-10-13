@@ -10,6 +10,6 @@ public class Lesson1Math {
                 System.out.println(c/d);
                         System.out.println(c*d);
 
-}
+    }
 
 }
