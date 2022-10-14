@@ -2,7 +2,7 @@ package students.student_ilja_morozovs.lessons_2.homework.level_3.Task_10;
 
 import java.util.Scanner;
 
-public class CircleArea {
+class CircleArea {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
