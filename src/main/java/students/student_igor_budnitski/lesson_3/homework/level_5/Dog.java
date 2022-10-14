@@ -1,6 +1,6 @@
 package students.student_igor_budnitski.lesson_3.homework.level_5;
 
-public class Dog {
+class Dog {
     String name;
     int age;
     String color;
@@ -23,7 +23,7 @@ public class Dog {
         age += 1;
     }
 
-    public void changeColor(String newColor){
+    public void changeColor(String newColor) {
         this.color = newColor;
     }
 
