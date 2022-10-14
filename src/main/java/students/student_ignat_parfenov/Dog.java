@@ -14,7 +14,21 @@ public class Dog {
         this.color = color;
     }
 
-   public Dog(){
+    public Dog(){
+
+    }
+
+    public Dog(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    void bark() {
+        System.out.println("Woof woof woof!");
+    }
+
+    void greetings(String dogName){
+        System.out.println("Hello, my name is: " + dogName);
 
     }
 }

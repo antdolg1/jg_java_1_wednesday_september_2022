@@ -11,7 +11,7 @@ public class DogDemo {
 
          System.out.println("My dogs name is: " + firstDog.name);
          System.out.println("My dogs age is: " + firstDog.age);
-         System.out.println("My dogs is: " + firstDog.isBig);
+         System.out.println("My dogs is big: " + firstDog.isBig);
          System.out.println("My dogs color is: " + firstDog.color);
 
          firstDog.age = 7;
@@ -20,9 +20,15 @@ public class DogDemo {
 
          Dog secondDog = new Dog("Susan", 12, false, "white");
 
+         System.out.println("____________________________________");
          System.out.println("My dogs name is: " + secondDog.name);
          System.out.println("My dogs age is: " + secondDog.age);
-         System.out.println("My dogs is: " + secondDog.isBig);
+         System.out.println("My dogs is big: " + secondDog.isBig);
          System.out.println("My dogs color is: " + secondDog.color);
+
+         Dog thirdDog = new Dog("Jack", 1);
+         thirdDog.bark();
+         thirdDog.greetings(thirdDog.name);
+
      }
 }
