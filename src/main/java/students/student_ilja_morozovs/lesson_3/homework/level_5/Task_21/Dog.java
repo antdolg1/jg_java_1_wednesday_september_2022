@@ -1,6 +1,6 @@
 package students.student_ilja_morozovs.lesson_3.homework.level_5.Task_21;
 
-public class Dog {
+class Dog {
     String dogName;
     int dogAge;
     String dogColor;

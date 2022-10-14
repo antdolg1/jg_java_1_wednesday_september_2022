@@ -1,7 +1,7 @@
 package students.student_ilja_morozovs.lesson_3.homework.level_5.Task_22;
 
 
-public class Dog {
+class Dog {
     String dogColor;
 
     public Dog(String dogColor) {
