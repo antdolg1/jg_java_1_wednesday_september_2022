@@ -1,6 +1,6 @@
 package students.student_ilja_morozovs.lessons_2.homework.level_7.Task_29;
 
-public class SumTwoNumbers {
+class SumTwoNumbers {
 
     public static void main(String[] args) {
         int numberOne = 10;
