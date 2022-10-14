@@ -1,6 +1,6 @@
 package students.student_igor_budnitski.lesson_3.homework.level_1;
 
-public class RobotDemo {
+class RobotDemo {
     public static void main(String[] args) {
         Robot robot1 = new Robot("Fox"); // creating robot object
         robot1.sayHello(); // calling method to say Hello

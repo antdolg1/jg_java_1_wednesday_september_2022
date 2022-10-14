@@ -1,6 +1,6 @@
 package students.student_igor_budnitski.lesson_3.homework.level_1;
 
-public class Robot {
+class Robot {
 
     String name;
     public void sayHello() {
