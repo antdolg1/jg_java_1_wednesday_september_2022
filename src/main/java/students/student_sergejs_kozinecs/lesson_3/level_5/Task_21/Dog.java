@@ -1,6 +1,6 @@
 package students.student_sergejs_kozinecs.lesson_3.level_5.Task_21;
 
-public class Dog {
+class Dog {
 
     String name;
     int age;

@@ -1,6 +1,6 @@
 package students.student_sergejs_kozinecs.lesson_3.level_3;
 
-public class Robot {
+class Robot {
 
     String name;
 

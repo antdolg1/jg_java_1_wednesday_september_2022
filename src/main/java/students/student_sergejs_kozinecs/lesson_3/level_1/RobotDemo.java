@@ -1,6 +1,6 @@
 package students.student_sergejs_kozinecs.lesson_3.level_1;
 
-public class RobotDemo {
+class RobotDemo {
     public static void main(String[] args) {
         // создайте экземпляр класса Robot вызвав конструктор класса
         // сохраните ссылку (указатель) на только, что созданный

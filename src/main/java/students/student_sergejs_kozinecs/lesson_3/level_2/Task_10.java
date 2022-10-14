@@ -1,6 +1,6 @@
 package students.student_sergejs_kozinecs.lesson_3.level_2;
 
-public class Task_10 {
+class Task_10 {
     public static void main(String[] args) {
         String s1 = "Hello Java";
         System.out.println(s1);
@@ -27,6 +27,6 @@ public class Task_10 {
         boolean c = (s3 == s5);
         System.out.println(c);
         c = (s4 == s5);
-        System.out.println(b);
+        System.out.println(c);
     }
 }
