@@ -2,7 +2,7 @@ package students.student_ilja_morozovs.lessons_2.homework.level_1.Task_1;
 
 import java.util.Scanner;
 
-public class IntegerCalc {
+class IntegerCalc {
 
     public static void main(String[] args) {
         int resultSum;
