@@ -1,6 +1,6 @@
 package students.student_ilja_morozovs.lessons_3.homework.level_3.Task_12;
 
-public class RobotDemo {
+class RobotDemo {
     public static void main(String[] args) {
         Robot terminator = new Robot("Arnold");
         Robot terminator1 = new Robot("Vasja");
