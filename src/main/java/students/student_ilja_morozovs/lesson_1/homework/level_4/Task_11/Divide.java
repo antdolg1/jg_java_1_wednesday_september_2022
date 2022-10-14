@@ -1,6 +1,6 @@
 package students.student_ilja_morozovs.lesson_1.homework.level_4.Task_11;
 
-public class Divide {
+class Divide {
 
     public static void main(String[] args) {
         int firstNumber = 50;
