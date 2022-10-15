@@ -17,14 +17,14 @@ public class BankAccount {
     }
 
     void addMoneyToAccount(double moneyToAdd){
-        moneyAmount = moneyAmount + moneyToAdd;
+        moneyAmount += + moneyToAdd;
     }
 
     void withdrawMoneyToAccount(double moneyToWithdraw){
-        moneyAmount = moneyAmount - moneyToWithdraw;
+        moneyAmount -= moneyToWithdraw;
     }
 
     void checkTheBalance(){
-        System.out.println("Current balance is = " + moneyAmount);
+        System.out.println(owner + " current balance is = " + moneyAmount);
     }
 }
