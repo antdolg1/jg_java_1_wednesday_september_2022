@@ -2,17 +2,17 @@ package students.student_jurij_hlebnikov.lesson_3.homework;
 
 public class RobotDemo {
     public static void main(String[] args) {
-        Robot boris = new Robot();
+        Robot boris = new Robot("kiborg ubijca");
         boris.sayHello();
         boris.sayYourName();
 
-        Robot volodja = new Robot();
-        volodja.sayHello();
-        volodja.sayYourName();
+        Robot robot1 = new Robot("Rider");
+        robot1.sayHello();
+        robot1.sayYourName();
 
-        Robot grigorij = new Robot();
-        grigorij.sayHello();
-        grigorij.sayYourName();
+        Robot robot2 = new Robot("John");
+        robot2.sayHello();
+        robot2.sayYourName();
 
 
     }
