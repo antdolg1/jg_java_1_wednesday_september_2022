@@ -31,5 +31,12 @@ public class Dog {
         System.out.println("Hello, my name is: " + dogName);
 
     }
+
+    int yearsAfterFiveYears(Dog myDog){
+        int currentAge = myDog.age;
+        currentAge = currentAge + 5;
+        return currentAge;
+
+    }
 }
 
