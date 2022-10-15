@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class lesson_2_3_9 {
 
     public static void main(String[] args) {
-        Scanner umn = new Scanner(System.in);
+        Scanner multi = new Scanner(System.in);
         System.out.println("Введите цифру: ");
-        int num1 = umn.nextInt();
+        int num1 = multi.nextInt();
         int res0 = num1 * 0;
         int res1 = num1 * 1;
         int res2 = num1 * 2;
