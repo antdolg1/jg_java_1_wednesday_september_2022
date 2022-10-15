@@ -1,4 +1,4 @@
-package students.student_sergejs_kozinecs;
+package students.student_sergejs_kozinecs.lesson_1;
 
 public class Divide {
     private static int divide(int x, int y) {
