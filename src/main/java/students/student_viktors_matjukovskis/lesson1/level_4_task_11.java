@@ -1,4 +1,4 @@
-package students.student_viktors_matjukovskis;
+package students.student_viktors_matjukovskis.lesson1;
 
 public class level_4_task_11 {
     public static void main(String[]args) {
