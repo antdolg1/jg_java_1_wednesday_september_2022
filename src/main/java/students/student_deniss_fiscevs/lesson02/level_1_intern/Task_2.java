@@ -1,8 +1,8 @@
-package students.student_deniss_fiscevs;
+package students.student_deniss_fiscevs.lesson02.level_1_intern;
 
 import java.util.Scanner;
 
-public class lesson02_intern_01_02 {
+public class Task_2 {
     public static void main(String [] args) {
 
         System.out.println("Hello, please, enter one by one, two decimal numbers!");

@@ -1,8 +1,8 @@
-package students.student_deniss_fiscevs;
+package students.student_deniss_fiscevs.lesson02.level_2_intern;
 
 import java.util.Scanner;
 
-public class lesson02_intern_02_08 {
+public class Task_8 {
 
     public static void main(String[] args) {
 

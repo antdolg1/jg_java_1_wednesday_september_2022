@@ -1,4 +1,4 @@
-package students.student_deniss_fiscevs;
+package students.student_deniss_fiscevs.lesson01;
 
 public class math2 {
 

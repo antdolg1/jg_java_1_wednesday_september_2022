@@ -1,6 +1,6 @@
-package students.student_deniss_fiscevs;
+package students.student_deniss_fiscevs.lesson01;
 
-public class lesson01_HelloWorld {
+public class HellowWorld {
     public static void main(String[] args) {
 
         System.out.println("Hello world!");
