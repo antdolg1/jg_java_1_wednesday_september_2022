@@ -9,4 +9,7 @@ public class Robot {
     public Robot() {
     }
 
+    public void sayYourName() {
+        System.out.println("My name is ROBO");
+    }
 }
