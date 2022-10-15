@@ -1,4 +1,4 @@
-package students.student_svetlana_seda.lesson2.level_4;
+package students.student_svetlana_seda.lesson_2.level_4;
 
 public class Main {
 

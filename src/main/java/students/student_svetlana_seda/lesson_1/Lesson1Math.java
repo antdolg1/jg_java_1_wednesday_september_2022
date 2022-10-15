@@ -1,4 +1,4 @@
-package students.student_svetlana_seda.lesson1;
+package students.student_svetlana_seda.lesson_1;
 
 public class Lesson1Math {
     public static void main(String[] args) {
