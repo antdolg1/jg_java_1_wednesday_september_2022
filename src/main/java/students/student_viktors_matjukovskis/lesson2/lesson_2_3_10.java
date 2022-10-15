@@ -6,9 +6,9 @@ public class lesson_2_3_10 {
 
    public static void main(String[] args) {
 
-   Scanner qwe = new Scanner(System.in);
+   Scanner radius = new Scanner(System.in);
    System.out.println("введите радиус круга");
-   double r = qwe.nextDouble();
+   double r = radius.nextDouble();
    double res = (r * 2 * 3.14);
    System.out.println("периметр круга: " + res);
 
