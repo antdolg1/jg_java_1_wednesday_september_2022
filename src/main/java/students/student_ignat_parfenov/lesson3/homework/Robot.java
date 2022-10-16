@@ -11,14 +11,8 @@ public class Robot {
     }
 
     public void sayYourName() {
-        System.out.println("My name is " + this.name);
+        System.out.println("My name is ROBO");
 
-    }
-
-    String name;
-
-    public Robot(String name) {
-        this.name = name;
     }
 
 }
