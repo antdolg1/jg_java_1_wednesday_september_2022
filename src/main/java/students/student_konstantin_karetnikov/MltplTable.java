@@ -3,12 +3,9 @@ import java.util.Scanner;
 public class MltplTable {
     public static void main(String[] args) {
         int number;
-
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter number: ");
         number = scanner.nextInt();
-
-
         System.out.println(number + " x 1 = " + (number));
         System.out.println(number + " x 2 = " + (number * 2));
         System.out.println(number + " x 3 = " + (number * 3));
@@ -19,7 +16,5 @@ public class MltplTable {
         System.out.println(number + " x 8 = " + (number * 8));
         System.out.println(number + " x 9 = " + (number * 9));
         System.out.println(number + " x 10 = " + (number * 10));
-
     }
-
     }
