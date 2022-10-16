@@ -1,4 +1,4 @@
-package students.student_konstantin_karetnikov;
+package students.student_konstantin_karetnikov.Homework.Lesson2.Level7;
 
 public class AttentionPlease {
 
