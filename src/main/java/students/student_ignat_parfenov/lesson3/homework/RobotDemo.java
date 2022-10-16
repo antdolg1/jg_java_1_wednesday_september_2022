@@ -6,6 +6,14 @@ public class RobotDemo {
         Robot firstRobot = new Robot();
         firstRobot.sayHello();
         firstRobot.sayYourName();
+
+        Robot robot1 = new Robot();
+        robot1.sayHello();
+        robot1.sayYourName();
+
+        Robot robot2 = new Robot();
+        robot2.sayHello();
+        robot2.sayYourName();
     }
 
     public RobotDemo() {
