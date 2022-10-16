@@ -12,7 +12,7 @@ public class Task_10 {
 
         double pI = 3.14;
 
-        System.out.println("Area is " + (2*pI*radius)*2);
+        System.out.println("Area is " + (2 * pI * radius) * 2);
 
         System.out.println("Perimeter is " + pI * (radius * 2));
 
