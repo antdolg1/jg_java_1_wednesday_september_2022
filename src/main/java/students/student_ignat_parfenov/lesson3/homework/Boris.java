@@ -9,6 +9,10 @@ public class Boris {
         public Robot(String name) {
         }
 
+        public Robot(){
+
+        }
+
         {
         this.name = name;
         }
