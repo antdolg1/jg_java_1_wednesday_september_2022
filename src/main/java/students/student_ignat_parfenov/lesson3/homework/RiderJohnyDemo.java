@@ -1,8 +1,9 @@
 package students.student_ignat_parfenov.lesson3.homework;
 
-public class RobotDemo {
-    public static void main(String[] args) {
-        
+public class RiderJohnyDemo {
+
+    public static void main(String[] args){
+
         Robot robot1 = new Robot("Rider");
         robot1.sayHello();
         robot1.sayYourName();
@@ -12,12 +13,4 @@ public class RobotDemo {
         robot2.sayYourName();
 
     }
-
-    public RobotDemo() {
-
-    }
 }
-
-
-
-
