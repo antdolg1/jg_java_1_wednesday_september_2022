@@ -14,6 +14,5 @@ public class RobotDemo {
         robot2.sayHello();
         robot2.sayYourName();
 
-
     }
 }
