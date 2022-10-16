@@ -13,8 +13,5 @@ public class Task_30 {
 
         System.out.println("Sum = " + sum);
 
-
-
-
     }
 }
