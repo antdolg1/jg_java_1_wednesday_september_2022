@@ -15,19 +15,13 @@ public class RobotDemo {
         robot2.sayHello();
         robot2.sayYourName();
 
-        Robot iAmRobot = new Robot();
-        iAmRobot.name = "Footer";
-
-        System.out.println("My name is: " + iAmRobot.name);
-
-
-
     }
 
     public RobotDemo() {
 
     }
-
 }
+
+
 
 
