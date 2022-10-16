@@ -4,19 +4,18 @@ public class Robot {
 
     String name;
 
-    Robot(String robotName){
+    Robot(String robotName) {
         this.name = robotName;
     }
 
-    public void sayHello( ) {
+    public Robot() {
+    }
+
+    public void sayHello() {
         System.out.println("Hello!");
     }
 
-    public Robot(){
-
+    public void sayYourName() {
+        System.out.println("My name is " + this.name);
     }
-public void sayYourName(){
-    System.out.println("My name is " + this.name);
-}
-
 }
