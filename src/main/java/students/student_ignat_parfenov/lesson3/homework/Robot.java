@@ -13,4 +13,9 @@ public class Robot {
         System.out.println("My name is ROBO");
 
     }
+
+    public Robot(String name) {
+        this.name = name;
+    }
+
 }
