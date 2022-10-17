@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class HelloLana {
     public static void main(String[] args) {
 
-            String n;
+            String name;
             Scanner scanner = new Scanner(System.in);
             System.out.println("Please, enter your username: ");
-            n = scanner.nextLine();
-                 System.out.println("HELLO, " + n + "!");
+            name = scanner.nextLine();
+                 System.out.println("HELLO, " + name + "!");
 
     }
 
