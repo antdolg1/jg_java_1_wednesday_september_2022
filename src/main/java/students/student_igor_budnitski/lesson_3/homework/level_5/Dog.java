@@ -26,5 +26,4 @@ class Dog {
     public void changeColor(String newColor) {
         this.color = newColor;
     }
-
 }

@@ -1,4 +1,4 @@
-package students.student_igor_budnitski.level2;
+package students.student_igor_budnitski.lesson_2.homework.level2;
 /*
 *Написать консольную программу, которая запрашивает
 имя пользователя и выводит на консоль текст:

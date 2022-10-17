@@ -1,4 +1,4 @@
-package students.student_igor_budnitski;
+package students.student_igor_budnitski.lesson_1.homework;
 
 public class Multiplication {
     public static void main(String[] args) {
