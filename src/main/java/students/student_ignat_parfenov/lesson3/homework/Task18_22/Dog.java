@@ -25,4 +25,8 @@ public class Dog {
 
     }
 
+    public void changeColor(String newColor) {
+        newColor = "orange";
+        // напишите тут команду сохранения нового цвета в свойство класса
+    }
 }
