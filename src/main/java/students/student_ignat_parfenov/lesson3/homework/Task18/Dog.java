@@ -9,6 +9,9 @@ public class Dog {
 
     public void voice(String name) {
         System.out.println("Voice!!");
+        System.out.println(name);
+        System.out.println(name);
+        System.out.println(name);
     }
 
 }
