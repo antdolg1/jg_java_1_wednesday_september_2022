@@ -6,6 +6,7 @@ public class DogDemo {
 
         Dog myDog = new Dog();
         myDog.name = "Chicco";
+        myDog.age = 6;
 
         String myDogName = myDog.name;
         myDog.voice(myDog.name);

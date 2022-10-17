@@ -3,6 +3,7 @@ package students.student_ignat_parfenov.lesson3.homework.Task18;
 public class Dog {
 
     String name;
+    int age;
 
     public Dog() {
     }
