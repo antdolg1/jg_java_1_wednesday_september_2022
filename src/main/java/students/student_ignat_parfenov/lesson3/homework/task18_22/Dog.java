@@ -27,6 +27,5 @@ public class Dog {
 
     public void changeColor(String newColor) {
         this.color = newColor;
-        // напишите тут команду сохранения нового цвета в свойство класса
     }
 }
