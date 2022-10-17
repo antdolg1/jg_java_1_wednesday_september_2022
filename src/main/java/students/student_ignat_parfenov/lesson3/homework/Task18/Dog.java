@@ -4,9 +4,11 @@ public class Dog {
 
     String name;
 
-    public Dog(){
+    public Dog() {
     }
 
-    void voice(String name){System.out.println("Voice!!");}
+    void voice(String name) {
+        System.out.println("Voice!!");
+    }
 
 }
