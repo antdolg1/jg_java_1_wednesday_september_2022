@@ -1,4 +1,4 @@
-package students.student_artjoms_trosihins;
+package students.student_artjoms_trosihins.lesson_1;
 
 public class Multiplication {
     public static void main(String[] args) {
