@@ -1,4 +1,4 @@
-package students.student_ignat_parfenov.lesson3.homework.Task16;
+package students.student_ignat_parfenov.lesson3.homework.task16;
 
 public class Car {
     String model;

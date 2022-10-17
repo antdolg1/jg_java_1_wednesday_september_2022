@@ -1,4 +1,4 @@
-package students.student_ignat_parfenov.lesson3.homework.Task15;
+package students.student_ignat_parfenov.lesson3.homework.task15;
 
 public class Phone {
     String model;

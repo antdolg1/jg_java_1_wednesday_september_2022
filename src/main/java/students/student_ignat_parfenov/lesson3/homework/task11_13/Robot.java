@@ -1,4 +1,4 @@
-package students.student_ignat_parfenov.lesson3.homework.Task11_13;
+package students.student_ignat_parfenov.lesson3.homework.task11_13;
 
 public class Robot {
 

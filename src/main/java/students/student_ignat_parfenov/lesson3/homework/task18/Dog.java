@@ -1,4 +1,4 @@
-package students.student_ignat_parfenov.lesson3.homework.Task18;
+package students.student_ignat_parfenov.lesson3.homework.task18;
 
 public class Dog {
 

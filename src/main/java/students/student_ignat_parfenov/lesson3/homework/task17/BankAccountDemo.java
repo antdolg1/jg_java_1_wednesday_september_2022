@@ -1,4 +1,4 @@
-package students.student_ignat_parfenov.lesson3.homework.Task17;
+package students.student_ignat_parfenov.lesson3.homework.task17;
 
 public class BankAccountDemo {
 

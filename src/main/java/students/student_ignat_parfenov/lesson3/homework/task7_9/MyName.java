@@ -1,4 +1,4 @@
-package students.student_ignat_parfenov.lesson3.homework.Task7_9;
+package students.student_ignat_parfenov.lesson3.homework.task7_9;
 
 public class MyName {
 
