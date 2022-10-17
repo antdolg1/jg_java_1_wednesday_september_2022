@@ -1,4 +1,4 @@
-package students.student_igor_budnitski.lesson_3.homework.level_7;
+package students.student_igor_budnitski.lesson_3.homework.level_7.task_29;
 
 class Phone {
     int number;
