@@ -6,7 +6,9 @@ public class DogDemo {
 
         Dog myDog = new Dog("Chicco", 6, "grey");
         myDog.voice();
+        System.out.println("My dogs name is " + myDog.name + " and hi is " + myDog.age + " y.o.");
         myDog.happyBirthday();
-
+        myDog.voice();
+        System.out.println("Hi! I am " + myDog.name + ". Wow, today is my Birthday and I am " + myDog.age + " y.o.");
     }
 }
