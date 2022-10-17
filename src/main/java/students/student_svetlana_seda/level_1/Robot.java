@@ -2,7 +2,6 @@ package students.student_svetlana_seda.level_1;
 
 public class Robot {
     String name;
-
     public void sayHello() {
         System.out.println("Hello!");
     }
@@ -15,10 +14,6 @@ public class Robot {
     public void sayByeBye(){
         System.out.println("Bye!");
     }
-
- public Robot(){
-
+    public Robot(){
     }
-
-
 }

@@ -1,13 +1,9 @@
 package students.student_svetlana_seda.level_1;
-
 public class RobotDemo {
-
     public static void main(String[] args) {
-
      Robot firstRobot = new Robot ("Gold");
      Robot secondRobot = new Robot ("Silver");
      Robot thirdRobot = new Robot ("Metal");
-
 firstRobot.sayHello();
 firstRobot.sayYourName();
 firstRobot.sayByeBye();
@@ -19,7 +15,5 @@ secondRobot.sayByeBye();
 thirdRobot.sayHello();
 thirdRobot.sayYourName();
 thirdRobot.sayByeBye();
-
     }
-
 }
