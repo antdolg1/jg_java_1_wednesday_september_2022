@@ -7,7 +7,7 @@ public class Dog {
     public Dog() {
     }
 
-    void voice(String name) {
+    public void voice(String name) {
         System.out.println("Voice!!");
     }
 
