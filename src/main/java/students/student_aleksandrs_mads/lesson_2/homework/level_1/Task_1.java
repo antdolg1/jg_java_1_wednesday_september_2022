@@ -4,15 +4,15 @@ import java.util.Scanner;
 
 public class Task_1 {
     public static void main(String[] args) {
-        Scanner scanner=new Scanner(System.in);
-        int firstNumber=scanner.nextInt();
+        Scanner scanner = new Scanner(System.in);
+        int firstNumber = scanner.nextInt();
         System.out.println(firstNumber);
-        int secondNumber= scanner.nextInt();
+        int secondNumber = scanner.nextInt();
         System.out.println(secondNumber);
-        int summ = firstNumber+secondNumber;
-        int subtraction=firstNumber-secondNumber;
-        int multiplication=firstNumber*secondNumber;
-        int division=firstNumber/secondNumber;
+        int summ = firstNumber + secondNumber;
+        int subtraction = firstNumber - secondNumber;
+        int multiplication = firstNumber * secondNumber;
+        int division = firstNumber / secondNumber;
         System.out.println(summ);
         System.out.println(subtraction);
         System.out.println(multiplication);
