@@ -11,6 +11,5 @@ public class DogDemo {
         String myDogName = myDog.name;
         myDog.voice(myDog.name);
 
-        System.out.println(myDogName + myDogName + myDogName);
     }
 }
