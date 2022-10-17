@@ -4,11 +4,16 @@ public class Dog {
 
     String name;
     int age;
+    String color;
 
-    public Dog() {
+
+    public Dog(String name, int age, String color) {
+        this.name = name;
+        this.age = age;
+        this.color = color;
     }
 
-    public void voice(String name) {
+    public void voice() {
         System.out.println("Voice!!");
         System.out.println(name);
         System.out.println(name);
@@ -18,6 +23,8 @@ public class Dog {
 
     public void happyBirthday() {
         age += 1;
+        System.out.println("Voice!!");
+        System.out.println("Hi! I am " + name + ". Wow, today is my Birthday and I am " + age + " y.o.");
     }
 
 }

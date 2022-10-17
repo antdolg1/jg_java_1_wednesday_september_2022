@@ -4,12 +4,9 @@ public class DogDemo {
 
     public static void main(String[] args) {
 
-        Dog myDog = new Dog();
-        myDog.name = "Chicco";
-        myDog.age = 6;
-
-        String myDogName = myDog.name;
-        myDog.voice(myDog.name);
+        Dog myDog = new Dog("Chicco", 6, "grey");
+        myDog.voice();
+        myDog.happyBirthday();
 
     }
 }
