@@ -7,18 +7,19 @@ public class Robot {
         }
 
     public Robot() {
-
     }
+
     public void sayYourName() {
         System.out.println("My name is: " + this.name);
     }
+
     String name;
 
     Robot(String robotName) {
         this.name = robotName;
     }
 
-    }
+}
 
 
 

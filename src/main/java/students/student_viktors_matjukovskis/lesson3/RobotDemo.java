@@ -1,8 +1,5 @@
 package students.student_viktors_matjukovskis.lesson3;
 
-
-import teacher.lesson_3.lessoncode.Dog;
-
 public class RobotDemo {
 
     public static void main(String[] args) {
@@ -18,7 +15,7 @@ public class RobotDemo {
         Robot robot3 = new Robot("Mob");
         robot3.sayHello();
         robot3.sayYourName();
-    }
+        }
 
     }
 
