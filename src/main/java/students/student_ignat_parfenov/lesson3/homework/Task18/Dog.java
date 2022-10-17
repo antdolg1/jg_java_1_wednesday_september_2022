@@ -13,6 +13,7 @@ public class Dog {
         System.out.println(name);
         System.out.println(name);
         System.out.println(name);
+        System.out.println("My dogs name is " + name + ". Hi is " + age + " y.o.");
     }
 
 }
