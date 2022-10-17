@@ -3,7 +3,7 @@ package students.student_artjoms_trosihins.lesson_2_level_3;
 import java.util.Scanner;
 
 public class Circle {
-    public static void main(String [] args){
+    public static void main(String[] args) {
         Scanner sca = new Scanner(System.in);
         System.out.println("Enter radius of the circle: ");
         double rad = sca.nextDouble();
