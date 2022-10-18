@@ -1,4 +1,4 @@
-package students.student_aleksandr_suhobokov;
+package students.student_aleksandr_suhobokov.lesson_2;
 
 import java.util.Scanner;
 
@@ -9,16 +9,10 @@ public class ScannerDemo {
         int userNumber;
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Please enter any number: ");
+        System.out.println(" Please enter any number: ");
         userNumber = scanner.nextInt();
-        System.out.println("__________");
+        System.out.println(" __________");
 
-        System.out.println("User enterned number:" + userNumber);
-
-
-
+        System.out.println(" User enterned number:" + userNumber);
     }
-
-
-
 }
