@@ -1,6 +1,5 @@
 package students.student_igor_budnitski.level8;
 
-
 import java.util.Scanner;
 
 public class Calculator {
