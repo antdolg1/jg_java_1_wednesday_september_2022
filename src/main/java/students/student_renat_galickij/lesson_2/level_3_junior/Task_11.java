@@ -1,4 +1,4 @@
-package students.student_renat_galickij.lesson_2.level_1_inter.level_3_junior;
+package students.student_renat_galickij.lesson_2.level_3_junior;
 import java.util.Scanner;
 
 public class Task_11 {

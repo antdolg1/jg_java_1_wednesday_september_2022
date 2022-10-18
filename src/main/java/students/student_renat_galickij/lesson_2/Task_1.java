@@ -1,21 +1,22 @@
-package students.student_renat_galickij.lesson_2.level_1_inter;
+
+package students.student_renat_galickij.lesson_2;
 
 import java.util.Scanner;
-
-public class Task_2 {
+public class Task_1 {
     public static void main(String[] args) {
-        double addition, subtraction, multiplication, division;
+        int addition, subtraction, multiplication;
+        double  division;
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter the first real number");
-        double firstNumber = scanner.nextDouble();
-        System.out.println("Enter the second real number");
-        double secondNumber = scanner.nextDouble();
+        System.out.println("Enter the first whole number");
+        int firstNumber = scanner.nextInt();
+        System.out.println("Enter the second whole number");
+        int secondNumber = scanner.nextInt();
 
         addition = (firstNumber + secondNumber);
         subtraction = (firstNumber - secondNumber);
         multiplication = (firstNumber * secondNumber);
-        division =  ( firstNumber / secondNumber);
+         division =  ((double) firstNumber / secondNumber);
 
 
         System.out.println("addition equals = " + addition);

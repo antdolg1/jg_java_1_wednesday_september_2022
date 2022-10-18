@@ -1,4 +1,4 @@
-package students.student_renat_galickij.lesson_1.level_4_junior;
+package students.student_renat_galickij.lesson_1;
 
 public class Task_10_11_12 {
     public static void main(String[] args) {

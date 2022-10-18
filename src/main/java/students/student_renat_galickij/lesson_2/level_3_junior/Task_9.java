@@ -1,4 +1,4 @@
-package students.student_renat_galickij.lesson_2.level_1_inter.level_3_junior;
+package students.student_renat_galickij.lesson_2.level_3_junior;
 import java.util.Scanner;
 public class Task_9 {
     public static void main(String[] args) {
@@ -7,7 +7,7 @@ public class Task_9 {
         System.out.println("Enter the number");
         int number = scanner.nextInt();
 
-        System.out.println(number + " * 1 = " + number * 1);
+        System.out.println(number + " * 1 = " + number);
         System.out.println(number + " * 2 = " + number * 2);
         System.out.println(number + " * 3 = " + number * 3);
         System.out.println(number + " * 4 = " + number * 4);
