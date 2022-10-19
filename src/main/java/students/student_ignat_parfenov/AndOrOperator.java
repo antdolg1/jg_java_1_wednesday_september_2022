@@ -9,7 +9,7 @@ public class AndOrOperator {
         Scanner scanner = new Scanner(System.in);
         int mounthNumber = scanner.nextInt();
 
-        if (mounthNumber = 12 || mounthNumber = 1 || mounthNumber = 2) {
+        if (mounthNumber = mounthNumber || 12 = 1 || mounthNumber = 2) {
             System.out.println("WHINTER");
         } else if (mounthNumber = 3 || mounthNumber = 4 || mounthNumber = 5) {
             System.out.println("SPRING");
