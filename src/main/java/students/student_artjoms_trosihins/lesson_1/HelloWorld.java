@@ -1,5 +1,4 @@
-package students.student_artjoms_trosihins;
-
+package students.student_artjoms_trosihins.lesson_1;
 
 
 public class HelloWorld {
