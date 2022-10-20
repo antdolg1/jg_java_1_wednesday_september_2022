@@ -7,10 +7,11 @@ public class NestedSwitchStatement {
     public static void main(String[] args) {
 
         System.out.println("Please choose your course. Available courses: Soups or Main dish or Dessert. ");
+
         Scanner scanner = new Scanner(System.in);
         String course = scanner.next();
 
-        int position;
+ //       int position;
 
         switch (course) {
             case "Soups":
