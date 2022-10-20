@@ -16,7 +16,7 @@ public class HumanAgeClassifierTest {
 
         String actualResult = victim.classify(age);
 
-        if (expectedResult.equals(actualResult) {
+        if (expectedResult.equals(actualResult)) {
             System.out.println("Test shouldClassifyBaby IS PASSED! ");
         } else {
             System.out.println(" Test shouldClassifyBaby is FAILED");
