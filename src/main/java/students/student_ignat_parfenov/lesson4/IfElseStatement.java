@@ -13,5 +13,9 @@ public class IfElseStatement {
         } else if (number > 5) {
             System.out.println("Number is bigger than 5");
         }
+
+        if (number == 7){
+            System.out.println("Number is seven!");
+        }
     }
 }
