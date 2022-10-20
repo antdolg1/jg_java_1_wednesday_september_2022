@@ -1,13 +1,1 @@
-package students.student_ignat_parfenov.lesson4;
 
-public class HumanAgeClassifier {
-
-    public String classify(int age){
-        if (age > 0 && age <= 10){
-            return "Baby";
-        } else if () {
-            
-        }
-
-    }
-}
