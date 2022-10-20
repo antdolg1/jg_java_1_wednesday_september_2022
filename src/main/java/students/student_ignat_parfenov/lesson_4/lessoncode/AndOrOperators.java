@@ -19,11 +19,22 @@ public class AndOrOperators {
             System.out.println("SUMMER");
         } else if (monthNumber == 9 || monthNumber == 10 || monthNumber == 11) {
             System.out.println("AUTUMN");
-        } else if (monthNumber >= 12 && monthNumber <=24 || monthNumber <= 1) {
+        } else if (monthNumber >= 12 && monthNumber <= 24 || monthNumber <= 1) {
             System.out.println("Are you from this planet??");
         } else {
             System.out.println("ERROR ERROR ERROR");
             // вариант с ошибочным вводом текста вместо цифры не проходит, так как сканнер запрашивает именно число в стр.12//
+        }
+
+        System.out.println("Please input the number: ");
+        int number = scanner.nextInt();
+
+        if (number >0 && number != 0 && number < 5){
+            System.out.println("Number is between 1 and 4");
+        } else if (number == 10) {
+            System.out.println("Number is 10");
+        } else if (number < 0 && number > -5 || number > -4) {
+            System.out.println("Number is between -1 and -4 or between -1 and -3.");
         }
     }
 }
