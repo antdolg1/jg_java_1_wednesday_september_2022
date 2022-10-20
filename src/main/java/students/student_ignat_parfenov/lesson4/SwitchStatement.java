@@ -20,8 +20,10 @@ public class SwitchStatement {
             System.out.println("Senior");
         } else if (level == 5) {
             System.out.println("Architect");
-        } else {
+        } else if (level == 6){
             System.out.println("CTO");
+        } else {
+            System.out.println("Input the correct number");
         }
     }
 }
