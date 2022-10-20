@@ -19,7 +19,8 @@ public class HumanAgeClassifierTest {
         if (expectedResult.equals(actualResult)) {
             System.out.println("Test shouldClassifyBaby IS PASSED! ");
         } else {
-            System.out.println(" Test shouldClassifyBaby is FAILED");
+            System.out.println("Test shouldClassifyBaby is FAILED");
+            System.out.println("Expected result" + expectedResult + "\nactual result " + actualResult);
         }
 
     }
