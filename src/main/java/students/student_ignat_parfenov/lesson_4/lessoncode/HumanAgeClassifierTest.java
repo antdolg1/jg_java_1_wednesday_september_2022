@@ -11,7 +11,7 @@ public class HumanAgeClassifierTest {
     void shouldClassifyBaby() {
         HumanAgeClassifier victim = new HumanAgeClassifier();
 
-        int age = 11;
+        int age = 12;
         String expectedResult = "Baby";
 
         String actualResult = victim.classify(age);
