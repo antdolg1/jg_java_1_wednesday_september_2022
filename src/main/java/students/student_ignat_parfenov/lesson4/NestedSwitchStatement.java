@@ -9,11 +9,13 @@ public class NestedSwitchStatement {
         System.out.println("Please choose your course. Available courses: Soups or Main dish or Dessert. ");
         Scanner scanner = new Scanner(System.in);
         String course = scanner.next();
-        int position = 3;
+
+        int position;
 
         switch (course) {
             case "Soups":
                 System.out.println("Please choose your soup: ");
+                position = scanner.nextInt();
                 switch (position) {
                     case 1 -> System.out.println("Mashroom soup");
                     case 2 -> System.out.println("Borsch");
@@ -24,6 +26,7 @@ public class NestedSwitchStatement {
 
             case "Main":
                 System.out.println("Please choose your main dish: ");
+                position = scanner.nextInt();
                 switch (position) {
                     case 1:
                         System.out.println("Kartoshka s kuroj");
@@ -41,6 +44,7 @@ public class NestedSwitchStatement {
 
             case "Dessert":
                 System.out.println("Please choose your dessert: ");
+                position = scanner.nextInt();
                 switch (position) {
                     case 1:
                         System.out.println("Ice cream");
