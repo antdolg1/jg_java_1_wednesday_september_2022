@@ -6,12 +6,12 @@ public class CorrectDataTypes {
 
         int numberOne = 10;
         double numberTwo = 20.0;
-         System.out.println("Number 1 = " + numberOne);
-            System.out.println("Number 2 = " + numberTwo);
+        System.out.println("Number 1 = " + numberOne);
+        System.out.println("Number 2 = " + numberTwo);
 
-            double sum = numberOne + numberTwo;
+        double sum = numberOne + numberTwo;
 
-                 System.out.println("Sum = " + sum);
+        System.out.println("Sum = " + sum);
 
     }
 
