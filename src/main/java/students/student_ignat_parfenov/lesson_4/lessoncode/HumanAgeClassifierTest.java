@@ -8,5 +8,7 @@ public class HumanAgeClassifierTest {
 
     }
 
-    void shouldClassifyBaby
+    void shouldClassifyBaby(){
+
+    }
 }
