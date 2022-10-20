@@ -10,7 +10,7 @@ public class NestedSwitchStatement {
         switch (course) {
             case "Soups":
                 System.out.println("Please choose your soup: ");
-                switch (position){
+                switch (position) {
                     case 1:
                         System.out.println("Mashroom soup");
                         break;
@@ -23,7 +23,45 @@ public class NestedSwitchStatement {
                     default:
                         System.out.println("We have only 3 positions");
                 }
-        }
+                break;
 
+            case "Main" {
+                System.out.println("Please choose your main dish: ");
+                switch (position) {
+                    case 1:
+                        System.out.println("Kartoshka s kuroj");
+                        break;
+                    case 2:
+                        System.out.println("Blini");
+                        break;
+                    case 3:
+                        System.out.println("Grecha s sosiskoi");
+                        break;
+                    default:
+                        System.out.println("We have only 3 positions");
+                }
+                break;
+
+                case "Dessert" {
+                    System.out.println("Please choose your dessert: ");
+                    switch (position) {
+                        case 1:
+                            System.out.println("Ice cream");
+                            break;
+                        case 2:
+                            System.out.println("Banana fudge");
+                            break;
+                        case 3:
+                            System.out.println("Cheese cake");
+                            break;
+                        default:
+                            System.out.println("We have only 3 positions");
+                    }
+                    break;
+
+                    default:
+                        System.out.println("We don't have such a course");
+                }
+            }
+        }
     }
-}
