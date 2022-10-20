@@ -1,31 +1,28 @@
 package students.student_ignat_parfenov.lesson4;
 
+import java.util.Scanner;
+
 public class NestedSwitchStatement {
 
     public static void main(String[] args) {
 
-        String course = "Soups";
-        int position = 1;
+        System.out.println("Please choose your course. Available courses: Soups or Main dish or Dessert. ");
+        Scanner scanner = new Scanner(System.in);
+        String course = scanner.next();
+        int position = 3;
 
         switch (course) {
             case "Soups":
                 System.out.println("Please choose your soup: ");
                 switch (position) {
-                    case 1:
-                        System.out.println("Mashroom soup");
-                        break;
-                    case 2:
-                        System.out.println("Borsch");
-                        break;
-                    case 3:
-                        System.out.println("Onion soup");
-                        break;
-                    default:
-                        System.out.println("We have only 3 positions");
+                    case 1 -> System.out.println("Mashroom soup");
+                    case 2 -> System.out.println("Borsch");
+                    case 3 -> System.out.println("Onion soup");
+                    default -> System.out.println("We have only 3 positions");
                 }
                 break;
 
-            case "Main" {
+            case "Main":
                 System.out.println("Please choose your main dish: ");
                 switch (position) {
                     case 1:
@@ -42,26 +39,25 @@ public class NestedSwitchStatement {
                 }
                 break;
 
-                case "Dessert" {
-                    System.out.println("Please choose your dessert: ");
-                    switch (position) {
-                        case 1:
-                            System.out.println("Ice cream");
-                            break;
-                        case 2:
-                            System.out.println("Banana fudge");
-                            break;
-                        case 3:
-                            System.out.println("Cheese cake");
-                            break;
-                        default:
-                            System.out.println("We have only 3 positions");
-                    }
-                    break;
-
+            case "Dessert":
+                System.out.println("Please choose your dessert: ");
+                switch (position) {
+                    case 1:
+                        System.out.println("Ice cream");
+                        break;
+                    case 2:
+                        System.out.println("Banana fudge");
+                        break;
+                    case 3:
+                        System.out.println("Cheese cake");
+                        break;
                     default:
-                        System.out.println("We don't have such a course");
+                        System.out.println("We have only 3 positions");
                 }
-            }
+                break;
+
+            default:
+                System.out.println("We don't have such a course");
         }
     }
+}
