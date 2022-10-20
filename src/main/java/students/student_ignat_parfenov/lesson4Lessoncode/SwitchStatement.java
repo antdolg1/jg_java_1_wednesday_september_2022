@@ -1,4 +1,4 @@
-package students.student_ignat_parfenov.lesson4;
+package students.student_ignat_parfenov.lesson4Lessoncode;
 
 import java.util.Scanner;
 
