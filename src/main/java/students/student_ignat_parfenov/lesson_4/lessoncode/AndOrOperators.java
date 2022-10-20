@@ -6,7 +6,7 @@ public class AndOrOperators {
 
     public static void main(String[] args) {
 
-        System.out.print("Please input month number: ");
+        System.out.print("Please input month number from 1 till 12: ");
         Scanner scanner = new Scanner(System.in);
 
         int monthNumber = scanner.nextInt();
