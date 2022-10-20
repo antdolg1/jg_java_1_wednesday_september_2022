@@ -87,7 +87,7 @@
 
 #### Обратная связь
 
-* [WhatsApp](https://chat.whatsapp.com/DLt1DIr87laCZALBaU6HpM)
+* [Telegram](https://t.me/+x0gSWBvTVj5jMDY0)
 
 ---
 
