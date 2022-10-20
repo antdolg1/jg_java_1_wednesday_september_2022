@@ -17,7 +17,7 @@ public class AndOrOperator {
             System.out.println("SUMMER");
         } else if (mounthNumber = 9 || mounthNumber = 10 || mounthNumber = 11) System.out.println("AUTUMN");
 
-    }
+
 
 
 
