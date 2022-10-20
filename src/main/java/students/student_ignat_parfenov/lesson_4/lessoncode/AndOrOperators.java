@@ -19,6 +19,11 @@ public class AndOrOperators {
             System.out.println("SUMMER");
         } else if (monthNumber == 9 || monthNumber == 10 || monthNumber == 11) {
             System.out.println("AUTUMN");
+        } else if (monthNumber >= 12 || monthNumber <= 1) {
+            System.out.println("Are you from this planet??");
+        } else {
+            System.out.println("ERROR ERROR ERROR");
+            // вариант с ошибочным вводом текста вместо цифры не проходит, так как сканнер запрашивает именно число в стр.12//
         }
     }
 }
