@@ -4,6 +4,9 @@ public class HumanAgeClassifierTest {
 
     public static void main(String[] args){
 
+        HumanAgeClassifierTest test = new HumanAgeClassifierTest();
 
     }
+
+    void shouldClassifyBaby
 }
