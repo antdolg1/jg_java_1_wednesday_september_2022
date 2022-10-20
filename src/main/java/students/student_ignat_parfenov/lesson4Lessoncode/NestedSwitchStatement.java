@@ -29,10 +29,17 @@ public class NestedSwitchStatement {
                 System.out.println("Please choose your main dish: 1 - Kartoshka s kuroj, 2 - Blini, 3 - Grecha s sosiskoi.");
                 int position2 = scanner.nextInt();
                 switch (position2) {
-                    case 1 -> System.out.println("Kartoshka s kuroj");
-                    case 2 -> System.out.println("Blini");
-                    case 3 -> System.out.println("Grecha s sosiskoi");
-                    default -> System.out.println("We have only 3 positions");
+                    case 1:
+                        System.out.println("Kartoshka s kuroj");
+                        break;
+                    case 2:
+                        System.out.println("Blini");
+                        break;
+                    case 3:
+                        System.out.println("Grecha s sosiskoi");
+                        break;
+                    default:
+                        System.out.println("We have only 3 positions");
                 }
                 break;
 
@@ -40,10 +47,17 @@ public class NestedSwitchStatement {
                 System.out.println("Please choose your dessert: 1 - Ice cream, 2 - Banana fudge, 3 - Cheese cake.");
                 int position3 = scanner.nextInt();
                 switch (position3) {
-                    case 1 -> System.out.println("Ice cream");
-                    case 2 -> System.out.println("Banana fudge");
-                    case 3 -> System.out.println("Cheese cake");
-                    default -> System.out.println("We have only 3 positions");
+                    case 1:
+                        System.out.println("Ice cream");
+                        break;
+                    case 2:
+                        System.out.println("Banana fudge");
+                        break;
+                    case 3:
+                        System.out.println("Cheese cake");
+                        break;
+                    default:
+                        System.out.println("We have only 3 positions");
                 }
                 break;
 
