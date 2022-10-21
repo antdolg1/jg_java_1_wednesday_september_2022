@@ -27,7 +27,6 @@ public class HumanAgeClassifierTest {
 
     }
 
-
     void shouldClassifyTeenager() {
         HumanAgeClassifier victim = new HumanAgeClassifier();
 
@@ -43,10 +42,11 @@ public class HumanAgeClassifierTest {
             System.out.println("Expected result " + expectedResult + "\nbut actual result " + actualResult);
         }
     }
+
     void shouldClassifyUndead() {
         HumanAgeClassifier victim = new HumanAgeClassifier();
 
-        int age = 125;
+        int age = 1259;
         String expectedResult = "Undead";
 
         String actualResult = victim.classify(age);
