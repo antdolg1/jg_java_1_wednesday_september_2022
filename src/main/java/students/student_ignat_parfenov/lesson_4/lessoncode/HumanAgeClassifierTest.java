@@ -6,6 +6,7 @@ public class HumanAgeClassifierTest {
 
         HumanAgeClassifierTest test = new HumanAgeClassifierTest();
         test.shouldClassifyBaby();
+        test.shouldClassifyTeenager();
     }
 
     void shouldClassifyBaby() {
@@ -28,7 +29,7 @@ public class HumanAgeClassifierTest {
     void shouldClassifyTeenager() {
         HumanAgeClassifier victim = new HumanAgeClassifier();
 
-        int age = 15;
+        int age = 25;
         String expectedResult = "Teenager";
 
         String actualResult = victim.classify(age);
@@ -39,6 +40,5 @@ public class HumanAgeClassifierTest {
             System.out.println("Test shouldClassifyTeenager is FAILED");
             System.out.println("Expected result " + expectedResult + "\nbut actual result " + actualResult);
         }
-
     }
 }
