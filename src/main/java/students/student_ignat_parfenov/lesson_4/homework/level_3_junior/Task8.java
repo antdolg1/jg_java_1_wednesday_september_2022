@@ -16,9 +16,9 @@ public class Task8 {
 
         if (a == b && b == c) {
             System.out.println("All numbers are equal");
-        } else if (a != b && b != c) {
+        } else if (a != b && b != c && a != c) {
             System.out.println("All numbers are different");
-        } else if ((a == b && a != c) || (b == c && b != a) || (a == c && a != b)){
+        } else {
             System.out.println("Neither all are equal or different");
         }
     }
