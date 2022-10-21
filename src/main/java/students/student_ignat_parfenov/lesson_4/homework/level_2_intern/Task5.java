@@ -15,9 +15,9 @@ public class Task5 {
         number6 = scanner.nextInt();
 
         if (number5 > number6) {
-            System.out.println(number5 + " - The entered integer " + number5 + " is bigger than integer " + number6);
+            System.out.println(number5 + " - The entered number " + number5 + " is bigger than number " + number6);
         } else if (number6 > number5) {
-            System.out.println(number6 + " - The entered integer " + number6 + " is bigger than integer " + number5);
+            System.out.println(number6 + " - The entered number " + number6 + " is bigger than number " + number5);
         } else {
             System.out.println("Both number are equal!");
         }
