@@ -2,7 +2,7 @@ package students.student_ignat_parfenov.lesson_4.homework.level_1_begginer;
 
 import java.util.Scanner;
 
-public class task1 {
+public class Task1 {
 
     public static void main(String[] args) {
 
