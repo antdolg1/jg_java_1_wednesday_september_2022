@@ -21,10 +21,11 @@ public class HumanAgeClassifierTest {
             System.out.println("Test shouldClassifyBaby IS PASSED! ");
         } else {
             System.out.println("Test shouldClassifyBaby is FAILED");
-            System.out.println("Expected result " + expectedResult + "\nbut actual result " + actualResult);
+            System.out.println("Expected result " + expectedResult + "\nbut actual result is " + actualResult);
         }
 
     }
+
 
     void shouldClassifyTeenager() {
         HumanAgeClassifier victim = new HumanAgeClassifier();
