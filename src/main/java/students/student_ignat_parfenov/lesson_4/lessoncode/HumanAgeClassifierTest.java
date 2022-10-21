@@ -7,6 +7,7 @@ public class HumanAgeClassifierTest {
         HumanAgeClassifierTest test = new HumanAgeClassifierTest();
         test.shouldClassifyBaby();
         test.shouldClassifyTeenager();
+        test.shouldClassifyUndead();
     }
 
     void shouldClassifyBaby() {
@@ -39,6 +40,21 @@ public class HumanAgeClassifierTest {
             System.out.println("Test shouldClassifyTeeneger IS PASSED! ");
         } else {
             System.out.println("Test shouldClassifyTeenager is FAILED");
+            System.out.println("Expected result " + expectedResult + "\nbut actual result " + actualResult);
+        }
+    }
+    void shouldClassifyUndead() {
+        HumanAgeClassifier victim = new HumanAgeClassifier();
+
+        int age = 125;
+        String expectedResult = "Undead";
+
+        String actualResult = victim.classify(age);
+
+        if (expectedResult.equals(actualResult)) {
+            System.out.println("Test shouldClassifyUndead IS PASSED! ");
+        } else {
+            System.out.println("Test shouldClassifyUndead is FAILED");
             System.out.println("Expected result " + expectedResult + "\nbut actual result " + actualResult);
         }
     }
