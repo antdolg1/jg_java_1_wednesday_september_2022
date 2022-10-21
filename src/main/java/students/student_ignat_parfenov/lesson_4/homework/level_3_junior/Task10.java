@@ -14,11 +14,11 @@ public class Task10 {
         b = scanner.nextDouble();
         c = scanner.nextDouble();
 
-        if ((a > b && b >= c) || (a > b && b <= c)) {
+        if ((a > b && b >= c) && (a > b && b <= c)) {
             System.out.println("The largest number is " + a);
-        } else if ((b > a && a >= c) || (b > c && c >= a)) {
+        } else if ((b > a && a >= c) && (b > c && c >= a)) {
             System.out.println("The largest number is " + b);
-        } else if ((c > a && a >= b) || (c > b && b > a)) {
+        } else if ((c > a && a >= b) && (c > b && b > a)) {
             System.out.println("The largest number is " + c);
         }
     }
