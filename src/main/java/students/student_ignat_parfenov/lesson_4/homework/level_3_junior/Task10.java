@@ -20,6 +20,8 @@ public class Task10 {
             System.out.println("The largest number is " + b);
         } else if ((c > a && a >= b) || (c > b && b > a)) {
             System.out.println("The largest number is " + c);
+        } else {
+            System.out.println("Enter please three different!! numbers");
         }
     }
 }
