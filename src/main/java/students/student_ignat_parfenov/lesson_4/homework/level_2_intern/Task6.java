@@ -17,7 +17,7 @@ public class Task6 {
         if (number7 < number8) {
             System.out.println(number7 + " - The entered integer " + number7 + " is less than integer " + number8);
         } else if (number8 < number7) {
-            System.out.println(number8 + " - The entered integer " + number8 + " is bigger than integer " + number7);
+            System.out.println(number8 + " - The entered integer " + number8 + " is less than integer " + number7);
         } else {
             System.out.println("Both number are equal!");
         }
