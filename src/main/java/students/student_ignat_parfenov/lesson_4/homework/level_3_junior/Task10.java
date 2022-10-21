@@ -8,16 +8,19 @@ public class Task10 {
 
         double a, b, c;
 
-        System.out.println("Please enter three numbers: ");
+        System.out.println("Please enter three different numbers: ");
         Scanner scanner = new Scanner(System.in);
         a = scanner.nextDouble();
         b = scanner.nextDouble();
         c = scanner.nextDouble();
 
-        if (a > b && b > c){
+        if ((a > b && b >= c) || (a > b && b <= c)) {
             System.out.println("The largest number is " + a);
-        } else if () {
-
+        } else if ((b > a && a >= c) || (b > c && c >= a)) {
+            System.out.println("The largest number is " + b);
+        } else if ((c > a && a >= b) || (c > b && b > a)) {
+            System.out.println("The largest number is " + c);
         }
     }
 }
+
