@@ -9,7 +9,6 @@ public class CalculatorTest {
         calculatorTest.subtractionTest();
         calculatorTest.multiplicationTest();
         calculatorTest.divisionTest();
-        calculatorTest.maximumTest();
 
     }
 
@@ -68,9 +67,5 @@ public class CalculatorTest {
         } else {
             System.out.println("Division test = FAIL");
         }
-    }
-
-    private void maximumTest() {
-
     }
 }
