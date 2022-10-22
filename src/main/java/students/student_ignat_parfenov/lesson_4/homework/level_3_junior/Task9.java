@@ -14,11 +14,11 @@ public class Task9 {
         c = scanner.nextDouble();
 
         if (a > b && b >= c) {
-            System.out.println("Number are increasing");
+            System.out.println("Numbers are increasing");
         } else if (c > b && b >= a) {
             System.out.println("Numbers are decreasing");
         } else {
-            System.out.println("Enter please three different!! numbers");
+            System.out.println("Numbers go neither increasing or decreasing order");
         }
     }
 }
