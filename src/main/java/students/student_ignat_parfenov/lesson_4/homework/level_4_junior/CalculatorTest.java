@@ -15,7 +15,7 @@ public class CalculatorTest {
     private void sumTest() {
         int firstNumber = 10;
         int secondNumber = 5;
-        int expectedResult = 15;
+        int expectedResult = 25;
         Calculator calculator = new Calculator();
         int realResult = calculator.sum(firstNumber, secondNumber);
 
