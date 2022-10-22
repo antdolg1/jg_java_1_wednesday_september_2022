@@ -9,6 +9,7 @@ public class CalculatorTest {
         calculatorTest.subtractionTest();
         calculatorTest.multiplicationTest();
         calculatorTest.divisionTest();
+        calculatorTest.isEvenTest();
 
     }
 
@@ -67,5 +68,12 @@ public class CalculatorTest {
         } else {
             System.out.println("Division test = FAIL");
         }
+    }
+    private void isEvenTest(){
+        int number = 2;
+        
+        Calculator calculator = new Calculator();
+        int realResult = calculator.isEven();
+
     }
 }
