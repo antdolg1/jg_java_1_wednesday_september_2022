@@ -19,7 +19,13 @@ public class CalculatorTest {
         Calculator calculator = new Calculator();
         int realResult = calculator.sum(firstNumber, secondNumber);
 
+        if (realResult == expectedResult) {
+            System.out.println("Sum test = OK");
+        } else {
+            System.out.println("Sum test = FAIL");
+        }
     }
+
 
     private void subtractionTest() {
         int firstNumber = 10;
