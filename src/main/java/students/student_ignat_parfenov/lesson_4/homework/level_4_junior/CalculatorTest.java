@@ -42,6 +42,17 @@ public class CalculatorTest {
     }
 
     private void multiplicationTest() {
+        int firstNumber = 10;
+        int secondNumber = 5;
+        int expectedResult = 50;
+        Calculator calculator = new Calculator();
+        int realResult = calculator.multiplication(firstNumber, secondNumber);
+
+        if (realResult == expectedResult) {
+            System.out.println("Sum test = OK");
+        } else {
+            System.out.println("Sum test = FAIL");
+        }
     }
 
     private void divisionTest() {
