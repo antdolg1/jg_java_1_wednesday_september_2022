@@ -69,11 +69,17 @@ public class CalculatorTest {
             System.out.println("Division test = FAIL");
         }
     }
-    private void isEvenTest(){
-        int number = 2;
-        
-        Calculator calculator = new Calculator();
-        int realResult = calculator.isEven();
 
+    private void isEvenTest() {
+        int number = 2;
+        int expectedResult = 0;
+        Calculator calculator = new Calculator();
+        boolean realResult = calculator.isEven(number);
+
+        if (realResult == expectedResult) {
+            System.out.println("Even test = OK");
+        } else {
+            System.out.println("Even test = FAIL");
+        }
     }
 }
