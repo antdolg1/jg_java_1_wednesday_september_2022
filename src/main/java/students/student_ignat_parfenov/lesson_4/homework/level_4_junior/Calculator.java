@@ -18,5 +18,14 @@ public class Calculator {
     public int division(int firstNumber, int secondNumber) {
         return firstNumber / secondNumber;
     }
+
+    public boolean maximum(int firstNumber, int secondNumber, int thirdNumber) {
+        return firstNumber > secondNumber;
+        return firstNumber > thirdNumber;
+        return secondNumber > firstNumber;
+        return secondNumber > thirdNumber;
+        return thirdNumber > firstNumber;
+        return thirdNumber > secondNumber;
+    }
 }
 
