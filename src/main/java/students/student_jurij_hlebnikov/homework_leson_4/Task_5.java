@@ -12,9 +12,9 @@ public class Task_5 {
         int numberTwo =scanner.nextInt();
 
         if(numberOne > numberTwo){
-            System.out.println(numberOne + " Is bigger");
+            System.out.println(numberOne + " Is Bigger");
         }else {
-            System.out.println(numberTwo + "Is bigger");
+            System.out.println(numberTwo + "Is Bigger");
         }
 
     }
