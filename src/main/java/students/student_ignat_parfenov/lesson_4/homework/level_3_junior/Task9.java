@@ -7,18 +7,18 @@ public class Task9 {
 
         double a, b, c;
 
-        System.out.println("Please enter three different numbers: ");
+        System.out.println("Please enter three numbers: ");
         Scanner scanner = new Scanner(System.in);
         a = scanner.nextDouble();
         b = scanner.nextDouble();
         c = scanner.nextDouble();
 
-        if (a > b && b >= c) {
+        if (c > b && b > a) {
             System.out.println("Numbers are increasing");
-        } else if (c > b && b >= a) {
+        } else if (a > b && b > c) {
             System.out.println("Numbers are decreasing");
         } else {
-            System.out.println("Numbers go neither increasing or decreasing order");
+            System.out.println("Neither increasing or decreasing order");
         }
     }
 }
