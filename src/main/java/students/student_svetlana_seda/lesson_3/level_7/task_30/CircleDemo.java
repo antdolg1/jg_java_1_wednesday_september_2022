@@ -1,4 +1,6 @@
-package students.student_svetlana_seda.lesson_3.level_7;
+package students.student_svetlana_seda.lesson_3.level_7.task_30;
+
+import students.student_svetlana_seda.lesson_3.level_7.task_30.Circle;
 
 public class CircleDemo {
 

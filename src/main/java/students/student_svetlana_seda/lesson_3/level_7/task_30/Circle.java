@@ -1,4 +1,4 @@
-package students.student_svetlana_seda.lesson_3.level_7;
+package students.student_svetlana_seda.lesson_3.level_7.task_30;
 
 public class Circle {
     double radius;
