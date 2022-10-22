@@ -10,7 +10,7 @@ class Number {
         userNumber = scanner.nextInt();
         if (userNumber < 0) {
             System.out.println("Number " + userNumber + " is negative.");
-        } else if (userNumber > 0) {
+        } else {
             System.out.println("Number " + userNumber + " is positive.");
         }
     }
