@@ -85,7 +85,13 @@ public class CalculatorTest {
 
     private void maxOfTwoNumbers() {
         int firstNumber = 25;
-        int secondNumber = 23;
+        int secondNumber = 25;
         Calculator calculator = new Calculator();
+        int realResult = calculator.maxOfTwoNumbers(firstNumber, secondNumber);
+        if (realResult > secondNumber) {
+            System.out.println("TEST IS PASSED  - The first entered number " + firstNumber + " is bigger than the second number " + secondNumber);
+        } else {
+            System.out.println("TEST IS FAILED");
+        }
     }
 }
