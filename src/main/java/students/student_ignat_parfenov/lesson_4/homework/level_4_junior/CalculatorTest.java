@@ -11,6 +11,7 @@ public class CalculatorTest {
         calculatorTest.multiplicationTest();
         calculatorTest.divisionTest();
         calculatorTest.isEvenTest();
+        calculatorTest.maxOfTwoNumbers();
 
     }
 
@@ -72,7 +73,7 @@ public class CalculatorTest {
     }
 
     private void isEvenTest() {
-        int number = 20;
+        int number = 8;
         Calculator calculator = new Calculator();
         boolean realResult = calculator.isEven(number);
         if (realResult) {
@@ -80,5 +81,11 @@ public class CalculatorTest {
         } else {
             System.out.println("Even test = FAIL");
         }
+    }
+
+    private void maxOfTwoNumbers() {
+        int firstNumber = 25;
+        int secondNumber = 23;
+        Calculator calculator = new Calculator();
     }
 }
