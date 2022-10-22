@@ -12,7 +12,7 @@ public class EqualsNumbers {
         if (userNumber1 == userNumber2) {
             System.out.println("Numbers one is equal!!!");
         } else {
-            System.out.println("Numbers are not equals!!!");
+            System.out.println("Numbers are different");
         }
     }
 }
