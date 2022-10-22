@@ -22,7 +22,7 @@ public class CalculatorTest {
         int realResult = calculator.sum(firstNumber, secondNumber);
 
         if (realResult == expectedResult) {
-           System.out.println("Sum test = OK");
+            System.out.println("Sum test = OK");
         } else {
             System.out.println("Sum test = FAIL");
         }
@@ -72,12 +72,10 @@ public class CalculatorTest {
     }
 
     private void isEvenTest() {
-        int number = 2;
-        int expectedResult = 0;
+        int number = 20;
         Calculator calculator = new Calculator();
         boolean realResult = calculator.isEven(number);
-
-        if (true) {
+        if (realResult) {
             System.out.println("Even test = OK");
         } else {
             System.out.println("Even test = FAIL");
