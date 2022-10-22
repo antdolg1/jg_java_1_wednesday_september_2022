@@ -35,9 +35,9 @@ public class CalculatorTest {
         int realResult = calculator.subtraction(firstNumber, secondNumber);
 
         if (realResult == expectedResult) {
-            System.out.println("Sum test = OK");
+            System.out.println("Subtraction test = OK");
         } else {
-            System.out.println("Sum test = FAIL");
+            System.out.println("Subtraction test = FAIL");
         }
     }
 
@@ -49,9 +49,9 @@ public class CalculatorTest {
         int realResult = calculator.multiplication(firstNumber, secondNumber);
 
         if (realResult == expectedResult) {
-            System.out.println("Sum test = OK");
+            System.out.println("Multiplication test = OK");
         } else {
-            System.out.println("Sum test = FAIL");
+            System.out.println("Multiplication test = FAIL");
         }
     }
 
@@ -63,9 +63,9 @@ public class CalculatorTest {
         int realResult = calculator.division(firstNumber, secondNumber);
 
         if (realResult == expectedResult) {
-            System.out.println("Sum test = OK");
+            System.out.println("Division test = OK");
         } else {
-            System.out.println("Sum test = FAIL");
+            System.out.println("Division test = FAIL");
         }
     }
 }
