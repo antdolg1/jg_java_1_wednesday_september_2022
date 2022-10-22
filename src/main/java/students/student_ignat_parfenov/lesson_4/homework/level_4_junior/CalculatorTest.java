@@ -56,5 +56,16 @@ public class CalculatorTest {
     }
 
     private void divisionTest() {
+        int firstNumber = 10;
+        int secondNumber = 5;
+        int expectedResult = 2;
+        Calculator calculator = new Calculator();
+        int realResult = calculator.division(firstNumber, secondNumber);
+
+        if (realResult == expectedResult) {
+            System.out.println("Sum test = OK");
+        } else {
+            System.out.println("Sum test = FAIL");
+        }
     }
 }
