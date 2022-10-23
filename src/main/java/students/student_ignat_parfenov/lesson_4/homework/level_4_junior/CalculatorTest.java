@@ -100,8 +100,6 @@ public class CalculatorTest {
         }
         if (realResult == firstNumber) {
             System.out.println("TEST IS PASSED  - The entered numbers are equal");
-        } else if (realResult == secondNumber){
-            System.out.println("TEST IS PASSED  - The entered numbers are equal");
         } else {
             System.out.println("TEST IS FAILED");
         }
