@@ -115,24 +115,25 @@ public class CalculatorTest {
 
     private void maxOfThreeNumbers() {
         int firstNumber = 25;
-        int secondNumber = 29;
-        int thirdNumber = 28;
+        int secondNumber = 26;
+        int thirdNumber = 23;
         Calculator calculator = new Calculator();
         int realResult = calculator.maxOfThreeNumbers(firstNumber, secondNumber, thirdNumber);
-        if (realResult > secondNumber) {
-            System.out.println("The first entered number " + firstNumber + " is bigger than other both");
+        if ((realResult > secondNumber) && (realResult > thirdNumber)) {
+            System.out.println("The first entered number " + firstNumber + " is bigger than other two entered numbers");
         } else if (realResult > thirdNumber) {
-            System.out.println("The first entered number " + firstNumber + " is bigger than other both");
+            System.out.println("The first entered number " + firstNumber + " is bigger than other two entered numbers");
         } else {
             System.out.println("TEST IS FAILED");
         }
+
         if ((realResult > firstNumber) && (realResult > thirdNumber)) {
-            System.out.println("TEST IS PASSED  - The second entered number " + secondNumber + " is bigger than the first number " + firstNumber + " and the third number " + thirdNumber);
+            System.out.println("TEST IS PASSED  - The second entered number " + secondNumber + " is bigger than other both entered numbers");
         } else {
             System.out.println("TEST IS FAILED");
         }
         if ((realResult > firstNumber) && (realResult > secondNumber)) {
-            System.out.println("TEST IS PASSED  - The third entered number " + thirdNumber + " is bigger than the first number " + firstNumber + " and the second number " + secondNumber);
+            System.out.println("TEST IS PASSED  - The third entered number " + thirdNumber + " is bigger than other both entered numbers");
         } else {
             System.out.println("TEST IS FAILED");
         }
