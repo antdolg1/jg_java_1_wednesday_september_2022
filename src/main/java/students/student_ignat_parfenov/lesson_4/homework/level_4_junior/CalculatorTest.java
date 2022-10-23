@@ -144,15 +144,15 @@ public class CalculatorTest {
     }
     // Тестовый сценарий - все три введенных значения равны //
     public void allThreeNumberAreEqual() {
-        double firstNumber = 8;
-        double secondNumber = 10;
+        double firstNumber = 15;
+        double secondNumber = 15;
         double thirdNumber = 15;
         Calculator calculator = new Calculator();
         boolean realResult = calculator.allThreeNumbersAreEqual(firstNumber, secondNumber, thirdNumber);
         if (realResult) {
-            System.out.println("Equal test is OK!");
+            System.out.println("Equal test is OK! All three entered numbers are equal.");
         } else {
-            System.out.println("FAIL!");
+            System.out.println("Equal test = FAILED!");
         }
     }
 }
