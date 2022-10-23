@@ -113,6 +113,7 @@ public class CalculatorTest {
         }
     }
 
+// Тестовый сценарий - максимальное из трех чисел //
     private void maxOfThreeNumbers() {
         int firstNumber = 4;
         int secondNumber = 6;
