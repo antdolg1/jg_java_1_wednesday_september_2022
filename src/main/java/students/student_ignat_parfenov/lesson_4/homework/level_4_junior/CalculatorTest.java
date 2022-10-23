@@ -15,7 +15,7 @@ public class CalculatorTest {
         calculatorTest.maxOfThreeNumbers();
 
     }
-
+// Тестовый сценарий - проверка результата сложения двух чисел //
     private void sumTest() {
         int firstNumber = 10;
         int secondNumber = 5;
@@ -30,7 +30,7 @@ public class CalculatorTest {
         }
     }
 
-
+// Тестовый сценарий - проверка результата вычитания двух чисел //
     private void subtractionTest() {
         int firstNumber = 10;
         int secondNumber = 5;
@@ -44,7 +44,7 @@ public class CalculatorTest {
             System.out.println("Subtraction test = FAIL");
         }
     }
-
+// Тестовый сценарий - проверка результата умножения //
     private void multiplicationTest() {
         int firstNumber = 10;
         int secondNumber = 5;
@@ -58,7 +58,7 @@ public class CalculatorTest {
             System.out.println("Multiplication test = FAIL");
         }
     }
-
+// Тестовый сценарий - проверка результата деления //
     private void divisionTest() {
         int firstNumber = 10;
         int secondNumber = 5;
@@ -72,7 +72,7 @@ public class CalculatorTest {
             System.out.println("Division test = FAIL");
         }
     }
-
+// Тестовый сценарий - четное ли число //
     private void isEvenTest() {
         int number = 8;
         Calculator calculator = new Calculator();
@@ -83,9 +83,9 @@ public class CalculatorTest {
             System.out.println("Even test = FAIL");
         }
     }
-
+// Тестовый сценарий - наибольшое из двух чисел //
     private void maxOfTwoNumbers() {
-        int firstNumber = 25;
+        int firstNumber = 26;
         int secondNumber = 25;
         Calculator calculator = new Calculator();
         int realResult = calculator.maxOfTwoNumbers(firstNumber, secondNumber);
@@ -99,7 +99,7 @@ public class CalculatorTest {
         } else {
             System.out.println("TEST IS FAILED");
         }
-
+// Тестовый сценарий если два числа равны //
         if (realResult > firstNumber) {
             System.out.println("TEST IS FAILED");
         } else if (realResult < firstNumber) {
@@ -114,20 +114,17 @@ public class CalculatorTest {
     }
 
     private void maxOfThreeNumbers() {
-        int firstNumber = 25;
-        int secondNumber = 28;
-        int thirdNumber = 2;
+        int firstNumber = 4;
+        int secondNumber = 6;
+        int thirdNumber = 14;
         Calculator calculator = new Calculator();
         int realResult = calculator.maxOfThreeNumbers(firstNumber, secondNumber, thirdNumber);
-        if (realResult > secondNumber) {
-            System.out.println("The first entered number " + firstNumber + " is bigger than other two entered numbers");
-        } else if (realResult > thirdNumber) {
+        if ((realResult > secondNumber) && (realResult > thirdNumber)) {
             System.out.println("The first entered number " + firstNumber + " is bigger than other two entered numbers");
         } else {
             System.out.println("TEST IS FAILED");
         }
-
-        if (realResult > firstNumber) {
+        if ((realResult > firstNumber) && (realResult > thirdNumber)) {
             System.out.println("TEST IS PASSED  - The second entered number " + secondNumber + " is bigger than other both entered numbers");
         } else {
             System.out.println("TEST IS FAILED");
