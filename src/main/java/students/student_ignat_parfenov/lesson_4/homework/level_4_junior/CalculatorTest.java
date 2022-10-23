@@ -94,5 +94,4 @@ public class CalculatorTest {
             System.out.println("TEST IS FAILED");
         }
     }
-
 }
