@@ -2,7 +2,7 @@ package students.student_oskars_popens.lesson_2.homework.level_2;
 
 import java.util.Scanner;
 
-public class Task8 {
+class Task8 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String name;
