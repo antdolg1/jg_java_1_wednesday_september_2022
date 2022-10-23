@@ -12,6 +12,7 @@ public class CalculatorTest {
         calculatorTest.divisionTest();
         calculatorTest.isEvenTest();
         calculatorTest.maxOfTwoNumbers();
+        calculatorTest.maxOfThreeNumbers();
 
     }
 
@@ -101,7 +102,7 @@ public class CalculatorTest {
 
         if (realResult > firstNumber) {
             System.out.println("TEST IS FAILED");
-        } else if (realResult < firstNumber ){
+        } else if (realResult < firstNumber) {
             System.out.println("TEST IS FAILED");
         } else if (realResult > secondNumber) {
             System.out.println("TEST IS FAILED");
@@ -109,6 +110,29 @@ public class CalculatorTest {
             System.out.println("TEST IS FAILED");
         } else {
             System.out.println("TEST IS PASSED  - The entered numbers are equal");
+        }
+    }
+
+    private void maxOfThreeNumbers() {
+        int firstNumber = 25;
+        int secondNumber = 25;
+        int thirdNumber = 35;
+        Calculator calculator = new Calculator();
+        int realResult = calculator.maxOfThreeNumbers(firstNumber, secondNumber, thirdNumber);
+        if ((realResult > secondNumber) && (realResult > thirdNumber)) {
+            System.out.println("The first entered number " + firstNumber + " is bigger than the second number " + secondNumber + " and the third number " + thirdNumber);
+        } else {
+            System.out.println("TEST IS FAILED");
+        }
+        if ((realResult > firstNumber) && (realResult > thirdNumber)) {
+            System.out.println("TEST IS PASSED  - The second entered number " + secondNumber + " is bigger than the first number " + firstNumber + " and the third number " + thirdNumber);
+        } else {
+            System.out.println("TEST IS FAILED");
+        }
+        if ((realResult > firstNumber) && (realResult > secondNumber)) {
+            System.out.println("TEST IS PASSED  - The third entered number " + thirdNumber + " is bigger than the first number " + firstNumber + " and the second number " + secondNumber);
+        } else {
+            System.out.println("TEST IS FAILED");
         }
     }
 }
