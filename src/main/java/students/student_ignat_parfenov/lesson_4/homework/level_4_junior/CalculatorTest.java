@@ -13,7 +13,7 @@ public class CalculatorTest {
         calculatorTest.isEvenTest();
         calculatorTest.maxOfTwoNumbers();
         calculatorTest.maxOfThreeNumbers();
-        calculatorTest.allThreeNumberAreEqual();
+        calculatorTest.allThreeNumbersAreEqual();
 
     }
 
@@ -144,7 +144,7 @@ public class CalculatorTest {
     }
 
     // Тестовый сценарий - все три введенных значения равны //
-    public void allThreeNumberAreEqual() {
+    public void allThreeNumbersAreEqual() {
         double firstNumber = 15;
         double secondNumber = 15;
         double thirdNumber = 15;
