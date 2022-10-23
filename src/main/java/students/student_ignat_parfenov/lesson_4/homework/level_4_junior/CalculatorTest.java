@@ -147,7 +147,7 @@ public class CalculatorTest {
     public void allThreeNumbersAreEqual() {
         double firstNumber = 15;
         double secondNumber = 15;
-        double thirdNumber = 15;
+        double thirdNumber = 16;
         Calculator calculator = new Calculator();
         boolean realResult = calculator.allThreeNumbersAreEqual(firstNumber, secondNumber, thirdNumber);
         if (realResult) {
