@@ -84,7 +84,7 @@ public class CalculatorTest {
     }
 
     private void maxOfTwoNumbers() {
-        int firstNumber = 29;
+        int firstNumber = 21;
         int secondNumber = 25;
         Calculator calculator = new Calculator();
         int realResult = calculator.maxOfTwoNumbers(firstNumber, secondNumber);
@@ -94,4 +94,5 @@ public class CalculatorTest {
             System.out.println("TEST IS FAILED");
         }
     }
+
 }
