@@ -143,7 +143,7 @@ public class CalculatorTest {
         // Тестовые сценарии - первые два равны и больше/меньше третьего.. все три значения равны //
         if (((realResult == firstNumber) && (realResult == secondNumber)) && (realResult > thirdNumber)) {
             System.out.println("Both first numbers are equal and bigger than third number");
-        } else if ((realResult == firstNumber) && (realResult == thirdNumber) && (realResult < secondNumber)) {
+        } else if ((realResult == firstNumber) && (realResult == secondNumber) && (realResult < thirdNumber)) {
             System.out.println("Both first numbers are equal and less than third number");
         } else if ((realResult == firstNumber) && (realResult == thirdNumber) && (realResult > secondNumber)) {
             System.out.println("The first and the third numbers are equal and bigger than second number");
@@ -155,8 +155,8 @@ public class CalculatorTest {
             System.out.println("The second and third number are equal and less than first number");
         } else if ((realResult == firstNumber) && (realResult == secondNumber) && (realResult == thirdNumber)) {
             System.out.println("All three number are equal");
-        } else {
-
+        } else if ((firstNumber != secondNumber) && (secondNumber != thirdNumber) && (thirdNumber != firstNumber)) {
+            System.out.println("Minimum two of three entered numbers should be equal");
         }
     }
 }
