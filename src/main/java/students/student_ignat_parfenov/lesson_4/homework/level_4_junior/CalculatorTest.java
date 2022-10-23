@@ -98,10 +98,17 @@ public class CalculatorTest {
         } else {
             System.out.println("TEST IS FAILED");
         }
-        if (realResult == firstNumber) {
-            System.out.println("TEST IS PASSED  - The entered numbers are equal");
-        } else {
+
+        if (realResult > firstNumber) {
             System.out.println("TEST IS FAILED");
+        } else if (realResult < firstNumber ){
+            System.out.println("TEST IS FAILED");
+        } else if (realResult > secondNumber) {
+            System.out.println("TEST IS FAILED");
+        } else if (realResult < secondNumber) {
+            System.out.println("TEST IS FAILED");
+        } else {
+            System.out.println("TEST IS PASSED  - The entered numbers are equal");
         }
     }
 }
