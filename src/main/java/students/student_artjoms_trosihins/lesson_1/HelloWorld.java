@@ -1,10 +1,8 @@
-package students.student_svetlana_seda;
+package students.student_artjoms_trosihins.lesson_1;
 
-public class hello_world {
 
+public class HelloWorld {
     public static void main(String[] args) {
-
         System.out.println("Hello World!");
-
     }
 }
