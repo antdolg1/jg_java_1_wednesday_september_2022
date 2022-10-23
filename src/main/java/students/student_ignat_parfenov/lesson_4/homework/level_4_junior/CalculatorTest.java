@@ -140,5 +140,6 @@ public class CalculatorTest {
         } else {
             System.out.println("TEST IS FAILED");
         }
+
     }
 }
