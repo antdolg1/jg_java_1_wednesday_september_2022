@@ -15,7 +15,8 @@ public class CalculatorTest {
         calculatorTest.maxOfThreeNumbers();
 
     }
-// Тестовый сценарий - проверка результата сложения двух чисел //
+
+    // Тестовый сценарий - проверка результата сложения двух чисел //
     private void sumTest() {
         int firstNumber = 10;
         int secondNumber = 5;
@@ -30,7 +31,7 @@ public class CalculatorTest {
         }
     }
 
-// Тестовый сценарий - проверка результата вычитания двух чисел //
+    // Тестовый сценарий - проверка результата вычитания двух чисел //
     private void subtractionTest() {
         int firstNumber = 10;
         int secondNumber = 5;
@@ -44,7 +45,8 @@ public class CalculatorTest {
             System.out.println("Subtraction test = FAIL");
         }
     }
-// Тестовый сценарий - проверка результата умножения //
+
+    // Тестовый сценарий - проверка результата умножения //
     private void multiplicationTest() {
         int firstNumber = 10;
         int secondNumber = 5;
@@ -58,7 +60,8 @@ public class CalculatorTest {
             System.out.println("Multiplication test = FAIL");
         }
     }
-// Тестовый сценарий - проверка результата деления //
+
+    // Тестовый сценарий - проверка результата деления //
     private void divisionTest() {
         int firstNumber = 10;
         int secondNumber = 5;
@@ -72,7 +75,8 @@ public class CalculatorTest {
             System.out.println("Division test = FAIL");
         }
     }
-// Тестовый сценарий - четное ли число //
+
+    // Тестовый сценарий - четное ли число //
     private void isEvenTest() {
         int number = 8;
         Calculator calculator = new Calculator();
@@ -83,7 +87,8 @@ public class CalculatorTest {
             System.out.println("Even test = FAIL");
         }
     }
-// Тестовый сценарий - наибольшое из двух чисел //
+
+    // Тестовый сценарий - наибольшое из двух чисел //
     private void maxOfTwoNumbers() {
         int firstNumber = 26;
         int secondNumber = 25;
@@ -113,7 +118,7 @@ public class CalculatorTest {
         }
     }
 
-// Тестовый сценарий - максимальное из трех чисел //
+    // Тестовый сценарий - максимальное из трех чисел //
     private void maxOfThreeNumbers() {
         int firstNumber = 4;
         int secondNumber = 6;
