@@ -84,7 +84,7 @@ public class CalculatorTest {
     }
 
     private void maxOfTwoNumbers() {
-        int firstNumber = 23;
+        int firstNumber = 25;
         int secondNumber = 25;
         Calculator calculator = new Calculator();
         int realResult = calculator.maxOfTwoNumbers(firstNumber, secondNumber);
