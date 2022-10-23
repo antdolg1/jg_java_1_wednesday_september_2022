@@ -62,8 +62,8 @@ public class CalculatorTest {
     public void isOddTest(){
         int number = 3;
         Calculator calculator = new Calculator();
-        boolean result = calculator.isEven(number);
-        if (result == false){
+        boolean even = calculator.isEven(number);
+        if (!even){
             System.out.println("OddNumberTest = OK");
         }else {
             System.out.println("OddNumberTest = FAIL");
@@ -72,8 +72,8 @@ public class CalculatorTest {
     public void isEvenTest(){
         int number = 4;
         Calculator calculator = new Calculator();
-        boolean result = calculator.isEven(number);
-        if (result == true){
+        boolean even = calculator.isEven(number);
+        if (even){
             System.out.println("EvenNumberTest = OK");
         }else {
             System.out.println("EvenNumberTest = OK");

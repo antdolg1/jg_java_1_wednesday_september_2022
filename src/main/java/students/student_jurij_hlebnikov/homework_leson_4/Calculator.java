@@ -20,10 +20,6 @@ public class Calculator {
 
     public boolean isEven(int number) {
         int result = number % 2;
-        if (result == 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return result == 0;
     }
 }
