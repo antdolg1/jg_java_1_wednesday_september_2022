@@ -91,7 +91,7 @@ public class CalculatorTest {
     // Тестовый сценарий - наибольшое из двух чисел //
     private void maxOfTwoNumbers() {
         int firstNumber = 26;
-        int secondNumber = 25;
+        int secondNumber = 26;
         Calculator calculator = new Calculator();
         int realResult = calculator.maxOfTwoNumbers(firstNumber, secondNumber);
         if (realResult > secondNumber) {
