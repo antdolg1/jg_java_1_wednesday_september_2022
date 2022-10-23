@@ -13,6 +13,7 @@ public class CalculatorTest {
         calculatorTest.isEvenTest();
         calculatorTest.maxOfTwoNumbers();
         calculatorTest.maxOfThreeNumbers();
+        calculatorTest.allThreeNumberAreEqual();
 
     }
 
@@ -139,6 +140,19 @@ public class CalculatorTest {
             System.out.println("TEST IS PASSED  - The third entered number " + thirdNumber + " is bigger than other both entered numbers");
         } else {
             System.out.println("TEST IS FAILED");
+        }
+    }
+    // Тестовый сценарий - все три введенных значения равны //
+    public void allThreeNumberAreEqual() {
+        double firstNumber = 8;
+        double secondNumber = 10;
+        double thirdNumber = 15;
+        Calculator calculator = new Calculator();
+        boolean realResult = calculator.allThreeNumbersAreEqual(firstNumber, secondNumber, thirdNumber);
+        if (realResult) {
+            System.out.println("Equal test is OK!");
+        } else {
+            System.out.println("FAIL!");
         }
     }
 }

@@ -44,5 +44,13 @@ public class Calculator {
             return thirdNumber;
         }
     }
+
+    public boolean allThreeNumbersAreEqual(double firstNumber, double secondNumber, double thirdNumber) {
+        if ((firstNumber == secondNumber) && (secondNumber == thirdNumber)) {
+            return true;
+        }   else {
+            return false;
+        }
+    }
 }
 
