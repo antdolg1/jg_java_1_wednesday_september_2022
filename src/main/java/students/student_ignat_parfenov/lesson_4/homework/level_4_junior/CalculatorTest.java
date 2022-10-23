@@ -142,6 +142,7 @@ public class CalculatorTest {
             System.out.println("TEST IS FAILED");
         }
     }
+
     // Тестовый сценарий - все три введенных значения равны //
     public void allThreeNumberAreEqual() {
         double firstNumber = 15;
