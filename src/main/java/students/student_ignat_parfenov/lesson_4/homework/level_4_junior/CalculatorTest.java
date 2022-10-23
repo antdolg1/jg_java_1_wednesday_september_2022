@@ -121,8 +121,8 @@ public class CalculatorTest {
     // Тестовый сценарий - максимальное из трех чисел //
     private void maxOfThreeNumbers() {
         int firstNumber = 4;
-        int secondNumber = 6;
-        int thirdNumber = 14;
+        int secondNumber = 4;
+        int thirdNumber = 6;
         Calculator calculator = new Calculator();
         int realResult = calculator.maxOfThreeNumbers(firstNumber, secondNumber, thirdNumber);
         if ((realResult > secondNumber) && (realResult > thirdNumber)) {
@@ -140,6 +140,23 @@ public class CalculatorTest {
         } else {
             System.out.println("TEST IS FAILED");
         }
+        // Тестовые сценарии - первые два равны и больше/меньше третьего.. все три значения равны //
+        if (((realResult == firstNumber) && (realResult == secondNumber)) && (realResult > thirdNumber)) {
+            System.out.println("Both first numbers are equal and bigger than third number");
+        } else if ((realResult == firstNumber) && (realResult == thirdNumber) && (realResult < secondNumber)) {
+            System.out.println("Both first numbers are equal and less than third number");
+        } else if ((realResult == firstNumber) && (realResult == thirdNumber) && (realResult > secondNumber)) {
+            System.out.println("The first and the third numbers are equal and bigger than second number");
+        } else if ((realResult == firstNumber) && (realResult == thirdNumber) && (realResult < secondNumber)) {
+            System.out.println("The first and the third numbers are equal and less than second number");
+        } else if ((realResult == secondNumber) && (realResult == thirdNumber) && (realResult > firstNumber)) {
+            System.out.println("The second and third number are equal and bigger than first number");
+        } else if ((realResult == secondNumber) && (realResult == thirdNumber) && (realResult < firstNumber)) {
+            System.out.println("The second and third number are equal and less than first number");
+        } else if ((realResult == firstNumber) && (realResult == secondNumber) && (realResult == thirdNumber)) {
+            System.out.println("All three number are equal");
+        } else {
 
+        }
     }
 }
