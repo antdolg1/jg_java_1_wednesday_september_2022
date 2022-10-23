@@ -115,12 +115,14 @@ public class CalculatorTest {
 
     private void maxOfThreeNumbers() {
         int firstNumber = 25;
-        int secondNumber = 25;
-        int thirdNumber = 35;
+        int secondNumber = 29;
+        int thirdNumber = 28;
         Calculator calculator = new Calculator();
         int realResult = calculator.maxOfThreeNumbers(firstNumber, secondNumber, thirdNumber);
-        if ((realResult > secondNumber) && (realResult > thirdNumber)) {
-            System.out.println("The first entered number " + firstNumber + " is bigger than the second number " + secondNumber + " and the third number " + thirdNumber);
+        if (realResult > secondNumber) {
+            System.out.println("The first entered number " + firstNumber + " is bigger than other both");
+        } else if (realResult > thirdNumber) {
+            System.out.println("The first entered number " + firstNumber + " is bigger than other both");
         } else {
             System.out.println("TEST IS FAILED");
         }
