@@ -36,6 +36,4 @@ class RobotDemo{
        // Robot bot4 = new Robot( );          // Method 4 ???
 
     }
-
-
 }
