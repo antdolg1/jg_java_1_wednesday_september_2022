@@ -93,5 +93,10 @@ public class CalculatorTest {
         } else {
             System.out.println("TEST IS FAILED");
         }
+        if (realResult > firstNumber) {
+            System.out.println("TEST IS PASSED  - The second entered number " + secondNumber + " is bigger than the first number " + firstNumber);
+        } else {
+            System.out.println("TEST IS FAILED");
+        }
     }
 }
