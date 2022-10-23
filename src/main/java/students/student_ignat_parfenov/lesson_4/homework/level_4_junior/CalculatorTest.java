@@ -129,12 +129,12 @@ public class CalculatorTest {
             System.out.println("The first entered number " + firstNumber + " is bigger than other two entered numbers");
         } else {
             System.out.println("TEST IS FAILED");
-        }
+        } // the second number is maximum //
         if ((realResult > firstNumber) && (realResult > thirdNumber)) {
             System.out.println("TEST IS PASSED  - The second entered number " + secondNumber + " is bigger than other both entered numbers");
         } else {
             System.out.println("TEST IS FAILED");
-        }
+        } // the third number is maximum //
         if ((realResult > firstNumber) && (realResult > secondNumber)) {
             System.out.println("TEST IS PASSED  - The third entered number " + thirdNumber + " is bigger than other both entered numbers");
         } else {
