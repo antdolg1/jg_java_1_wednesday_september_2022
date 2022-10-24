@@ -9,7 +9,7 @@ public class Stock {
 //    private int maximumCost;
 
     public String name = "GOOG";
-    public int currenValue = 10;
+    public int google = 10;
 
     Stock google = new Stock("GOOG", 10);
     String priceInformation = google.getPriceInformation();
@@ -21,5 +21,4 @@ public class Stock {
 
     priceInformation = google.getPriceInformation();
     System.out.println(priceInformation);
-
 }
