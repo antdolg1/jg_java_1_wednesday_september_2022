@@ -23,7 +23,7 @@ public class LightColorDetectorTest {
         String actualResult = victim.detect(waveLength);
 
         if (expectedResult.equals(actualResult)) {
-            System.out.println("Test is PASSED. Light color is violet");
+            System.out.println("Test is PASSED. Light color is violet.");
         } else {
             System.out.println("FAIL");
         }
@@ -36,7 +36,7 @@ public class LightColorDetectorTest {
         String actualResult = victim.detect(waveLength);
 
         if (expectedResult.equals(actualResult)) {
-            System.out.println("Test is PASSED. Light color is blue");
+            System.out.println("Test is PASSED. Light color is blue.");
         } else {
             System.out.println("FAIL");
         }
@@ -49,7 +49,7 @@ public class LightColorDetectorTest {
         String actualResult = victim.detect(waveLength);
 
         if (expectedResult.equals(actualResult)) {
-            System.out.println("Test is PASSED. Light color is blue.");
+            System.out.println("Test is PASSED. Light color is green.");
         } else {
             System.out.println("FAIL");
         }
@@ -70,7 +70,7 @@ public class LightColorDetectorTest {
     void LightColorDetectorOrange() {
         LightColorDetector victim = new LightColorDetector();
 
-        int waveLength = 610;
+        int waveLength = 660;
         String expectedResult = "Orange";
         String actualResult = victim.detect(waveLength);
 
@@ -83,7 +83,7 @@ public class LightColorDetectorTest {
     void LightColorDetectorRed() {
         LightColorDetector victim = new LightColorDetector();
 
-        int waveLength = 610;
+        int waveLength = 640;
         String expectedResult = "Red";
         String actualResult = victim.detect(waveLength);
 
@@ -96,7 +96,7 @@ public class LightColorDetectorTest {
     void LightColorDetectorInvisibleLight() {
         LightColorDetector victim = new LightColorDetector();
 
-        int waveLength = 1000;
+        int waveLength = 400;
         String expectedResult = "Invisible Light";
         String actualResult = victim.detect(waveLength);
 
