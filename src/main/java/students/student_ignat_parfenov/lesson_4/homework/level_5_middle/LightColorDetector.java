@@ -5,20 +5,19 @@ public class LightColorDetector {
     public String detect(int wavelength) {
 
         if (wavelength > 379 && wavelength < 450)  {
-            System.out.println("Light color is violet.");
+            return "Violet";
         } else if (wavelength > 449 && wavelength < 495) {
-            System.out.println("Light color is blue.");
+            return "Blue";
         } else if (wavelength > 494 && wavelength < 570) {
-            System.out.println("Light color is green.");
+            return "Green";
         } else if (wavelength > 569 && wavelength < 590) {
-            System.out.println("Light color is yellow");
+            return "Yellow";
         } else if (wavelength > 589 && wavelength < 620) {
-            System.out.println("Light color is orange");
+            return "Orange";
         } else if (wavelength > 619 && wavelength < 751) {
-            System.out.println("Light color is red.");
+            return "Red";
         }   else {
-            System.out.println("Out of visible spectrum. Invisible Light");
+            return "Invisible Light";
         }
-        return null;
     }
 }
