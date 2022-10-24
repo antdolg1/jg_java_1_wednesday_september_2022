@@ -28,6 +28,7 @@ public class LightColorDetectorTest {
             System.out.println("FAIL");
         }
     }
+
     void LightColorDetectorBlue() {
         LightColorDetector victim = new LightColorDetector();
 
@@ -41,6 +42,7 @@ public class LightColorDetectorTest {
             System.out.println("FAIL");
         }
     }
+
     void LightColorDetectorGreen() {
         LightColorDetector victim = new LightColorDetector();
 
@@ -54,6 +56,7 @@ public class LightColorDetectorTest {
             System.out.println("FAIL");
         }
     }
+
     void LightColorDetectorYellow() {
         LightColorDetector victim = new LightColorDetector();
 
@@ -67,6 +70,7 @@ public class LightColorDetectorTest {
             System.out.println("FAIL");
         }
     }
+
     void LightColorDetectorOrange() {
         LightColorDetector victim = new LightColorDetector();
 
@@ -80,6 +84,7 @@ public class LightColorDetectorTest {
             System.out.println("FAIL");
         }
     }
+
     void LightColorDetectorRed() {
         LightColorDetector victim = new LightColorDetector();
 
@@ -93,6 +98,7 @@ public class LightColorDetectorTest {
             System.out.println("FAIL");
         }
     }
+
     void LightColorDetectorInvisibleLight() {
         LightColorDetector victim = new LightColorDetector();
 
