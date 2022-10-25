@@ -1,4 +1,5 @@
-package students.student_igor_budnitski;
+package students.student_artjoms_trosihins.lesson_1;
+
 
 public class HelloWorld {
     public static void main(String[] args) {
