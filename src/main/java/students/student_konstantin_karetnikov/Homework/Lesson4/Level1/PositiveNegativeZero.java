@@ -2,7 +2,7 @@ package students.student_konstantin_karetnikov.Homework.Lesson4.Level1;
 
 import java.util.Scanner;
 
-public class PositiveNegativeZero {public static void main(String[] args) {
+class PositiveNegativeZero {public static void main(String[] args) {
 
     System.out.print("Please enter your number: ");
     Scanner scanner = new Scanner (System.in);

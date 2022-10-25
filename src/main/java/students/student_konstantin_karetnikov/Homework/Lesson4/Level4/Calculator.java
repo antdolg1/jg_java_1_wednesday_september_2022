@@ -1,6 +1,6 @@
 package students.student_konstantin_karetnikov.Homework.Lesson4.Level4;
 
-public class Calculator {
+class Calculator {
     public int sum(int firstNumber, int secondNumber) {
         return firstNumber + secondNumber;
     }
@@ -32,7 +32,8 @@ public class Calculator {
         if (firstNumber > secondNumber && firstNumber > thirdNumber) return firstNumber;
         else if (secondNumber > firstNumber && secondNumber > thirdNumber) return secondNumber;
         else if (thirdNumber > firstNumber && thirdNumber > secondNumber) return thirdNumber;
-        else { return firstNumber = secondNumber = thirdNumber;
+        else {
+            return firstNumber = secondNumber = thirdNumber;
         }
 
     }

@@ -2,7 +2,7 @@ package students.student_konstantin_karetnikov.Homework.Lesson4.Level2;
 
 import java.util.Scanner;
 
-public class EqualDiff {
+ class EqualDiff {
     public static void main(String[] args) {
         System.out.print("Please enter first number: ");
         Scanner scanner = new Scanner(System.in);

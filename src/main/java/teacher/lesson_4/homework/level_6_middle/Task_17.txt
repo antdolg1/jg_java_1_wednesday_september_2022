@@ -36,7 +36,7 @@ Test case max:
 
 Пример работы с классом Stock:
 
-Stock google = new Stock("GOOG", 10);
+
 String priceInformation = google.getPriceInformation();
 System.out.println(priceInformation);
 ​

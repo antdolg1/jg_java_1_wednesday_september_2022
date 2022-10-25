@@ -2,7 +2,7 @@ package students.student_konstantin_karetnikov.Homework.Lesson4.Level1;
 
 import java.util.Scanner;
 
-public class EvenOdd {
+class EvenOdd {
     public static void main(String[] args) {
 
     System.out.print("Please enter your number: ");
