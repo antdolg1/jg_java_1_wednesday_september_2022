@@ -6,10 +6,6 @@ public class Stock {
     int priceInformation;
     int getPriceInformation;
 
-
-
-
-
 }
 
 //    private String name = "GOOG.";
