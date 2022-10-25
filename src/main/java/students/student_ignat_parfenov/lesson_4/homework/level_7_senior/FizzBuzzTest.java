@@ -5,22 +5,36 @@ public class FizzBuzzTest {
     public static void main(String[] args) {
 
         FizzBuzzTest test = new FizzBuzzTest();
-        test.FizzBuzzTestIsDivisionByThree();
+        test.FizzBuzzTestIsDivisibleByThree();
+        test.FizzBuzzTestIfDivisibleByFive();
 
     }
 
-            void FizzBuzzTestIsDivisionByThree() {
+    void FizzBuzzTestIsDivisibleByThree() {
 
-            FizzBuzz victim = new FizzBuzz();
-            int number = 12;
-            String expectedResult = "Fizz";
+        FizzBuzz victim = new FizzBuzz();
+        int number = 10;
+        String expectedResult = "Fizz";
+        String actualResult = victim.detect(number);
 
-            String actualResult = victim.detect(number);
-
-            if (expectedResult.equals(actualResult)) {
-                System.out.println("Fizz!");
-            } else {
-                System.out.println("Test is FAILED");
-            }
+        if (expectedResult.equals(actualResult)) {
+            System.out.println("Fizz! The number iz divisible by 3!");
+        } else {
+            System.out.println("Test is FAILED");
         }
     }
+
+    void FizzBuzzTestIfDivisibleByFive() {
+
+        FizzBuzz victim = new FizzBuzz();
+        int number = 25;
+        String expectedResult = "Buzz";
+        String actualResult = victim.detect(number);
+
+        if (expectedResult.equals(actualResult)) {
+            System.out.println("Fizz! The number is divisible by 5!");
+        }   else {
+            System.out.println("Test is FAILED");
+        }
+    }
+}
