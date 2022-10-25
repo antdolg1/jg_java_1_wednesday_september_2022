@@ -4,6 +4,8 @@ public class Stock {
 
     public String name = "GOOG";
     int priceInformation;
+    int getPriceInformation;
+
 
 
 
