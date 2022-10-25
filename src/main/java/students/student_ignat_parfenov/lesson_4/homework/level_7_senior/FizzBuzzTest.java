@@ -42,12 +42,12 @@ public class FizzBuzzTest {
     void FizzBuzzTestDivisibleByThreeEndFive() {
 
         FizzBuzz victim = new FizzBuzz();
-        int number = 5;
+        int number = 15;
         String expectedResult = "FizzBuzz";
         String actualResult = victim.detect(number);
 
         if (expectedResult.equals(actualResult)) {
-            System.out.println("FizzBuzz! The numbers are divisible and by 4, and by 5!");
+            System.out.println("FizzBuzz! The numbers are divisible and by 3, and by 5!");
         } else {
             System.out.println("Test is FAILED");
         }
