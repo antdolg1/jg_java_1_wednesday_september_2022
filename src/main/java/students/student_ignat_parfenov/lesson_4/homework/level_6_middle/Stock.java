@@ -1,6 +1,10 @@
 package students.student_ignat_parfenov.lesson_4.homework.level_6_middle;
 
-//public class Stock {
+public class Stock {
+
+    public String name = "GOOG";
+
+}
 
 //    private String name = "GOOG.";
 //    private int initialValue = 10;
