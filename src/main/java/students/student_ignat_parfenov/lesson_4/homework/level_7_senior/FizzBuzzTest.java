@@ -14,7 +14,7 @@ public class FizzBuzzTest {
     void FizzBuzzTestIsDivisibleByThree() {
 
         FizzBuzz victim = new FizzBuzz();
-        int number = 5;
+        int number = 15;
         String expectedResult = "Fizz";
         String actualResult = victim.detect(number);
 
