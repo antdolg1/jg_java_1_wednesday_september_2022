@@ -13,7 +13,7 @@ public class FizzBuzzTest {
     void FizzBuzzTestIsDivisibleByThree() {
 
         FizzBuzz victim = new FizzBuzz();
-        int number = 10;
+        int number = 12;
         String expectedResult = "Fizz";
         String actualResult = victim.detect(number);
 
@@ -32,7 +32,7 @@ public class FizzBuzzTest {
         String actualResult = victim.detect(number);
 
         if (expectedResult.equals(actualResult)) {
-            System.out.println("Fizz! The number is divisible by 5!");
+            System.out.println("Buzz! The number is divisible by 5!");
         }   else {
             System.out.println("Test is FAILED");
         }
