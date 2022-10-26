@@ -13,7 +13,7 @@ class Tree {
     }
 
     void treeGrowth() {
-         double treeGrowthPerYear=1.3;
-         treeHeight=treeGrowthPerYear*treeAge;
+        double treeGrowthPerYear = 1.3;
+        treeHeight = treeGrowthPerYear * treeAge;
     }
 }
