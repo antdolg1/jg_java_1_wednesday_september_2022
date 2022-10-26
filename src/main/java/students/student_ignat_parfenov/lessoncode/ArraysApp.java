@@ -12,7 +12,10 @@ public class ArraysApp {
     vehicles[3] = "Motorbike";
     vehicles[4] = "Truck";
 
-        String vihicles2 =
+        String [] vihicles2 = {"Car", "Bus", "Truck"};
+
+
+
 
     }
 }
