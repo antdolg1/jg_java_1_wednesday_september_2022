@@ -13,7 +13,6 @@ public class Stock {
         this.minimumPrice = minimumPrice;
         this.maximumPrice = maximumPrice;
     }
-
 }
 
 
