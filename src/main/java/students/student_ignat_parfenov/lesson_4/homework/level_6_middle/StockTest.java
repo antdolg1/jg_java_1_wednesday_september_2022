@@ -7,6 +7,7 @@ public class StockTest {
         StockTest test = new StockTest();
         test.testSeventySeven();
         test.nineNinetyNineGreater();
+        test.nineNinetyNineOneGreater();
 
     }
 
@@ -36,6 +37,18 @@ public class StockTest {
             System.out.println("999 Greater test is OK");
         } else {
             System.out.println("999 Greater test is FAIL");
+        }
+    }
+    void nineNinetyNineOneGreater() {
+        int expectedResult = 999;
+        Stock Roche = new Stock("Roche", 10, 10, 10);
+        Roche.updatePrice(999);
+        Roche.updatePrice(1);
+        int realResult = Roche.updatePrice(Roche.maximumPrice);
+        if (realResult == expectedResult) {
+            System.out.println("999 Greater then 1 test = OK");
+        } else {
+            System.out.println("999 Greater then 1 test = FAIL");
         }
     }
 }
