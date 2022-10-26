@@ -14,6 +14,9 @@ public class StockTest {
 
     Roche.getPriceInformation();
     Roche.updatePrice(12);
+    Roche.getPriceInformation();
+    Roche.updatePrice(5);
+
 
     }
 }

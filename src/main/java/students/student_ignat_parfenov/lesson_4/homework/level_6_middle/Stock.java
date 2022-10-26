@@ -28,6 +28,9 @@ public class Stock {
             return currentCost = newPrice;
         }
     }
+
+    public void getPriceInformation() {
+    }
 }
 
 
