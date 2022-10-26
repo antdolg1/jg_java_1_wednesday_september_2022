@@ -1,7 +1,5 @@
 package students.student_maksims_cerkasovs.lesson_2.level_3;
 
-import students.student_oleg_gryazev.Math;
-
 import java.util.Scanner;
 
 public class Task10 {

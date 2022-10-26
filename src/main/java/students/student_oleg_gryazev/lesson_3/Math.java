@@ -1,15 +1,16 @@
-package students.student_oleg_gryazev;
+package students.student_oleg_gryazev.lesson_3;
 
- public class Math {
-     int summa(int var1, int var2) {
-         int result = var1 + var2;
-         return result;
-     }
-    int divide(int var3, int var4){
-         int result1 = var3/var4;
-         return result1;
-     }
- }
+public class Math {
+    int summa(int var1, int var2) {
+        int result = var1 + var2;
+        return result;
+    }
+
+    int divide(int var3, int var4) {
+        int result1 = var3 / var4;
+        return result1;
+    }
+}
 
  class TestMath{
      public static void main(String[] args) {

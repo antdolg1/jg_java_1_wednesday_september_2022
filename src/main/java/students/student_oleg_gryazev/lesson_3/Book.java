@@ -1,4 +1,4 @@
-package students.student_oleg_gryazev;
+package students.student_oleg_gryazev.lesson_3;
 class Book {
     String title;
     Book(String title) {
@@ -74,4 +74,5 @@ class BankAccount {
     int getMoneyAmount() {
         return this.moneyAmount;
     }
+
 }

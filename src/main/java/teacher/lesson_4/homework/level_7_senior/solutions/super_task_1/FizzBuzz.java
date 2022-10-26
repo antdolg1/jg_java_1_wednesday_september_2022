@@ -1,18 +1,8 @@
-package teacher.lesson_4.homework.level_7_senior.solutions.super_task_1;
 
-public class FizzBuzz {
+class Calculator {
 
-    public String detect(int number){
-        if (isDividedBy3(number) && isDividedBy5(number)) {
-			return "FizzBuzz";
-		}
-		if(isDividedBy3(number)) {
-			return "Fizz";
-		}
-		if(isDividedBy5(number)) {
-			return "Buzz";
-		}
-		return "" + number;
+    public int sum(int firstNumber, int secondNumber) {
+        return firstNumber + secondNumber;
     }
 
     private boolean isDividedBy3(int number) {
