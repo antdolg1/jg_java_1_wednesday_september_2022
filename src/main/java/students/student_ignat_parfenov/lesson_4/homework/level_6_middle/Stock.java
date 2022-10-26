@@ -2,32 +2,39 @@ package students.student_ignat_parfenov.lesson_4.homework.level_6_middle;
 
 public class Stock {
 
-    public String name = "GOOG";
-    int priceInformation;
-    int getPriceInformation;
+    String companyName;
+    int currentCost;
+    int minimumPrice;
+    int maximumPrice;
 
-}
+    public Stock(String companyName, int currentCost, int minimumPrice, int maximumPrice) {
+        this.companyName = companyName;
+        this.currentCost = currentCost;
+        this.minimumPrice = minimumPrice;
+        this.maximumPrice = maximumPrice;
+    }
 
-//    private String name = "GOOG.";
-//    private int initialValue = 10;
-//    private int currentValue;
-//    private int minimumCost;
-//    private int maximumCost;
+    int updatePrice(int newPrice) {
 
-//    public String name = "GOOG";
-//    public int google = 10;
+        if (minimumPrice < newPrice) {
+            currentCost = newPrice;
+            return minimumPrice;
+
+        } else if (newPrice > maximumPrice) {
+            maximumPrice = newPrice;
+            currentCost = newPrice;
+            return maximumPrice;
+        } else {
+            return currentCost = newPrice;
+        }
+    }
+
+        String getPriceInformation; {
+            System.out.println("Company " + companyName + " stock current price " + currentCost + " , minimum price " + minimumPrice + " , maximum price" + maximumPrice);
+        }
+    }
 
 
-//        Stock google = new Stock("GOOG", 10);
-//        String priceInformation = google.getPriceInformation();
-//        System.out.println(priceInformation);
 
-//        google.updatePrice(15);
-//        google.updatePrice(7);
-//        google.updatePrice(14);
 
-//        priceInformation = google.getPriceInformation();
-//        System.out.println(priceInformation);
 
-//    }
-//}
