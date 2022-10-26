@@ -14,23 +14,6 @@ public class Stock {
         this.maximumPrice = maximumPrice;
     }
 
-    int updatePrice(int newPrice) {
-
-        if (minimumPrice < newPrice) {
-            currentCost = newPrice;
-            return minimumPrice;
-
-        } else if (newPrice > maximumPrice) {
-            maximumPrice = newPrice;
-            currentCost = newPrice;
-            return maximumPrice;
-        } else {
-            return currentCost = newPrice;
-        }
-    }
-
-    public void getPriceInformation() {
-    }
 }
 
 
