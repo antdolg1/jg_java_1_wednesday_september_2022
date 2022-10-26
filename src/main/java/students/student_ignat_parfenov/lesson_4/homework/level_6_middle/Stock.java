@@ -7,9 +7,9 @@ public class Stock {
     int minimumPrice;
     int maximumPrice;
 
-    public Stock(String companyName, int currentCost, int minimumPrice, int maximumPrice) {
+    public Stock(String companyName, int price, int minimumPrice, int maximumPrice) {
         this.companyName = companyName;
-        this.currentCost = currentCost;
+        this.currentCost = price;
         this.minimumPrice = minimumPrice;
         this.maximumPrice = maximumPrice;
     }
