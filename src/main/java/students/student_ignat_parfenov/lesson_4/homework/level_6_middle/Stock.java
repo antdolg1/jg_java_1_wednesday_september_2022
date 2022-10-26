@@ -28,13 +28,7 @@ public class Stock {
             return currentCost = newPrice;
         }
     }
-
-        String getPriceInformation; {
-            System.out.println("Company " + companyName + " stock current price " + currentCost + " , minimum price " + minimumPrice + " , maximum price" + maximumPrice);
-        }
-    }
-
-
+}
 
 
 
