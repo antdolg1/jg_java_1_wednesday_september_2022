@@ -8,9 +8,13 @@
       </list>
     </option>
   </component>
+<<<<<<<<< Temporary merge branch 1
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_19" project-jdk-name="19" project-jdk-type="JavaSDK">
+=========
   <component name="ProjectRootManager" version="2" languageLevel="JDK_19" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+>>>>>>>>> Temporary merge branch 2
     <output url="file://$PROJECT_DIR$/out" />
-  </component>
+   </component> 
   <component name="ProjectType">
     <option name="id" value="jpab" />
   </component>
