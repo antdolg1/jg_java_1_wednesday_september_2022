@@ -10,11 +10,9 @@ public class RobotDemo {
         Robot robot1 = new Robot("Rider");
         robot1.sayHello();
         robot1.sayYourName();
-
     }
 
     public RobotDemo() {
-
     }
 }
 
