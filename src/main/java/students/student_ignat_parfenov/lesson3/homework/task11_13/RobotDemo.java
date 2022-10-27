@@ -11,10 +11,6 @@ public class RobotDemo {
         robot1.sayHello();
         robot1.sayYourName();
 
-        Robot robot2 = new Robot("Johny");
-        robot2.sayHello();
-        robot2.sayYourName();
-
     }
 
     public RobotDemo() {
