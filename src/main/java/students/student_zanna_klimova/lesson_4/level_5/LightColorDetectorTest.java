@@ -1,7 +1,7 @@
 package students.student_zanna_klimova.lesson_4.level_5;
 
-public class LightColorDetectorTest {
-    public static void main(String[] args) {
+ class LightColorDetectorTest {
+     static void main(String[] args) {
         LightColorDetectorTest test = new LightColorDetectorTest();
         test.lightColorViolet();
         test.lightColorBlue();

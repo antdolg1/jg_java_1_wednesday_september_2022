@@ -2,8 +2,8 @@ package students.student_zanna_klimova.lesson_4.level_2;
 
 import java.util.Scanner;
 
-public class EqualsOrDifferent {
-    public static void main(String[] args) {
+ class EqualsOrDifferent {
+     static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please, enter two whole numbers: ");
         int numberOne = scanner.nextInt();

@@ -2,8 +2,8 @@ package students.student_zanna_klimova.lesson_4.level_3;
 
 import java.util.Scanner;
 
-public class BiggestNumber {
-    public static void main(String[] args) {
+ class BiggestNumber {
+     static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Insert three whole numbers: ");
         int numberOne = scanner.nextInt();

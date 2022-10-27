@@ -1,8 +1,8 @@
 package students.student_zanna_klimova.lesson_4.level_5;
 
-public class LightColorDetector {
+ class LightColorDetector {
 
-    public String detect (int wavelength) {
+     String detect (int wavelength) {
         if ((wavelength >= 380) && (wavelength <= 449)) {
             return "Violet";
         } else if ((wavelength >= 450) && (wavelength <=494)) {

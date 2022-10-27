@@ -2,9 +2,9 @@ package students.student_zanna_klimova.lesson_4.level_3;
 
 import java.util.Scanner;
 
-public class IncreasingDecreasing {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+ class IncreasingDecreasing {
+     static void main(String[] args) {
+         Scanner scanner = new Scanner(System.in);
         System.out.println("Insert three whole numbers:");
         int numberOne = scanner.nextInt();
         int numberTwo = scanner.nextInt();

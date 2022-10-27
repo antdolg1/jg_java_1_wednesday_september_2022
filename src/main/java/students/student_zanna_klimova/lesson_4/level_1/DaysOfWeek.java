@@ -2,8 +2,8 @@ package students.student_zanna_klimova.lesson_4.level_1;
 
 import java.util.Scanner;
 
-public class DaysOfWeek {
-    public static void main(String[] args) {
+ class DaysOfWeek {
+     static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Inset number of week: ");
         int number = scanner.nextInt();

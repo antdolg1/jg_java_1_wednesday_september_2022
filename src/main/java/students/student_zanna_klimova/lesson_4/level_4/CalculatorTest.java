@@ -1,7 +1,7 @@
 package students.student_zanna_klimova.lesson_4.level_4;
 
-public class CalculatorTest {
-    public static void main(String[] args) {
+ class CalculatorTest {
+     static void main(String[] args) {
         CalculatorTest calculatorTest = new CalculatorTest();
         calculatorTest.sumTest();
         calculatorTest.subtractionTest();
@@ -17,7 +17,7 @@ public class CalculatorTest {
         // по аналогии реализуйте тесты для остальных методов
     }
 
-    public void sumTest() {
+     void sumTest() {
         int firstNumber = 10;  // подготавливаем тестовые данные
         int secondNumber = 5;  // подготавливаем тестовые данные
         int expectedResult = 15;  // подготавливаем тестовые данные
@@ -30,7 +30,7 @@ public class CalculatorTest {
         }
     }
 
-    public void subtractionTest() {
+     void subtractionTest() {
         int firstNumber = 10;  // подготавливаем тестовые данные
         int secondNumber = 5;  // подготавливаем тестовые данные
         int expectedResult = 6;  // подготавливаем тестовые данные
@@ -43,7 +43,7 @@ public class CalculatorTest {
         }
     }
 
-    public void multiplicationTest() {
+     void multiplicationTest() {
         int firstNumber = 10;  // подготавливаем тестовые данные
         int secondNumber = 5;  // подготавливаем тестовые данные
         int expectedResult = 50;  // подготавливаем тестовые данные
@@ -56,7 +56,7 @@ public class CalculatorTest {
         }
     }
 
-    public void divisionTest() {
+     void divisionTest() {
         int firstNumber = 10;  // подготавливаем тестовые данные
         int secondNumber = 5;  // подготавливаем тестовые данные
         int expectedResult = 2;  // подготавливаем тестовые данные
@@ -69,7 +69,7 @@ public class CalculatorTest {
         }
     }
 
-    public void isEvenTest() {
+     void isEvenTest() {
         int number = 19;  // подготавливаем тестовые данные
         boolean expectedResult = true;  // подготавливаем тестовые данные
         Calculator calculator = new Calculator();
@@ -81,7 +81,7 @@ public class CalculatorTest {
         }
     }
 
-    public void maxOfTwoNumbers() {
+     void maxOfTwoNumbers() {
         int firstNumber = 7;
         int secondNumber = 5;
         int expectedResult = 7;
@@ -94,7 +94,7 @@ public class CalculatorTest {
         }
     }
 
-    public void maxOfTwoNumbers2() {
+     void maxOfTwoNumbers2() {
         int firstNumber = 7;
         int secondNumber = 8;
         int expectedResult = 8;
@@ -107,7 +107,7 @@ public class CalculatorTest {
         }
     }
 
-    public void maxOfTwoNumbers3() {
+     void maxOfTwoNumbers3() {
         int firstNumber = 7;
         int secondNumber = 7;
         int expectedResult = 7;
@@ -120,7 +120,7 @@ public class CalculatorTest {
         }
     }
 
-    public void maxOfThreeNumbers() {
+     void maxOfThreeNumbers() {
         int firstNumber = 70;
         int secondNumber = 7;
         int thirdNumber = 9;
@@ -134,7 +134,7 @@ public class CalculatorTest {
         }
     }
 
-    public void maxOfThreeNumbers2() {
+     void maxOfThreeNumbers2() {
         int firstNumber = 70;
         int secondNumber = 79;
         int thirdNumber = 9;
@@ -148,7 +148,7 @@ public class CalculatorTest {
         }
     }
 
-    public void maxOfThreeNumbers3() {
+     void maxOfThreeNumbers3() {
         int firstNumber = 70;
         int secondNumber = 70;
         int thirdNumber = 9;
