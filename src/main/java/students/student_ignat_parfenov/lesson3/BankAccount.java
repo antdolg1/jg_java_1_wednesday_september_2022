@@ -13,18 +13,17 @@ public class BankAccount {
         this.accountNumber = accountNumber;
         this.moneyAmount = moneyAccount;
         this.country = country;
-
     }
 
-    void addMoneyToAccount(double moneyToAdd){
+    void addMoneyToAccount(double moneyToAdd) {
         moneyAmount += moneyToAdd;
     }
 
-    void withdrawMoneyToAccount(double moneyToWithdraw){
+    void withdrawMoneyToAccount(double moneyToWithdraw) {
         moneyAmount -= moneyToWithdraw;
     }
 
-    void checkTheBalance(){
+    void checkTheBalance() {
         System.out.println(owner + " current balance is = " + moneyAmount);
     }
 }
