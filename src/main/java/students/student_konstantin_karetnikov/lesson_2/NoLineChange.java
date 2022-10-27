@@ -1,4 +1,4 @@
-package students.student_konstantin_karetnikov;
+package students.student_konstantin_karetnikov.lesson_2;
 import java.util.Scanner;
 public class NoLineChange {
     public static void main(String[] args) {

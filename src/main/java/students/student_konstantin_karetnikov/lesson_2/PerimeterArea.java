@@ -1,4 +1,4 @@
-package students.student_konstantin_karetnikov;
+package students.student_konstantin_karetnikov.lesson_2;
 import java.util.Scanner;public class PerimeterArea {
     public static void main(String[] args) {
         double number;
