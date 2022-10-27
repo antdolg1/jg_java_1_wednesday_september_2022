@@ -17,7 +17,7 @@ public class BankAccount {
     }
 
     void addMoneyToAccount(double moneyToAdd){
-        moneyAmount += + moneyToAdd;
+        moneyAmount += moneyToAdd;
     }
 
     void withdrawMoneyToAccount(double moneyToWithdraw){
