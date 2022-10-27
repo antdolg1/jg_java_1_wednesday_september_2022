@@ -12,7 +12,7 @@ public class CalculatorTest {
         CalculatorTest.isEvenTest();
         CalculatorTest.maxNumberOfTwoNumbersTest();
         CalculatorTest.maxOfThreeNumbersTest();
-       CalculatorTest.FirstNumberTheBiggest();
+        CalculatorTest.FirstNumberTheBiggest();
         // по аналогии реализуйте тесты для остальных методов
 
     }
@@ -80,20 +80,21 @@ public class CalculatorTest {
         }
 
     }
-//IsEvenTest
-public void isEvenTest() {
 
-    int number = 2;
-   boolean expectedResult = true;  // подготавливаем тестовые данные
-    Calculator calculator = new Calculator();
-    boolean realResult = calculator.isEven(number);  // вызываем продакшен код, который хотим протестировать
-    if (realResult == expectedResult) {  // проверяем правильно ли сработал тестируемый код
-        System.out.println("Test = OK");
-    } else {
-        System.out.println("Test = FAIL");
+    //IsEvenTest
+    public void isEvenTest() {
+
+        int number = 2;
+        boolean expectedResult = true;  // подготавливаем тестовые данные
+        Calculator calculator = new Calculator();
+        boolean realResult = calculator.isEven(number);  // вызываем продакшен код, который хотим протестировать
+        if (realResult == expectedResult) {  // проверяем правильно ли сработал тестируемый код
+            System.out.println("Test = OK");
+        } else {
+            System.out.println("Test = FAIL");
+        }
+
     }
-
-}
 
     //maxNumberOfTwoNumbersTest
     public void maxNumberOfTwoNumbersTest() {
@@ -110,7 +111,8 @@ public void isEvenTest() {
         }
 
     }
-//maxOfThreeNumbersTest
+
+    //maxOfThreeNumbersTest
     public void maxOfThreeNumbersTest() {
 
         int firstNumber = 2;
@@ -130,7 +132,7 @@ public void isEvenTest() {
     }
 //- первое число больше второго и третьего
 
-    public void firstNumberTheBiggestTest(){
+    public void firstNumberTheBiggestTest() {
 
         int firstNumber = 4;
         int secondNumber = 2;
@@ -147,8 +149,6 @@ public void isEvenTest() {
         }
 
     }
-
-
 
 
 }
