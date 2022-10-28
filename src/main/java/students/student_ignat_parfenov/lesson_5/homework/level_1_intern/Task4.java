@@ -5,7 +5,7 @@ public class Task4 {
     class ArrayDefinition4 {
 
         public static void main(String[] args) {
-            int[] numbers = new {1, 2, 3};
+            int[] numbers = {1, 2, 3};
         }
     }
 }
