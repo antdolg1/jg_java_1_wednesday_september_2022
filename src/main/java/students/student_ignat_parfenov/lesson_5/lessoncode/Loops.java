@@ -1,5 +1,7 @@
 package students.student_ignat_parfenov.lesson_5.lessoncode;
 
+import java.util.Scanner;
+
 public class Loops {
 
     public static void main(String[] args) {
@@ -15,9 +17,12 @@ public class Loops {
             System.out.println("Hello! Value is " + i);
         }
 
-        do {
-            System.out.println("Hello! Values is " + userNumberValue);
-            userNumberValue++;
-        } while (userNumberValue <= 10);
+//        do {
+//            System.out.println("Hello! Values is " + userNumberValue);
+//            userNumberValue++;
+//        } while (userNumberValue <= 10);
+
+        Scanner scanner = new Scanner(System.in);
+
     }
 }
