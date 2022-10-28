@@ -9,5 +9,18 @@ public class IncreaseDecreaseIntValue {
         System.out.println("Number value is " + number);
         number += 1;
         System.out.println("Number value is " + number);
+        number++;
+        System.out.println("Number value is " + number);
+
+        number++;
+        number++;
+        number++;
+        number++;
+        number++;
+        System.out.println("Number value is " + number);
+
+        number--;
+        System.out.println("Number value is " + number);
+
     }
 }
