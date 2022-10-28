@@ -4,6 +4,11 @@ public class Loops {
 
     public static void main(String[] args) {
 
+        int userNumberValue = 0;
 
+        while (userNumberValue < 10) {
+            System.out.println("Hello! Value is " + userNumberValue + "\n");
+            userNumberValue ++;
+        }
     }
 }
