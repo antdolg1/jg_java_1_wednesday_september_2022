@@ -34,15 +34,26 @@ public class Calculator {
 
     }
 
-    static void isEven(int realResult) {
+    public static boolean isEven(int realResult) {
         if (realResult % 2 == 0) {
             System.out.println("The number it is even - " + true);
-        } else
+        } else {
             System.out.println("The number it is not even - " + false);
 
+        }
+
+        return false;
     }
 
     public void maxTest() {
+
     }
+
+    public void maxNumber(int firstNunber, int secondNumber, int expectedNumber) {
+
+
+
+    }
+
 }
 

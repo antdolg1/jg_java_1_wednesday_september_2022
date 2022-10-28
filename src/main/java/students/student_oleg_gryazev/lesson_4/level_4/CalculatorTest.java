@@ -58,7 +58,7 @@ public class CalculatorTest {
                     calculator.maxTest();{
                         firstNumber = 33;
                         secondNumber = 124;
-                    expectedResult = 214;
+                    expectedResult = 14;
 
                     if (firstNumber > secondNumber && firstNumber > expectedResult) {
                         System.out.println("First");
