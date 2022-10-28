@@ -11,8 +11,12 @@ public class CalculatorTest {
         CalculatorTest.divisionTest();
         CalculatorTest.isEvenTest();
         CalculatorTest.maxNumberOfTwoNumbersTest();
-        CalculatorTest.maxOfThreeNumbersTest();
-        CalculatorTest.FirstNumberTheBiggest();
+        CalculatorTest.biggestOfThreeNumbersTest();
+        CalculatorTest.firstNumberTheBiggestTest();
+        CalculatorTest.secondNumberTheBiggestTest();
+        CalculatorTest.thirdNumberTheBiggestTest();
+        CalculatorTest.firstAndSecondEqualBiggestTest();
+        CalculatorTest.allEqualsTest();
         // по аналогии реализуйте тесты для остальных методов
 
     }
@@ -48,7 +52,6 @@ public class CalculatorTest {
     }
 
     //multiplication test
-
     public void multiplicationTest() {
 
         int firstNumber = 10;  // подготавливаем тестовые данные
@@ -112,16 +115,15 @@ public class CalculatorTest {
 
     }
 
-    //maxOfThreeNumbersTest
-    public void maxOfThreeNumbersTest() {
+    //biggestOfThreeNumbersTest
+    public void biggestOfThreeNumbersTest() {
 
         int firstNumber = 2;
         int secondNumber = 4;
         int thirdNumber = 5;
-
         int expectedResult = 5;
         Calculator calculator = new Calculator();
-        int realResult = calculator.maxOfThreeNumbers(firstNumber, secondNumber, thirdNumber);
+        int realResult = calculator.biggestOfThreeNumbers(firstNumber, secondNumber, thirdNumber);
 
         if (realResult == expectedResult) {
             System.out.println("Test = OK");
@@ -130,14 +132,13 @@ public class CalculatorTest {
         }
 
     }
-//- первое число больше второго и третьего
 
+    //- первое число больше второго и третьего
     public void firstNumberTheBiggestTest() {
 
         int firstNumber = 4;
         int secondNumber = 2;
         int thirdNumber = 3;
-
         int expectedResult = 4;
         Calculator calculator = new Calculator();
         int realResult = calculator.firstNumberTheBiggest(firstNumber, secondNumber, thirdNumber);
@@ -150,5 +151,77 @@ public class CalculatorTest {
 
     }
 
+    //второе число больше первого и третьего
+    public void secondNumberTheBiggestTest() {
+
+        int firstNumber = 2;
+        int secondNumber = 4;
+        int thirdNumber = 3;
+        int expectedResult = 4;
+        Calculator calculator = new Calculator();
+        int realResult = calculator.secondNumberTheBiggest(firstNumber, secondNumber, thirdNumber);
+
+        if (realResult == expectedResult) {
+            System.out.println("Test = OK");
+        } else {
+            System.out.println("Test = FAIL");
+        }
+
+    }
+
+    // третье число больше первого и второго
+    public void thirdNumberTheBiggestTest() {
+
+        int firstNumber = 1;
+        int secondNumber = 2;
+        int thirdNumber = 4;
+        int expectedResult = 4;
+        Calculator calculator = new Calculator();
+        int realResult = calculator.thirdNumberTheBiggest(firstNumber, secondNumber, thirdNumber);
+
+        if (realResult == expectedResult) {
+            System.out.println("Test = OK");
+        } else {
+            System.out.println("Test = FAIL");
+        }
+
+    }
+
+    //первые два равны и больше третьего
+    public void firstAndSecondEqualBiggestTest() {
+
+        int firstNumber = 4;
+        int secondNumber = 4;
+        int thirdNumber = 3;
+        int expectedResult = 4;
+        Calculator calculator = new Calculator();
+        int realResult = calculator.firstAndSecondEqualBiggest(firstNumber, secondNumber, thirdNumber);
+
+        if (realResult == expectedResult) {
+            System.out.println("Test = OK");
+        } else {
+            System.out.println("Test = FAIL");
+        }
+
+    }
+
+    // три числа равны
+    public void allEqualsTest() {
+
+        int firstNumber = 4;
+        int secondNumber = 2;
+        int thirdNumber = 3;
+
+        int expectedResult = 4;
+        Calculator calculator = new Calculator();
+        int realResult = calculator.allEquals(firstNumber, secondNumber, thirdNumber);
+
+        if (realResult == expectedResult) {
+            System.out.println("Test = OK");
+        } else {
+            System.out.println("Test = FAIL");
+        }
+
+    }
 
 }
