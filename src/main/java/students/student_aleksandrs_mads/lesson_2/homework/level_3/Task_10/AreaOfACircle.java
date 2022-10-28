@@ -1,6 +1,5 @@
 package students.student_aleksandrs_mads.lesson_2.homework.level_3.Task_10;
 
-import java.awt.geom.Area;
 import java.util.Scanner;
 
 public class AreaOfACircle {
