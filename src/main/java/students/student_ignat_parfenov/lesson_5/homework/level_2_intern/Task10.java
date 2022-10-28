@@ -11,6 +11,6 @@ public class Task10 {
         integer[0] = 3;
         integer[1] = 5;
         integer[2] = 17;
-        System.out.println("The integers are: " + Arrays.toString(integer));
+        System.out.println("The integers array is: " + Arrays.toString(integer));
     }
 }
