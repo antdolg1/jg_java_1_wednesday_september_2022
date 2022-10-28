@@ -5,8 +5,6 @@ class Robot {
     }
 
     void sayHello() {
-
         System.out.println("Hello!");
-
     }
 }

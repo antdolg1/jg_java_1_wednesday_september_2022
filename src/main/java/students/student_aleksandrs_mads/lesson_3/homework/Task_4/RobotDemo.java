@@ -5,9 +5,6 @@ class RobotDemo {
         Robot robot;
         robot = new Robot();
         robot.sayHello();
-
     }
-
-
 }
 

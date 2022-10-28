@@ -8,12 +8,6 @@ class RobotDemo {
         Robot robot2 = new Robot();
         robot2.sayHello();
         robot2.sayYourName();
-  
     }
-
-
-
-
-
-    }
+}
 

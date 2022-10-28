@@ -4,7 +4,5 @@ class RobotDemo {
     static void main(String[] args) {
         Robot robot;
         robot = new Robot();
-
-
     }
 }
