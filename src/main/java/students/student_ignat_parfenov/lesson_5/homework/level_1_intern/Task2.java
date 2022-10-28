@@ -5,8 +5,7 @@ public class Task2 {
     class ArrayDefinition2 {
 
         public static void main(String[] args) {
-            int numbers = new byte[10];
+            byte[] numbers = new byte[10];
         }
-
     }
 }
