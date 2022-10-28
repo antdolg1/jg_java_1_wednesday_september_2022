@@ -6,9 +6,9 @@ public class Loops {
 
         int userNumberValue = 0;
 
-        while (userNumberValue < 10) {
+        while (userNumberValue <= 10) {
             System.out.println("Hello! Value is " + userNumberValue + "\n");
-            userNumberValue ++;
+            userNumberValue++;
         }
     }
 }
