@@ -6,7 +6,7 @@ public class Task1 {
 
         public static void main(String[] args) {
 
-            int[] numbers = new int[];
+            int[] numbers = new int[5];
         }
     }
 }
