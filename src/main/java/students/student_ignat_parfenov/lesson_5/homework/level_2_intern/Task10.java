@@ -1,6 +1,5 @@
 package students.student_ignat_parfenov.lesson_5.homework.level_2_intern;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Task10 {
