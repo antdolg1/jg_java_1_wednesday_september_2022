@@ -24,5 +24,15 @@ public class Loops {
 
         Scanner scanner = new Scanner(System.in);
 
+//        do {
+//            System.out.println("Please enter number: ");
+//            userNumberValue = scanner.nextInt();
+//        } while (userNumberValue != 7);
+//        System.out.println("Got 7!!!");
+
+        for (int i = 0; i <= 100; i+=10) {
+            i++;
+            System.out.println(i);
+        }
     }
 }
