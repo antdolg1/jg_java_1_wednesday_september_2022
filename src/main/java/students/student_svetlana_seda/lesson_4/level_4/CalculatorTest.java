@@ -18,7 +18,6 @@ public class CalculatorTest {
         CalculatorTest.firstAndSecondEqualBiggestTest();
         CalculatorTest.allEqualsTest();
         // по аналогии реализуйте тесты для остальных методов
-
     }
 
     public void sumTest() {
@@ -68,7 +67,6 @@ public class CalculatorTest {
     }
 
     //division test
-
     public void divisionTest() {
 
         int firstNumber = 10;  // подготавливаем тестовые данные

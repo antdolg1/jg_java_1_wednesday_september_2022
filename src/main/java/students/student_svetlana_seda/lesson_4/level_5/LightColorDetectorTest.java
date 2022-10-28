@@ -9,7 +9,6 @@ public class LightColorDetectorTest {
 
         public void detectTest () {
 
-
             int waveLength = 600;
             String expectedResult = "Orange";
             LightColorDetector lightColorDetector = new LightColorDetector();
