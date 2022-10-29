@@ -7,7 +7,7 @@ public class Task12 {
     public static void main(String[] args) {
         int[] randomArray = new int[3];
         for (int i = 0; i < randomArray.length; i++) {
-            randomArray[i] = (int) (Math.random() * 10);
+            randomArray[i] = (int) (Math.random() * randomArray.length);
         }
 
         for (int i = 0; i < randomArray.length; i++) {
