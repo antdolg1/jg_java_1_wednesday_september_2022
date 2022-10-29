@@ -14,11 +14,12 @@ public class Task15 {
             System.out.println("Current random array: " + Arrays.toString(arrayElementPlusTwo));
             break;
         }
+        System.out.println("____________________________");
             int a = 2;
             arrayElementPlusTwo[0] += a;
             arrayElementPlusTwo[1] += a;
             arrayElementPlusTwo[2] += a;
-            System.out.println(Arrays.toString(arrayElementPlusTwo));
+            System.out.println("Current arrays elements plus 2: " + Arrays.toString(arrayElementPlusTwo));
     }
 }
 
