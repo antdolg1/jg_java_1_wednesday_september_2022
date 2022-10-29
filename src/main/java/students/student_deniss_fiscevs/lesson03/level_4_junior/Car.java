@@ -1,6 +1,7 @@
-package students.student_zanna_klimova.lesson_3.level_4;
+package students.student_deniss_fiscevs.lesson03.level_4_junior;
 
-public class Car {
+class Car {
+
     String model;
 
     Car(String newModel) {
@@ -10,4 +11,5 @@ public class Car {
     String getModel() {
         return this.model;
     }
+
 }

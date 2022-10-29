@@ -1,6 +1,7 @@
-package students.student_sergejs_kozinecs.lesson_3.level_3;
+package students.student_deniss_fiscevs.lesson03.level_3_junior;
 
-class RobotDemo {
+public class RobotDemo {
+
     public static void main(String[] args) {
 
         Robot robot1 = new Robot("Rider");

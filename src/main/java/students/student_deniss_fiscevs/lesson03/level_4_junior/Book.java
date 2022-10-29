@@ -1,6 +1,7 @@
-package students.student_igor_budnitski.lesson_3.homework.level_4.Task_14;
+package students.student_deniss_fiscevs.lesson03.level_4_junior;
 
 class Book {
+
     String title;
 
     Book(String bookTitle) {
@@ -10,4 +11,5 @@ class Book {
     String getTitle() {
         return this.title;
     }
+
 }

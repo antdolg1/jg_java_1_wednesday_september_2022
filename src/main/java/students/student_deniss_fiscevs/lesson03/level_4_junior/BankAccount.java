@@ -1,6 +1,7 @@
-package students.student_igor_budnitski.lesson_3.homework.level_4.Task_17;
+package students.student_deniss_fiscevs.lesson03.level_4_junior;
 
 class BankAccount {
+
     String ownerFirstName;
     String ownerLastName;
     int moneyAmount;
@@ -18,10 +19,11 @@ class BankAccount {
     }
 
     String getOwnerLastName() {
-        return this.ownerFirstName;
+        return this.ownerLastName;
     }
 
     int getMoneyAmount() {
         return this.moneyAmount;
     }
+
 }
