@@ -1,7 +1,6 @@
 package students.student_svetlana_seda.lesson_4.level_6;
 
 class StockDemo {
-
     public static void main(String[] args) {
 
         Stock microsoft = new Stock("Mic-o-stock", 666, 540, 999);

@@ -1,4 +1,5 @@
 package students.student_svetlana_seda.lesson_4.level_6;
+
 class StockTest {
     public static void main(String[] args) {
 
@@ -6,6 +7,7 @@ class StockTest {
         test.shouldCurrentChange();
 
     }
+
     void shouldCurrentChange() {
 
         public static void main (String[]args){
@@ -40,4 +42,7 @@ class StockTest {
 // последнее задание этого урока, признаюсь не допоняла, скопировала -  потом буду разбираться...
         //при его проверки - открывается class Calculator - выдает там ошибки, я их не понимаю - поэтому здесь ничего не могу проверить сейчас :(
     }
+
+}
+
 
