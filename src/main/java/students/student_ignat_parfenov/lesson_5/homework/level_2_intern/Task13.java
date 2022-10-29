@@ -9,7 +9,7 @@ public class Task13 {
         Random random = new Random();
         int[] randomArraySum = new int[3];
         for (int i = 0; i < randomArraySum.length; i++) {
-            randomArraySum[i] = random.nextInt(10);
+            randomArraySum[i] = random.nextInt(40);
             System.out.println(randomArraySum[i]);
         }
         int sum = arraySum(randomArraySum);
