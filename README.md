@@ -39,8 +39,8 @@
 #### Работа с домашними заданиями
 
 Чтобы загрузить свое решение и отправить его на проверку, пожалуйста, выполните следующие действия:
-1. Перед тем как начать выполнять каждое задание, убедитесь что вы находитесь в основной (`main`) ветке\
-   Для перехода в основую ветку выполните: `Git > Branches... > Remote Branches: origin/main > Checkout`
+1. Перед тем как начать выполнять каждое задание, убедитесь что вы находитесь в основной (`master`) ветке\
+   Для перехода в основую ветку выполните: `Git > Branches... > Remote Branches: origin/master > Checkout`
 
 2. Синхронизируйте основную ветку на вашем компьютере с возможными изменениями других участников проекта\
    Для синхронизации содержимого ветки выполните: `Git > Update Project > Merge incoming changes into the current branch`
@@ -63,6 +63,10 @@
 #### Записи лекций
 
 * [Лекция 1](https://www.youtube.com/watch?v=AnT4083gMz4)
+* [Лекция 2](https://www.youtube.com/watch?v=SAZJN7RmZts)
+* [Лекция 3](https://www.youtube.com/watch?v=I83bgS0rlYk)
+* [Лекция 4](https://www.youtube.com/watch?v=KQqXt9SpIhU)
+
 
 ---
 
@@ -83,7 +87,7 @@
 
 #### Обратная связь
 
-* [WhatsApp](https://chat.whatsapp.com/DLt1DIr87laCZALBaU6HpM)
+* [Telegram](https://t.me/+x0gSWBvTVj5jMDY0)
 
 ---
 
