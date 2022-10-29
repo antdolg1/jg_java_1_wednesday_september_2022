@@ -12,7 +12,7 @@ public class Task_13 {
         String intAString = Arrays.toString(numbers);
         System.out.println(intAString);
         int sum = numbers[0] + numbers[1] + numbers[2];
-        System.out.println(sum);
+        System.out.println("Sum of numbers is : " + sum);
 
     }
 }
