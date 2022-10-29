@@ -2,7 +2,7 @@ package students.student_svetlana_seda.lesson_4.level_1;
 
 import java.util.Scanner;
 
-public class PositiveNegative {
+class PositiveNegative {
 
     public static void main(String[] args) {
 

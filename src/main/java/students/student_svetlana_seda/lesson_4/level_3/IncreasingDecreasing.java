@@ -4,7 +4,7 @@ import students.student_vladislav_saksin.UsernameRequestOutput;
 
 import java.util.Scanner;
 
-public class IncreasingDecreasing {
+class IncreasingDecreasing {
 
     public static void main(String[] args) {
 

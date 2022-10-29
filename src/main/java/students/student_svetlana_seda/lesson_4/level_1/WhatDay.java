@@ -2,7 +2,7 @@ package students.student_svetlana_seda.lesson_4.level_1;
 
 import java.util.Scanner;
 
-public class WhatDay {
+class WhatDay {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Insert number of the day: ");

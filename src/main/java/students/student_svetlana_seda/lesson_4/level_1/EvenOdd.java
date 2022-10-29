@@ -2,7 +2,7 @@ package students.student_svetlana_seda.lesson_4.level_1;
 
 import java.util.Scanner;
 
-public class EvenOdd {
+class EvenOdd {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Insert the whole number: ");

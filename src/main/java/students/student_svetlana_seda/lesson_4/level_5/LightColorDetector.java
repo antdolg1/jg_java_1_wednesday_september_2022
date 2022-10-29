@@ -1,6 +1,6 @@
 package students.student_svetlana_seda.lesson_4.level_5;
 
-public class LightColorDetector {
+class LightColorDetector {
 
     public String detect(int waveLength) {
         String lightColor = null;

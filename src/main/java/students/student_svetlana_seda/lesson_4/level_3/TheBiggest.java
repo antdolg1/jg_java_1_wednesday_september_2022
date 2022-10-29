@@ -2,7 +2,7 @@ package students.student_svetlana_seda.lesson_4.level_3;
 
 import java.util.Scanner;
 
-public class TheBiggest {
+class TheBiggest {
 
     public static void main(String[] args) {
 

@@ -2,7 +2,7 @@ package students.student_svetlana_seda.lesson_4.level_2;
 
 import java.util.Scanner;
 
-public class TheSmallest {
+class TheSmallest {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

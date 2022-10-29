@@ -2,7 +2,7 @@ package students.student_svetlana_seda.lesson_4.level_2;
 
 import java.util.Scanner;
 
-public class TheBiggest {
+class TheBiggest {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Insert two whole numbers: ");
