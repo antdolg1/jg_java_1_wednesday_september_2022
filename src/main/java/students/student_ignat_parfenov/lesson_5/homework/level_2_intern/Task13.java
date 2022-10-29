@@ -11,11 +11,6 @@ public class Task13 {
         for (int i = 0; i < randomArraySum.length; i++) {
             randomArraySum[i] = random.nextInt(10);
             System.out.println(randomArraySum[i]);
-            int sum = 0;
-            for (int num : randomArraySum){
-                sum = sum + num;
-            }
-            System.out.println("Random array sum is: " + sum);
         }
     }
 }
