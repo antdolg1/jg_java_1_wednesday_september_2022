@@ -11,7 +11,7 @@ public class Task15 {
         int[] arrayElementPlusTwo = new int[3];
         for (int i = 0; i < arrayElementPlusTwo.length; i++) {
             arrayElementPlusTwo[i] = random.nextInt(20);
-            System.out.println(arrayElementPlusTwo[i]);
+            System.out.println("Current random array: " + Arrays.toString(arrayElementPlusTwo));
         }
 
         int a = 2;
