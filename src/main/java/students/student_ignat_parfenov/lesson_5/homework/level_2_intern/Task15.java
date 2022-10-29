@@ -12,11 +12,13 @@ public class Task15 {
         for (int i = 0; i < arrayElementPlusTwo.length; i++) {
             arrayElementPlusTwo[i] = random.nextInt(20);
             System.out.println("Current random array: " + Arrays.toString(arrayElementPlusTwo));
-            int a = 2;
-            arrayElementPlusTwo[i] += a;
-//            arrayElementPlusTwo[1] += a;
-//            arrayElementPlusTwo[2] += a;
-            System.out.println(Arrays.toString(arrayElementPlusTwo));
+            break;
         }
+            int a = 2;
+            arrayElementPlusTwo[0] += a;
+            arrayElementPlusTwo[1] += a;
+            arrayElementPlusTwo[2] += a;
+            System.out.println(Arrays.toString(arrayElementPlusTwo));
     }
 }
+
