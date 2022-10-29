@@ -1,11 +1,10 @@
-package students.student_svetlana_seda.lesson_2.level_2;
+package students.student_deniss_fiscevs.lesson02.level_2_intern;
 
-public class LoginService {
+public class Task_7 {
+
     public static void main(String[] args) {
 
         System.out.println("You can login!");
-
     }
 
 }
-
