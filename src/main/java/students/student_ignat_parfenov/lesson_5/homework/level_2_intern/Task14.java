@@ -8,14 +8,14 @@ public class Task14 {
     public static void main(String[] args) {
 
         Random random = new Random();
-        int[] mas3 = new int[3];
-        for (int i = 0; i < mas3.length; i++) {
-            mas3[i] = random.nextInt(20);
+        int[] masThree = new int[3];
+        for (int i = 0; i < masThree.length; i++) {
+            masThree[i] = random.nextInt(20);
         }
-        System.out.println("Random array is " + Arrays.toString(mas3));
+        System.out.println("Random array is " + Arrays.toString(masThree));
 
         double average = 0;
-        for (int j : mas3) {
+        for (int j : masThree) {
             average += j;
         }
         average /= 3;
