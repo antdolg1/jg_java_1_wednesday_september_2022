@@ -15,6 +15,6 @@ public class Task25 {
             System.out.print("Please input array number in the cell: " + "[" + userNumbers[i] + "] ");
             userNumbers[i] = scanner.nextInt();
         }
-        System.out.println("You input this array numbers: " + Arrays.toString(userNumbers));
+        System.out.println("Your entered array is: " + Arrays.toString(userNumbers));
     }
 }
