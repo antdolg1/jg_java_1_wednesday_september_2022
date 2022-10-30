@@ -6,7 +6,7 @@ public class Task_25 {
 
         public static void main(String[] args){
 
-            System.out.println("Введите длину одномерного массива:");
+            System.out.println("Введите длину массива:");
 
             Scanner keyScanner = new Scanner(System.in);
 
