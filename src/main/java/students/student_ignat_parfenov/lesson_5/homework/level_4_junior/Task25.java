@@ -15,6 +15,6 @@ public class Task25 {
             System.out.print("Please enter your array's numbers: " + "[" + userNumbers[i] + "]");
             userNumbers[i] = scanner.nextInt();
         }
-        System.out.println("Your entered array numbers are: " + Arrays.toString(userNumbers));
+        System.out.println("Your entered array is: " + Arrays.toString(userNumbers));
     }
 }
