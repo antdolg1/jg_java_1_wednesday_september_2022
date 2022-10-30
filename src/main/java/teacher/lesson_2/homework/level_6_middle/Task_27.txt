@@ -2,7 +2,7 @@
 
 teacher
     lesson_1
-        homework
+        students.student_jurij_hlebnikov.lesson_2.homework
             level_1
                 Task_1
                 Task_2
@@ -13,7 +13,7 @@ teacher
                 Task_5
                 ...
     lesson_2
-        homework
+        students.student_jurij_hlebnikov.lesson_2.homework
             level_1
                 Task_1
                 Task_2
