@@ -5,8 +5,21 @@ class ArrayUtilTest {
         ArrayUtilTest test = new ArrayUtilTest();
         test.shouldCreateArray();
         test.checkMinNumTest();
+        test.checkMaxNumTest();
     }
 
+    void checkMaxNumTest(){
+        int arrayMinNumber = 2;
+        ArrayUtil arrayUtil = new ArrayUtil();
+        int[] array = arrayUtil.createArray(3);
+        int realArrayMinNumber = arrayUtil.findMaxNumber(arrayUtil.fillArrayWithRandomNumber(array));
+        arrayUtil.printArrayToConsole(array);
+        if (arrayMinNumber == realArrayMinNumber) {
+            System.out.println("Array max number OK");
+        } else {
+            System.out.println("Array max number FAIL");
+        }
+    }
     void checkMinNumTest() {
         int arrayMinNumber = 1;
         ArrayUtil arrayUtil = new ArrayUtil();
