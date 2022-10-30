@@ -12,9 +12,9 @@ public class Task25 {
         int userArray = scanner.nextInt();
         int[] userNumbers = new int[userArray];
         for (int i = 0; i < userNumbers.length; i++) {
-            System.out.println("Please enter your array's numbers : " + "[" + userNumbers[i] + "]");
+            System.out.print("Please enter your array's numbers: " + "[" + userNumbers[i] + "]");
             userNumbers[i] = scanner.nextInt();
         }
-        System.out.println("Your entered array numbers are : " + Arrays.toString(userNumbers));
+        System.out.println("Your entered array numbers are: " + Arrays.toString(userNumbers));
     }
 }
