@@ -1,5 +1,6 @@
 package students.student_ignat_parfenov.lesson_5.homework.level_4_junior;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Task25 {
@@ -8,9 +9,11 @@ public class Task25 {
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("Please specify your array's length: ");
-        int i = scanner.nextInt();
-//        int[] userArray = new int[i];
-        System.out.print("Please enter your arrays numbers: " + scanner.nextInt(i));
-//        int maxValue = scanner.nextInt();
+        int userIndex = scanner.nextInt();
+        int[] userArray = new int[userIndex];
+        for (int i = 0; i < userIndex; i++) {
+            System.out.print("Please enter your arrays numbers: " + "[" + userArray[i] + "]");
+        }
+        System.out.println("Your entered array is: " + Arrays.toString(userArray));
     }
 }
