@@ -12,6 +12,5 @@ public class Task25 {
         int[] userArray = new int[i];
         System.out.print("Please enter your arrays numbers: " + userArray[i]);
         int maxValue = scanner.nextInt();
-
     }
 }
