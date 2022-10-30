@@ -9,7 +9,8 @@ public class Task25 {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Please specify your array's length: ");
         int i = scanner.nextInt();
-        System.out.println("Please enter ");
+        int[] userArray = new int[i];
+        System.out.print("Please enter your arrays numbers: " + userArray[i]);
         int maxValue = scanner.nextInt();
 
     }
