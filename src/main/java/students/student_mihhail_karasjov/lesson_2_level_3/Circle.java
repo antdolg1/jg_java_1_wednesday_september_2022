@@ -9,5 +9,6 @@ public class Circle {
         double radius = io.nextDouble();
         System.out.println("Perimeter is = " + (2 * radius * Math.PI));
         System.out.println("Area is = " + (Math.PI * radius * radius));
+
     }
 }
