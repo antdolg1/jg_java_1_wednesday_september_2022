@@ -9,11 +9,12 @@ public class Task25 {
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("Please specify your array's length: ");
-        int userIndex = scanner.nextInt();
-        int[] userArray = new int[userIndex];
-        for (int i = 0; i < userIndex; i++) {
-            System.out.print("Please enter your arrays numbers: " + "[" + userArray[i] + "]");
+        int userArray = scanner.nextInt();
+        int[] userNumbers = new int[userArray];
+        for (int i = 0; i < userNumbers.length; i++) {
+            System.out.println("Please input array number in the cell: " + "[" + userNumbers[i] + "]");
+            userNumbers[i] = scanner.nextInt();
         }
-        System.out.println("Your entered array is: " + Arrays.toString(userArray));
+        System.out.println("You input this array numbers: " + Arrays.toString(userNumbers));
     }
 }
