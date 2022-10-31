@@ -7,9 +7,9 @@ public class Task28 {
     public static void main(String[] args) {
 
         Random random = new Random();
-        int[] randArray = new int[5];
+        int[] randArray = new int[10];
         for (int i = 0; i < randArray.length; i++) {
-            randArray[i] = random.nextInt(67);
+            randArray[i] = random.nextInt(35);
             System.out.println(randArray[i]);
         }
         int minNum = randArray[0];
