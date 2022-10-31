@@ -2,7 +2,7 @@ package students.student_raivis_urbevics.lesson5_level2.task11;
 
 import java.util.Scanner;
 
-        class ArrayOfThreeNumbers2 {
+         class ArrayOfThreeNumbers2 {
         public static void main(String[] args) {
         System.out.println("Input the first number");
         System.out.println("Input the second number");
