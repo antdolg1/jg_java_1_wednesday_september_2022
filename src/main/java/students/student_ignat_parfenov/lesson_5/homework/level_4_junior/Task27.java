@@ -1,6 +1,5 @@
 package students.student_ignat_parfenov.lesson_5.homework.level_4_junior;
 
-import java.util.Arrays;
 import java.util.Random;
 
 class Task27 {
