@@ -8,13 +8,13 @@ class Task27 {
     public static void main(String[] args) {
 
         Random random = new Random();
-        int[] randomArraySum = new int[5];
-        for (int i = 0; i < randomArraySum.length; i++) {
-            randomArraySum[i] = random.nextInt(67);
-            System.out.println(randomArraySum[i]);
+        int[] randomArray = new int[5];
+        for (int i = 0; i < randomArray.length; i++) {
+            randomArray[i] = random.nextInt(67);
+            System.out.println(randomArray[i]);
         }
-        int maxNum = randomArraySum[0];
-        for (int j : randomArraySum) {
+        int maxNum = randomArray[0];
+        for (int j : randomArray) {
             if (j > maxNum)
                 maxNum = j;
         }
