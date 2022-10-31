@@ -3,7 +3,7 @@ package students.student_ignat_parfenov.lesson_5.homework.level_4_junior;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class ArrayNumbers {
+class Task26 {
 
     public static void main(String[] args) {
 
@@ -11,7 +11,7 @@ public class ArrayNumbers {
         Scanner scanner = new Scanner(System.in);
         int userArrayLength = scanner.nextInt();
         int[] userRandomArray = new int[userArrayLength];
-        ArrayNumbers arrayNumbers = new ArrayNumbers();
+        Task26 arrayNumbers = new Task26();
         arrayNumbers.randomNumber(userRandomArray);
         System.out.println("Your random array is: " + Arrays.toString(userRandomArray));
         }
