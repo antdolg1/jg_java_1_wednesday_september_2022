@@ -18,9 +18,3 @@ public class RobotDemo {
         thirdRobot.sayYourName();
     }
 }
-
-
-
-
-
-
