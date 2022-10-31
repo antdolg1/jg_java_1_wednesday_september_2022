@@ -1,9 +1,7 @@
 package students.student_raivis_urbevics.lesson4_level1.task2;
 
-import java.util.Scanner;
-
-public class NegativePositiveEquals {
-
+  import java.util.Scanner;
+    class NegativePositiveEquals {
 
     public static void main(String[] args) {
 
@@ -21,5 +19,3 @@ public class NegativePositiveEquals {
         }
     }
 }
-
-

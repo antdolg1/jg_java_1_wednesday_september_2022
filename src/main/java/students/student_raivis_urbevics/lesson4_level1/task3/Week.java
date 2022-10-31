@@ -2,7 +2,7 @@ package students.student_raivis_urbevics.lesson4_level1.task3;
 
 import java.util.Scanner;
 
-public class Week {
+    class Week {
     public static void main(String[] args) {
         System.out.println("Input the any number from 1 to 7");
         Scanner scanner = new Scanner(System.in);
@@ -30,16 +30,3 @@ public class Week {
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
