@@ -8,10 +8,10 @@ class LengthArray1 {
         Scanner scanner = new Scanner(System.in);
         int lengthOfArray = scanner.nextInt();
         int[] numbers = new int[lengthOfArray];
-        numbers[0] = 34;
-        numbers[1] = 56;
-        numbers[2] = 574;
-        numbers[3] = 0;
+        numbers[0] = ((int)(Math.random()*100));
+        numbers[1] = ((int)(Math.random()*100));
+        numbers[2] = ((int)(Math.random()*100));
+        numbers[3] = ((int)(Math.random()*100));
         System.out.println(numbers[0]);
         System.out.println(numbers[1]);
         System.out.println(numbers[2]);

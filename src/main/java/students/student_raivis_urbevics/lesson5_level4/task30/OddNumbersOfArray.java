@@ -1,16 +1,16 @@
 package students.student_raivis_urbevics.lesson5_level4.task30;
 
-        class OddNumbersOfArray {
+         class OddNumbersOfArray {
             public static void main(String[] args) {
                 int[] numbers = new int[8];
-                numbers[0] = 43;
-                numbers[1] = 65;
-                numbers[2] = 76;
-                numbers[3] = 34;
-                numbers[4] = 78;
-                numbers[5] = 53;
-                numbers[6] = 75;
-                numbers[7] = 89;
+                numbers[0] = ((int)(Math.random()*100));
+                numbers[1] = ((int)(Math.random()*100));
+                numbers[2] = ((int)(Math.random()*100));
+                numbers[3] = ((int)(Math.random()*100));
+                numbers[4] = ((int)(Math.random()*100));
+                numbers[5] = ((int)(Math.random()*100));
+                numbers[6] = ((int)(Math.random()*100));
+                numbers[7] = ((int)(Math.random()*100));
                 System.out.println(numbers[0]);
                 System.out.println(numbers[1]);
                 System.out.println(numbers[2]);

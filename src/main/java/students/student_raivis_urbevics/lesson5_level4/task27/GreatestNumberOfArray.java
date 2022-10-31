@@ -1,13 +1,13 @@
 package students.student_raivis_urbevics.lesson5_level4.task27;
 
-class GreatestNumberOfArray {
+ class GreatestNumberOfArray {
     public static void main(String[] args) {
         int[] numbers = new int[5];
-        numbers[0] = 34;
-        numbers[1] = 12;
-        numbers[2] = 65;
-        numbers[3] = 63;
-        numbers[4] = 76;
+        numbers[0] = (int)(Math.random()*100);
+        numbers[1] = (int)(Math.random()*100);
+        numbers[2] = (int)(Math.random()*100);
+        numbers[3] = (int)(Math.random()*100);
+        numbers[4] = (int)(Math.random()*100);
         System.out.println(numbers[0]);
         System.out.println(numbers[1]);
         System.out.println(numbers[2]);
