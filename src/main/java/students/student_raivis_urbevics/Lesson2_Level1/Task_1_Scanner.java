@@ -17,19 +17,6 @@ public class Task_1_Scanner{
         System.out.println(subtract);
         System.out.println(division);
         System.out.println(multiply);
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
 

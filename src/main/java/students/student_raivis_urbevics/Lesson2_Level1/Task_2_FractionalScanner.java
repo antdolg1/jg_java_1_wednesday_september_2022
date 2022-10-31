@@ -1,6 +1,5 @@
 package students.student_raivis_urbevics.Lesson2_Level1;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Task_2_FractionalScanner {
@@ -18,18 +17,5 @@ public class Task_2_FractionalScanner {
         System.out.println(subtract);
         System.out.println(division);
         System.out.println(multiply);
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }

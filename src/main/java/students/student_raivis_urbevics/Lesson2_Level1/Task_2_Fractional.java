@@ -1,10 +1,7 @@
 package students.student_raivis_urbevics.Lesson2_Level1;
-
-import java.sql.SQLOutput;
 import java.util.Scanner;
-
-public class Task_2_Fractional {
-    public static void main(String[] args) {
+        public class Task_2_Fractional {
+        public static void main(String[] args) {
         double n1=10.5;
         double n2=6.5;
         double sum=n1+n2;
@@ -15,12 +12,5 @@ public class Task_2_Fractional {
         System.out.println(subtract);
         System.out.println(division);
         System.out.println(multiply);
-
-
-
-
-
-
-
     }
 }
