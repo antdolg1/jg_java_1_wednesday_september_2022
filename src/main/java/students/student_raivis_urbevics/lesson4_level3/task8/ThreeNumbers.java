@@ -2,7 +2,7 @@ package students.student_raivis_urbevics.lesson4_level3.task8;
 
 import java.util.Scanner;
 
-public class ThreeNumbers {
+   class ThreeNumbers {
     public static void main(String[] args) {
         System.out.println("Input the first number");
         System.out.println("Input the second number");
@@ -19,13 +19,3 @@ public class ThreeNumbers {
         }
     }
 }
-
-
-
-
-
-
-
-
-
-

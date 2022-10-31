@@ -2,7 +2,7 @@ package students.student_raivis_urbevics.lesson4_level3.task9;
 
 import java.util.Scanner;
 
-public class Decrease {
+    class Decrease {
     public static void main(String[] args) {
         System.out.println("Input the first number");
         System.out.println("Input the second number");
@@ -25,5 +25,3 @@ public class Decrease {
         }
     }
 }
-
-

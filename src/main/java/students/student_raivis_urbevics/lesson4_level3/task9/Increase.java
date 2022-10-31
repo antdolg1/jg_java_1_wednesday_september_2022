@@ -2,7 +2,7 @@ package students.student_raivis_urbevics.lesson4_level3.task9;
 
 import java.util.Scanner;
 
-public class Increase {
+    class Increase {
     public static void main(String[] args) {
         System.out.println("Input the first number");
         System.out.println("Input the second number");
@@ -24,26 +24,8 @@ public class Increase {
             System.out.println(n1 + " " + n2 + " " + n3);
         }
           else if (n2 > n3 && n3 > n1) {
-            System.out.println(n2 + " " +n3 + " "+n1);
+            System.out.println(n2 + " " + n3 + " "+ n1);
 
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
