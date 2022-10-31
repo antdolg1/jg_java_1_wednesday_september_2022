@@ -1,8 +1,8 @@
-package students.student_stivens_veveris;
+package students.student_stivens_veveris.lesson2;
 
 import java.util.Scanner;
 
-public class lesson2_level1_task2 {
+public class Task2 {
 
     public static void main(String[] args) {
 
@@ -15,7 +15,6 @@ public class lesson2_level1_task2 {
         System.out.println("______________");
         System.out.println("User entered number: " + userNumber1);
 
-        Scanner scanner2 = new Scanner(System.in);
         System.out.println("Please, enter second number: ");
         userNumber2 = scanner.nextDouble();
         System.out.println("______________");

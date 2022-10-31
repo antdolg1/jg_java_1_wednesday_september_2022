@@ -1,4 +1,4 @@
-package students.student_stivens_veveris;
+package students.student_stivens_veveris.lesson2;
 
 public class SizeMatters {
 
