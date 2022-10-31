@@ -18,7 +18,7 @@ class Task27 {
             if (j > maxNum)
                 maxNum = j;
         }
-        System.out.println("Maximum number = " + maxNum);
+        System.out.println("Array maximum number = " + maxNum);
     }
 }
 
