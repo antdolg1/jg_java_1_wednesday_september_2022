@@ -8,16 +8,20 @@ public class Task27 {
 
 
         Random random = new Random();
-        int[] maxArrayElement = new int[15];
-        for (int i = 0; i < maxArrayElement.length; i++) {
-            maxArrayElement[i] = random.nextInt(65);
-            System.out.println(maxArrayElement[i]);
-            int maxNumber = 0;
-
-            if (maxNumber <= maxArrayElement[i]) {
-                maxNumber = maxArrayElement[i];
-                maxNumber = i;
+        int[] maximumNumber = new int[5];
+        for (int i = 0; i < maximumNumber.length; i++) {
+            maximumNumber[i] = random.nextInt(50);
+            System.out.println(maximumNumber[i]);
+        }
+        int max = 0;
+        for (int i = 0; i < maximumNumber.length; i++) {
+            if (maximumNumber[i] > max) {
+                max = maximumNumber[i];
+            }
+            for (int j = i; j < maximumNumber.length; j++) {
+                System.out.println(maximumNumber[j]);
             }
         }
     }
 }
+
