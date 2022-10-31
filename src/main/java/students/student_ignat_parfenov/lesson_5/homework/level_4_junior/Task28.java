@@ -7,7 +7,7 @@ public class Task28 {
     public static void main(String[] args) {
 
         Random random = new Random();
-        int[] randArray = new int[10];
+        int[] randArray = new int[8];
         for (int i = 0; i < randArray.length; i++) {
             randArray[i] = random.nextInt(35);
             System.out.println(randArray[i]);
