@@ -1,6 +1,6 @@
 package students.student_raivis_urbevics.lesson3_level3;
 
-public class Robot {
+   class Robot {
     String robotName;
 
     public void sayHello() {
@@ -11,7 +11,3 @@ public class Robot {
         System.out.println("My name is " + robotName);
     }
 }
-
-
-
-
