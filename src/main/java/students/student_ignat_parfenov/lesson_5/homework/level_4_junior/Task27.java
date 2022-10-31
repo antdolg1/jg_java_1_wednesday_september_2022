@@ -13,15 +13,6 @@ public class Task27 {
             maximumNumber[i] = random.nextInt(50);
             System.out.println(maximumNumber[i]);
         }
-        int max = 0;
-        for (int i = 0; i < maximumNumber.length; i++) {
-            if (maximumNumber[i] > max) {
-                max = maximumNumber[i];
-            }
-            for (int j = i; j < maximumNumber.length; j++) {
-                System.out.println(maximumNumber[j]);
-            }
-        }
     }
 }
 
