@@ -9,10 +9,3 @@ public class DogDemo {
         firstDog.changeColor("black");
     }
 }
-
-
-
-
-
-
-
