@@ -1,6 +1,6 @@
 package students.student_raivis_urbevics.lesson3_level4.Task16;
 
-public class Car {
+   class Car {
     String model;
 
     Car(String newModel) {
@@ -11,5 +11,3 @@ public class Car {
         return this.model;
     }
 }
-
-

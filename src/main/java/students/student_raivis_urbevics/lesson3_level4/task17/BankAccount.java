@@ -24,10 +24,3 @@ public class BankAccount {
         }
 
     }
-
-
-
-
-
-
-

@@ -1,6 +1,6 @@
 package students.student_raivis_urbevics.lesson3_level4.task14;
 
-public class Book {
+   class Book {
     String title;
 
     Book(String bookTitle) {
@@ -12,8 +12,3 @@ public class Book {
     }
 
 }
-
-
-
-
-
