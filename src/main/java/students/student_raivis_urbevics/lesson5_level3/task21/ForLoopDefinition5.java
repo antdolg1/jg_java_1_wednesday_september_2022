@@ -7,6 +7,3 @@ package students.student_raivis_urbevics.lesson5_level3.task21;
                     System.out.println(i);
             }
         }
-
-
-
