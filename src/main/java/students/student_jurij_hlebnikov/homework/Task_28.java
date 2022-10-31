@@ -5,10 +5,10 @@ import java.util.Arrays;
 public class Task_28 {
     public static void main(String[] args) {
 
-        int arrayLength = (int)(Math.random() * 50 + 1);
+        int arrayLength = (int) (Math.random() * 50 + 1);
         int[] array = new int[arrayLength];
 
-        for(int i = 0; i < arrayLength; i++){
+        for (int i = 0; i < arrayLength; i++) {
             array[i] = (int) (Math.random() * 50);
         }
 
