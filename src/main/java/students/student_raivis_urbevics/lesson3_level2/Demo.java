@@ -1,8 +1,7 @@
 package students.student_raivis_urbevics.lesson3_level2;
 
-public class Demo {
-    public static void main(String[] args) {
-
+        class Demo {
+        public static void main(String[] args) {
 
         String s = "Hello ";
         String str = "Java";
@@ -10,6 +9,3 @@ public class Demo {
         System.out.println(str1);
     }
 }
-
-
-
