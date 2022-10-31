@@ -1,6 +1,6 @@
 package students.student_raivis_urbevics.lesson4_level4;
 
-public class CalculatorTest {
+   class CalculatorTest {
     public static void main(String[] args) {
         CalculatorTest calculatorTest = new CalculatorTest();
         calculatorTest.sumTest();
@@ -107,23 +107,3 @@ public class CalculatorTest {
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

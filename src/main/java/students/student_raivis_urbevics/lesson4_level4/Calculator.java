@@ -1,6 +1,6 @@
 package students.student_raivis_urbevics.lesson4_level4;
 
-public class Calculator {
+  class Calculator {
 
 
     public int sum(int firstNumber, int secondNumber) {
@@ -46,75 +46,3 @@ public class Calculator {
         return  num3;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
