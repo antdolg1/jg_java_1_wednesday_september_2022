@@ -2,7 +2,7 @@ package students.student_raivis_urbevics.lesson4_level2.task7;
 
 import java.util.Scanner;
 
-public class SameOrNot {
+    class SameOrNot {
     public static void main(String[] args) {
         System.out.println("Input the first number");
         System.out.println("Input the second number");
@@ -17,5 +17,3 @@ public class SameOrNot {
         }
     }
 }
-
-
