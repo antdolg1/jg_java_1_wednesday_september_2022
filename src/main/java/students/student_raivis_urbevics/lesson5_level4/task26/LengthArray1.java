@@ -2,7 +2,7 @@ package students.student_raivis_urbevics.lesson5_level4.task26;
 
 import java.util.Scanner;
 
-class LengthArray1 {
+  class LengthArray1 {
     public static void main(String[] args) {
         System.out.println("Please enter the length of array");
         Scanner scanner = new Scanner(System.in);

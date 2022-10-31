@@ -1,6 +1,6 @@
 package students.student_raivis_urbevics.lesson5_level4.task30;
 
-         class OddNumbersOfArray {
+          class OddNumbersOfArray {
             public static void main(String[] args) {
                 int[] numbers = new int[8];
                 numbers[0] = ((int)(Math.random()*100));

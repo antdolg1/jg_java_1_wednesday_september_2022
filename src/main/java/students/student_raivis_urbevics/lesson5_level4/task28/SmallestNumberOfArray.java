@@ -1,6 +1,6 @@
 package students.student_raivis_urbevics.lesson5_level4.task28;
 
-     class SmallestNumberOfArray {
+        class SmallestNumberOfArray {
          public static void main(String[] args) {
              int[] numbers = new int[4];
              numbers[0] = ((int)(Math.random()*100));

@@ -2,7 +2,7 @@ package students.student_raivis_urbevics.lesson5_level4.task29;
 
 import java.util.Arrays;
 
- class EvenNumbersOfArray {
+  class EvenNumbersOfArray {
     public static void main(String[] args) {
         int[] numbers = new int[6];
         numbers[0] = ((int)(Math.random()*100));

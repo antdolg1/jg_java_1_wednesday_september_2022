@@ -1,6 +1,6 @@
 package students.student_raivis_urbevics.lesson5_level4.task27;
 
- class GreatestNumberOfArray {
+   class GreatestNumberOfArray {
     public static void main(String[] args) {
         int[] numbers = new int[5];
         numbers[0] = (int)(Math.random()*100);
