@@ -11,13 +11,3 @@ public class Task_10 {
         System.out.println("Area is = " + (Math.PI * radius * radius));
     }
 }
-
-
-
-
-
-
-
-
-
-

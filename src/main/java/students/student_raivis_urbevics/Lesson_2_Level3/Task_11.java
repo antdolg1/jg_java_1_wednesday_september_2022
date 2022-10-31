@@ -1,6 +1,4 @@
 package students.student_raivis_urbevics.Lesson_2_Level3;
-
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Task_11 {
@@ -13,19 +11,5 @@ public class Task_11 {
         System.out.println("Input the third number");
         int n3=scanner.nextInt();
         System.out.println((n1+n2+n3)/3);
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
-
