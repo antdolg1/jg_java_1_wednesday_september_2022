@@ -1,8 +1,8 @@
 package students.student_raivis_urbevics.lesson4_level5.task16;
-public class LightColorDetector {
+   class LightColorDetector {
 
     String detect(int wavelength) {
-        String lightColor =null;
+        String lightColor = null;
         if (wavelength >= 380 && wavelength <= 449) {
             lightColor = "Violet";
         } else if (wavelength >= 450 && wavelength <= 494) {
@@ -20,53 +20,7 @@ public class LightColorDetector {
         }
         return lightColor;
     }
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

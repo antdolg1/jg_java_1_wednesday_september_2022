@@ -2,7 +2,7 @@ package students.student_raivis_urbevics.lesson4_level5.task16;
 
 import java.util.Scanner;
 
-public class ColorDetector {
+    class ColorDetector {
     public static void main(String[] args) {
         System.out.println("Please enter the wavelength");
         Scanner scanner=new Scanner(System.in);

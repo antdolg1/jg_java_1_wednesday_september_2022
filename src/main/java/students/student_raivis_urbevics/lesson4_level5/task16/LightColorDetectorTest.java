@@ -1,12 +1,10 @@
 package students.student_raivis_urbevics.lesson4_level5.task16;
 
-public class LightColorDetectorTest {
+   class LightColorDetectorTest {
     public static void main(String[] args) {
         LightColorDetectorTest lightColorDetectorTest = new LightColorDetectorTest();
         lightColorDetectorTest.detectorTest();
     }
-
-
 
         public void detectorTest() {
             int waveLength = 565;
@@ -22,23 +20,3 @@ public class LightColorDetectorTest {
             }
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
