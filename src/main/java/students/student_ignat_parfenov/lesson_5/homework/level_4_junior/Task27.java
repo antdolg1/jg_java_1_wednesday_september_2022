@@ -13,6 +13,8 @@ public class Task27 {
             maximumNumber[i] = random.nextInt(50);
             System.out.println(maximumNumber[i]);
         }
+        int max = 0;
+
     }
 }
 
