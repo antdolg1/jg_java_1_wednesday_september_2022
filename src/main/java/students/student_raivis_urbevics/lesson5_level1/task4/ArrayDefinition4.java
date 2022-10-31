@@ -5,6 +5,4 @@ package students.student_raivis_urbevics.lesson5_level1.task4;
                int[] numbers = new int[3];
 
            }
-
        }
-

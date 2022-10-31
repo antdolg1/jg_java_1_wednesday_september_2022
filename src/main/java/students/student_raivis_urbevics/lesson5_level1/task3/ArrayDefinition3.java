@@ -5,12 +5,3 @@ package students.student_raivis_urbevics.lesson5_level1.task3;
                     int[] numbers = new int[10];
                 }
             }
-
-
-
-
-
-
-
-
-

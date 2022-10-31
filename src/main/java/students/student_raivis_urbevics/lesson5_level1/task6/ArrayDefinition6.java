@@ -6,6 +6,3 @@ package students.student_raivis_urbevics.lesson5_level1.task6;
 
           }
       }
-
-
-
