@@ -32,17 +32,3 @@ package students.student_raivis_urbevics.lesson4_level6.task17;
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
