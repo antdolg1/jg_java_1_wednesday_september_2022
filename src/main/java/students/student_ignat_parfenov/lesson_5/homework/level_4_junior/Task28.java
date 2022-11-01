@@ -3,7 +3,7 @@ package students.student_ignat_parfenov.lesson_5.homework.level_4_junior;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Task28 {
+class Task28 {
 
     public static void main(String[] args) {
 
