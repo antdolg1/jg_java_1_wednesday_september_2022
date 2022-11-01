@@ -12,12 +12,12 @@ class ArrayNumbers {
         int[] userNumbers = new int[arrayIndex];
         ArrayNumbers arrayNumbers = new ArrayNumbers();
         arrayNumbers.randomNumber(userNumbers);
-        System.out.println("Array is: "+Arrays.toString(userNumbers));
+        System.out.println("Array is: " + Arrays.toString(userNumbers));
     }
 
     void randomNumber(int[] userNumbers) {
         for (int i = 0; i < userNumbers.length; i++) {
-            userNumbers[i] = (int) (Math.random() * userNumbers.length);
+            userNumbers[i] = (int) (Math.random() * 100);
         }
     }
 }

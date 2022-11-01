@@ -12,7 +12,7 @@ class UserArrayNumbers {
         int arrayIndex = scanner.nextInt();
         int[] userNumbers = new int[arrayIndex];
         for (int i = 0; i < userNumbers.length; i++) {
-            System.out.println("Please input array number in the cell: " + "[" + userNumbers[i] + "]");
+            System.out.println("Please input array number in the cell: " + "[" + i + "]");
             userNumbers[i] = scanner.nextInt();
         }
         System.out.println("You input this array numbers: " + Arrays.toString(userNumbers));

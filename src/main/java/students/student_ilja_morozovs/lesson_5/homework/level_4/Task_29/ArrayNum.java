@@ -17,7 +17,7 @@ class ArrayNum {
 
     void arrayRandomNumbers(int[] userNumbers) {
         for (int i = 0; i < userNumbers.length; i++) {
-            userNumbers[i] = (int) (Math.random() * userNumbers.length);
+            userNumbers[i] = (int) (Math.random() * 100);
         }
     }
 

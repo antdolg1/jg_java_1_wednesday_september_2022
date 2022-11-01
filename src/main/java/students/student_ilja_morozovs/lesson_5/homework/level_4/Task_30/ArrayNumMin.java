@@ -17,7 +17,7 @@ class ArrayNumMin {
 
     void arrayRandomNumbers(int[] userNumbers) {
         for (int i = 0; i < userNumbers.length; i++) {
-            userNumbers[i] = (int) (Math.random() * userNumbers.length);
+            userNumbers[i] = (int) (Math.random() * 100);
         }
     }
 
@@ -28,7 +28,7 @@ class ArrayNumMin {
         for (int numbers : userNumbers) {
             if (numbers % 2 != 0) {
                 notEvenNumber = numbers;
-                System.out.print(notEvenNumber);
+                System.out.print(" " + notEvenNumber + " ");
             }
         }
         System.out.print("]");
