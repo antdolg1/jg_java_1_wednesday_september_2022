@@ -12,10 +12,10 @@ class Task29 {
         System.out.print("Please input your array length: ");
         Scanner scanner = new Scanner(System.in);
         int volume = scanner.nextInt();
-        int[] evenNumbers = new int[volume];
-        for (int i = 0; i < evenNumbers.length; i++) {
-            evenNumbers[i] = random.nextInt(50);
-            System.out.println(evenNumbers[i]);
+        int[] numbers = new int[volume];
+        for (int i = 0; i < numbers.length; i++) {
+            numbers[i] = random.nextInt(50);
+            System.out.println(numbers[i]);
         }
     }
 }
