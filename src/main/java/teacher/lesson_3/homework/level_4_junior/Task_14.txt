@@ -4,10 +4,10 @@
 
 class Book {
 
-    String title
+    String title;
 
     Book(String bookTitle) {
-        this.title = newTitle
+        this.title = bookTitle;
     }
 
     String getTitle() {
