@@ -1,4 +1,4 @@
-package students.student_konstantin_karetnikov;
+package students.student_konstantin_karetnikov.lesson_3;
 
 import java.util.Scanner;
 
