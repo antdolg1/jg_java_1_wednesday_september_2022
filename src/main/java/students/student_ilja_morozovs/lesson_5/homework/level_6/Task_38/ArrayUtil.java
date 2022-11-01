@@ -40,7 +40,7 @@ class ArrayUtil {
 //        array[1]=4;
 //        array[2]=10;
         for (int i = 0; i < array.length; i++) {
-            array[i] = (int) (Math.random() * array.length);
+            array[i] = (int) (Math.random() * 100);
         }
         return array;
     }
