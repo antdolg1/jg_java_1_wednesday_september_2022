@@ -21,7 +21,7 @@ public class Task30 {
     void randomArray(int[] cloneArray) {
         for (int i = 0; i < cloneArray.length; i++) {
             Random random = new Random();
-            cloneArray[i] = random.nextInt(50);
+            cloneArray[i] = random.nextInt(99);
         }
     }
 
