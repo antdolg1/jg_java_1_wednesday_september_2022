@@ -1,4 +1,4 @@
-package students.student_aleksandrs_mads.lesson_3.homework.Task_3;
+package students.student_aleksandrs_mads.lesson_3.homework.level_1.Task_3;
 
 class Robot {
     Robot() {
