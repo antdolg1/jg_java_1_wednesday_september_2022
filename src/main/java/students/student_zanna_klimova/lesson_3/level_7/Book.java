@@ -1,6 +1,6 @@
 package students.student_zanna_klimova.lesson_3.level_7;
 
-public class Book {
+class Book {
     String title;
     String author;
     boolean isBooked;

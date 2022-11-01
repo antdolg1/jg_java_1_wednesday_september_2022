@@ -1,6 +1,6 @@
 package students.student_zanna_klimova.lesson_3.level_7;
 
-public class BankAccount {
+ class BankAccount {
     String owner;
     int money;
 
