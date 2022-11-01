@@ -1,5 +1,6 @@
 package students.student_ignat_parfenov.lesson_5.homework.level_4_junior;
 
+
 import java.util.Random;
 import java.util.Scanner;
 
@@ -16,20 +17,8 @@ class Task29 {
             evenNumbers[i] = random.nextInt(50);
             System.out.println(evenNumbers[i]);
         }
-
-        int maxNum = evenNumbers[0];
-        for (int j : evenNumbers) {
-            if (j > maxNum)
-                maxNum = j;
-        }
-
-        for (int j : evenNumbers) {
-            if (j % 2 == 0) {
-                System.out.println(evenNumbers[j]);
-            }
-        }
-        System.out.println("]");
     }
 }
+
 
 
