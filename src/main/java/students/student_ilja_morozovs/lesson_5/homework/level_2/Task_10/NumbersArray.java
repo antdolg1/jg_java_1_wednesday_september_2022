@@ -4,11 +4,11 @@ class NumbersArray {
 
     public static void main(String[] args) {
 
-        int[] userNumbers= new int[3];
+        int[] userNumbers = new int[3];
 
-        userNumbers[0]=1;
-        userNumbers[1]=2;
-        userNumbers[2]=3;
+        userNumbers[0] = 1;
+        userNumbers[1] = 2;
+        userNumbers[2] = 3;
 
         System.out.println(userNumbers[0]);
         System.out.println(userNumbers[1]);

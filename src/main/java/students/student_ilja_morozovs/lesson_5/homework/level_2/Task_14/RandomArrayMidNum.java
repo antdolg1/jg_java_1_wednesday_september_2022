@@ -16,7 +16,7 @@ class RandomArrayMidNum {
     double randomArrayMid(int[] numbers) {
         double randomNum = 0.0;
         for (int randomNumbers : numbers) {
-            randomNumbers = (int) (Math.random() * numbers.length);
+            randomNumbers = (int) (Math.random() * 100);
             randomNum += randomNumbers;
             System.out.println("[" + randomNumbers + "]");
         }

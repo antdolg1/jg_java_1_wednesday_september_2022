@@ -16,8 +16,8 @@ class RandomNumArraySum {
     int arrayRandomNumbers(int[] numbers) {
         int randomNumberSum = 0;
         for (int randomNumbers : numbers) {
-            randomNumbers = (int) (Math.random() * numbers.length);
-            System.out.println("["+randomNumbers+"]");
+            randomNumbers = (int) (Math.random() * 100);
+            System.out.println("[" + randomNumbers + "]");
             randomNumberSum += randomNumbers;
         }
         return randomNumberSum;
