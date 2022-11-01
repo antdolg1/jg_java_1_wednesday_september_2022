@@ -16,9 +16,20 @@ class Task29 {
             evenNumbers[i] = random.nextInt(50);
             System.out.println(evenNumbers[i]);
         }
+
+        int maxNum = evenNumbers[0];
         for (int j : evenNumbers) {
-            System.out.printf("%d\n", evenNumbers[j]);
+            if (j > maxNum)
+                maxNum = j;
         }
+
+        for (int j : evenNumbers) {
+            if (j % 2 == 0) {
+                System.out.println(evenNumbers[j]);
+            }
+        }
+        System.out.println("]");
     }
 }
+
 
