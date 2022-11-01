@@ -1,4 +1,4 @@
-package students.student_mihhail_karasjov.Lesson_2.Homework.lesson_2_level_5;
+package students.student_mihhail_karasjov.Lesson_2.Homework.Level_5;
 
 public class Text {
     public static void main(String[] args){
