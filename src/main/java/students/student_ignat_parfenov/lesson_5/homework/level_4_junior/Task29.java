@@ -1,5 +1,6 @@
 package students.student_ignat_parfenov.lesson_5.homework.level_4_junior;
 
+import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -16,7 +17,11 @@ class Task29 {
             evenNumbers[i] = random.nextInt(50);
             System.out.println(evenNumbers[i]);
         }
+        for (int j : evenNumbers) {
+            evenNumbers[j] = (j+1)*2;
 
+            System.out.println(Arrays.toString(evenNumbers));
+        }
     }
 }
 
