@@ -37,9 +37,9 @@ class CalculatorTest {
         Calculator calculator = new Calculator();
         int realResult = calculator.subtruction(firstNumber, secondNumber);  // вызываем продакшен код, который хотим протестировать
         if (realResult == expectedResult) {  // проверяем правильно ли сработал тестируемый код
-            System.out.println("Test = OK");
+            System.out.println("Subtruction Test = OK");
         } else {
-            System.out.println("Test = FAIL");
+            System.out.println("Subtruction Test = FAIL");
         }
     }
 
@@ -52,9 +52,9 @@ class CalculatorTest {
         Calculator calculator = new Calculator();
         int realResult = calculator.multiplication(firstNumber, secondNumber);  // вызываем продакшен код, который хотим протестировать
         if (realResult == expectedResult) {  // проверяем правильно ли сработал тестируемый код
-            System.out.println("Test = OK");
+            System.out.println("Multiplication Test = OK");
         } else {
-            System.out.println("Test = FAIL");
+            System.out.println("Multiplication Test = FAIL");
         }
 
     }
@@ -68,9 +68,9 @@ class CalculatorTest {
         Calculator calculator = new Calculator();
         int realResult = calculator.division(firstNumber, secondNumber);  // вызываем продакшен код, который хотим протестировать
         if (realResult == expectedResult) {  // проверяем правильно ли сработал тестируемый код
-            System.out.println("Test = OK");
+            System.out.println("DivisionTest = OK");
         } else {
-            System.out.println("Test = FAIL");
+            System.out.println("DivisionTest = FAIL");
         }
 
     }
@@ -83,9 +83,9 @@ class CalculatorTest {
         Calculator calculator = new Calculator();
         boolean realResult = calculator.isEven(number);  // вызываем продакшен код, который хотим протестировать
         if (realResult == expectedResult) {  // проверяем правильно ли сработал тестируемый код
-            System.out.println("Test = OK");
+            System.out.println(" Even Test = OK");
         } else {
-            System.out.println("Test = FAIL");
+            System.out.println("Even Test = FAIL");
         }
 
     }
