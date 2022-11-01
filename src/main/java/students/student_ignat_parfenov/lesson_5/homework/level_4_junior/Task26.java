@@ -14,10 +14,10 @@ class Task26 {
         Task26 arrayNumbers = new Task26();
         arrayNumbers.randomNumber(userRandomArray);
         System.out.println("Your random array is: " + Arrays.toString(userRandomArray));
-        }
+    }
 
-        void randomNumber(int[] userRandomArray) {
-        for (int i = 0; i < userRandomArray.length; i++){
+    void randomNumber(int[] userRandomArray) {
+        for (int i = 0; i < userRandomArray.length; i++) {
             userRandomArray[i] = (int) (Math.random() * userRandomArray.length);
         }
     }
