@@ -10,14 +10,14 @@ public class ArrayUtilTest {
     }
 
     public void shouldCreateArray() {
-        int arrayLength = 7;
+        int arrayLength = 9;
         int[] currentResult = createArray(arrayLength);
         int expectedResult = 7;
 
         if (currentResult.length == expectedResult) {
             System.out.println("Array length is correct.");
         } else {
-            System.out.println("Current tes is FAILED");
+            System.out.println("Current test is FAILED");
         }
     }
 }
