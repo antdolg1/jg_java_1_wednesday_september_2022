@@ -1,6 +1,6 @@
 package students.student_ignat_parfenov.lesson_5.lessoncode;
 
-public class ArrayMinIndex {
+public class ArrayMinMaxIndex {
 
     public static void main(String[] args) {
 

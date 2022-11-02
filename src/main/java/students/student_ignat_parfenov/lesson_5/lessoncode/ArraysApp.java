@@ -27,5 +27,13 @@ public class ArraysApp {
         for (String vehiclesElement : vehicles) {
             System.out.println(vehiclesElement);
         }
+
+        int[] numbers = {1, 2, 3, 4, 5};
+        int sumNumbers = 0;
+
+        for (int number : numbers) {
+            sumNumbers += number;
+        }
+        System.out.println("Sum of all numbers = " + sumNumbers);
     }
 }
