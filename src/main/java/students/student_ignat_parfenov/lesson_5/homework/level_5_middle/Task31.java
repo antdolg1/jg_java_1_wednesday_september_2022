@@ -5,7 +5,10 @@ public class Task31 {
     class ArrayUtil {
 
         public int[] createArray(int arrayLength) {
-        
+            // Напишите реализацию !!!
+            arrayLength = 5;
+            return new int[0];
         }
     }
 }
+
