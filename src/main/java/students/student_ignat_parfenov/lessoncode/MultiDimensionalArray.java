@@ -16,13 +16,16 @@ public class MultiDimensionalArray {
         System.out.println(table[0][2]);
         System.out.println(table[2][2]);
 
-
+        String[][] text = new String[3][3];
+        text[0][2] = "Ooops!";
+        System.out.println(text[2][2]);
 
         for (int row = 0; row < table.length; row++) {
-            for (int column = 0; column < table[row].length; column++);
-
+            for (int col = 0; col < table[row].length; col++) {
+                System.out.println(table[row][col]);
+            }
+            System.out.println();
         }
-
     }
 
 
