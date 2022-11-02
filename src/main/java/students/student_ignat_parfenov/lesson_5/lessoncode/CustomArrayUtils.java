@@ -4,7 +4,7 @@ public class CustomArrayUtils {
 
     static void element(String[] array) {
         for (String element : array) {
-            System.out.println(element);
+            System.out.print(element + " ");
         }
     }
 }
