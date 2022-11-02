@@ -8,6 +8,6 @@ public class ArrayDemo {
         int[] array = ArrayUtils.createArray(arrayLength);
         ArrayUtils.fillArrayWithNumbersFromUSer(array);
         ArrayUtils.printArrayToConsole(array);
-        System.out.println("Max value is " + ArrayUtils.findMaxNumberInArray(array));
+//        System.out.println("Max value is " + ArrayUtils.findMaxNumberInArray(array));
     }
 }
