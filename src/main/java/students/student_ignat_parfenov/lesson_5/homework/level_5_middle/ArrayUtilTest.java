@@ -10,12 +10,12 @@ public class ArrayUtilTest {
     }
 
     public void shouldCreateArray() {
-        int arrayLength = 9;
+        int arrayLength = 8;
         int[] currentResult = createArray(arrayLength);
-        int expectedResult = 7;
+        int expectedResult = 8;
 
         if (currentResult.length == expectedResult) {
-            System.out.println("Array length is correct.");
+            System.out.println("Array length test is DONE.");
         } else {
             System.out.println("Current test is FAILED");
         }
