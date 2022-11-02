@@ -33,9 +33,17 @@ public class ArraysApp {
         int[] numbers = {1, 2, 3, 4, 5};
         int sumNumbers = 0;
 
+        CustomArrayUtils.sumOfArrayNumbers(numbers);
+
         for (int number : numbers) {
             sumNumbers += number;
         }
         System.out.println("Sum of all numbers = " + sumNumbers);
+
+        int[] numbers2 = {95, 221, 3, 40, -92};
+
+
+        int sum = CustomArrayUtils.sumOfArrayNumbers(numbers2);
+        System.out.println("Sum of all elements of this array is: " + sum);
     }
 }
