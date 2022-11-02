@@ -10,5 +10,6 @@ public class Message {
         this.text = text;
 
         System.out.println("Creating message = '" + text + "'");
+        instancesCreated++;
     }
 }
