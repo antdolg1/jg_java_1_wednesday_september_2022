@@ -20,8 +20,12 @@ public class ArraysApp {
         System.out.println("Under index 2 in array vehicle is: " + vehicles[2]);
         System.out.println("Under index 2 in array vehicle2 is: " + vehicles2[2]);
 
-        for (int i = 0; i < vehicles.length; i++) {
-            System.out.println("[" + i + "] " + vehicles[i]);
+//        for (int i = 0; i < vehicles.length; i++) {
+//            System.out.println("[" + i + "] " + "= " + vehicles[i]);
+//        }
+
+        for (String vehiclesElement : vehicles) {
+            System.out.println(vehiclesElement);
         }
     }
 }
