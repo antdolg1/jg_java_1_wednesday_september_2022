@@ -12,4 +12,15 @@ public class Message {
         System.out.println("Creating message = '" + text + "'");
         instancesCreated++;
     }
+
+    public static void main(String[] args) {
+
+        System.out.println("Created " + Message.instancesCreated);
+        Message greeting = new Message("Hi!");
+        Message question = new Message("How are you?");
+        Message answer = new Message("Tnx, I am fine!");
+        Message farewell = new Message("Goodbye!");
+        System.out.println("Finally created " + Message.instancesCreated);
+
+    }
 }
