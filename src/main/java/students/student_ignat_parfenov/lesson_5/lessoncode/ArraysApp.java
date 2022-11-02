@@ -17,5 +17,11 @@ public class ArraysApp {
         System.out.println("Arrays vehicles length " + vehicles.length);
         System.out.println("Arrays vehicles length " + vehicles2.length);
 
+        System.out.println("Under index 2 in array vehicle is: " + vehicles[2]);
+        System.out.println("Under index 2 in array vehicle2 is: " + vehicles2[2]);
+
+        for (int i = 0; i < vehicles.length; i++) {
+            System.out.println("[" + i + "] " + vehicles[i]);
+        }
     }
 }
