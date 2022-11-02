@@ -14,6 +14,8 @@ public class ArraysApp {
 
         String[] vehicles2 = {"Car", "Bus", "Truck"};
 
+        CustomArrayUtils.printArrayToConsole(vehicles);
+
         System.out.println("Arrays vehicles length " + vehicles.length);
         System.out.println("Arrays vehicles length " + vehicles2.length);
 
