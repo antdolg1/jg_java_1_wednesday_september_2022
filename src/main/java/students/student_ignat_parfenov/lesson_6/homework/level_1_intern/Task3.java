@@ -1,8 +1,9 @@
-package students.student_ignat_parfenov.lesson_6.homework;
+package students.student_ignat_parfenov.lesson_6.homework.level_1_intern;
 
 public class Task3 {
 
     class WhileDefinition3 {
+
         public static void main(String[] args) {
             int i = 1;
             while (i <= 100) {
