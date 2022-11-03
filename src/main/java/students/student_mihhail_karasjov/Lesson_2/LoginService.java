@@ -1,4 +1,4 @@
-package students.student_mihhail_karasjov.lesson2;
+package students.student_mihhail_karasjov.Lesson_2;
 
 public class LoginService {
 
