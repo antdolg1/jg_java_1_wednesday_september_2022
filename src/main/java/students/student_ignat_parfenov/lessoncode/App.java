@@ -1,6 +1,6 @@
 package students.student_ignat_parfenov.lessoncode;
 
-public class Thing {
+class Thing {
 
     String name;
     static String description;
@@ -17,6 +17,15 @@ public class Thing {
 public class App {
 
     public static void main(String[] args) {
-        
+
+        Thing thing1 = new Thing();
+        Thing thing2 = new Thing();
+
+        thing1.name = "Bobby";
+        thing2.name = "Susan";
+
+        thing1.showName();
+        thing2.showName();
+
     }
 }
