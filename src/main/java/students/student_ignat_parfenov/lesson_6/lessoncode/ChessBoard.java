@@ -1,4 +1,4 @@
-package students.student_ignat_parfenov.lessoncode;
+package students.student_ignat_parfenov.lesson_6.lessoncode;
 
 public class ChessBoard {
 

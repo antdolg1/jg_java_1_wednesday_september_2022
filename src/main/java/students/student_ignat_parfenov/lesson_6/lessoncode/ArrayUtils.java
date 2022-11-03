@@ -1,4 +1,4 @@
-package students.student_ignat_parfenov.lessoncode;
+package students.student_ignat_parfenov.lesson_6.lessoncode;
 
 import java.util.Random;
 import java.util.Scanner;
