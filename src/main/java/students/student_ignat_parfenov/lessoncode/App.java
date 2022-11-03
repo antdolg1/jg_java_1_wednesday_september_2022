@@ -27,5 +27,8 @@ public class App {
         thing1.showName();
         thing2.showName();
 
+        Thing.description = "I am the thing";
+        Thing.showDescription();
+
     }
 }
