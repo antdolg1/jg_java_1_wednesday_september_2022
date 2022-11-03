@@ -1,4 +1,4 @@
-package students.student_ignat_parfenov.lesson_6.homework;
+package students.student_ignat_parfenov.lesson_6.homework.level_1_intern;
 
 public class Task2 {
 
