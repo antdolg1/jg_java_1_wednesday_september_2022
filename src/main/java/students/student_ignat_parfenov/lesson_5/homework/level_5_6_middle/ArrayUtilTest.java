@@ -25,7 +25,7 @@ public class ArrayUtilTest {
 
     public void shouldFindMaxNumber() {
         int[] array = {2, 6, 78, 56, 18};
-        int expectedResult = 65;
+        int expectedResult = 78;
         int currentResult = findMaxNumberInArray(array);
 
         if (expectedResult == currentResult) {
