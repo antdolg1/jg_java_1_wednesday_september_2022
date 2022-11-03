@@ -1,10 +1,12 @@
 package students.student_ignat_parfenov.lesson_6.homework.level_1_intern;
 
+import students.student_ignat_parfenov.lesson_6.lessoncode.ArrayUtils;
+
 public class Task6 {
 
     class NumberUtils {
 
-        public boolean isEven(int number) {
+        static boolean isEven(int number) {
             if (number % 2 == 0) {
                 return true;
             } else {
@@ -13,5 +15,10 @@ public class Task6 {
         }
     }
 
+    public class NumberUtilsDemo {
 
+        public static void main(String[] args) {
+
+        }
+    }
 }
