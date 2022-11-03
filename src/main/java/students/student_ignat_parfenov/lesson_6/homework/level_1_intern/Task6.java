@@ -4,7 +4,7 @@ public class Task6 {
 
     class NumberUtils {
 
-        static boolean isEven(int number) {
+        public boolean isEven(int number) {
             if (number % 2 == 0) {
                 return true;
             } else {
