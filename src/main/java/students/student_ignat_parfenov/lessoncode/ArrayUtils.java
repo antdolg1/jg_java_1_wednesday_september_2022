@@ -37,8 +37,15 @@ public class ArrayUtils {
         }
     }
 
-    static void findMaxNumberInArray(int[] array) {
+    static int findMaxNumberInArray(int[] array) {
         int maxNumber = array[0];
 
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] > maxNumber) {
+                maxNumber = array[i];
+            }
+        }
+        return maxNumber;
     }
 }
+
