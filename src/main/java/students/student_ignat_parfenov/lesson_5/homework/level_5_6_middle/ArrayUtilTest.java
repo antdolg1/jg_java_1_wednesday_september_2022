@@ -20,5 +20,6 @@ public class ArrayUtilTest {
             System.out.println("Current test is FAILED");
         }
     }
+
 }
 

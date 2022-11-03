@@ -20,6 +20,18 @@ class ArrayUtil {
             System.out.println(element + " ");
         }
     }
+
+    public int findMaxNumber(int[] array) {
+        int maxNumber = array[0];
+
+        for (int i : array) {
+            if (i < maxNumber) {
+                maxNumber = i;
+            }
+        }
+        return maxNumber;
+    }
 }
+
 
 
