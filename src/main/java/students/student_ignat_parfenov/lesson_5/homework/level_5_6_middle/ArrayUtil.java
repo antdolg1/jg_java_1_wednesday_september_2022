@@ -21,17 +21,27 @@ class ArrayUtil {
         }
     }
 
-    public int findMaxNumber(int[] array) {
+    static int findMaxNumberInArray(int[] array) {
         int maxNumber = array[0];
 
-        for (int i : array) {
-            if (i > maxNumber) {
-                maxNumber = i;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] > maxNumber) {
+                maxNumber = array[i];
             }
         }
         return maxNumber;
     }
-}
 
+    static int findMinNumberInArray(int[] array) {
+        int minNumber = array[0];
+
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] < minNumber) {
+                minNumber = array[i];
+            }
+        }
+        return minNumber;
+    }
+}
 
 
