@@ -1,7 +1,5 @@
 package students.student_ignat_parfenov.lesson_6.homework.level_1_intern;
 
-import students.student_ignat_parfenov.lesson_6.lessoncode.ArrayUtils;
-
 public class Task6 {
 
     class NumberUtils {
@@ -12,15 +10,6 @@ public class Task6 {
             } else {
                 return false;
             }
-        }
-    }
-
-    public class NumberUtilsDemo {
-
-        public static void main(String[] args) {
-
-            int number = 3;
-
         }
     }
 }
