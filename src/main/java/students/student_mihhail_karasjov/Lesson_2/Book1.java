@@ -1,7 +1,7 @@
 package students.student_mihhail_karasjov.Lesson_2;
 
-public class Phone {
-    public Phone(){
+public class Book1 {
+    public Book1(){
 
     }
 }

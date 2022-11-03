@@ -1,9 +1,9 @@
 package students.student_mihhail_karasjov.Lesson3.Homework.Level4;
 
-public class Book1 {
+public class Book {
     String title;
 
-    Book1(String bookTitle) {
+    Book(String bookTitle) {
         this.title = bookTitle;
     }
 
@@ -16,7 +16,7 @@ public class Book1 {
 class BookDemo {
 
     public static void main(String[] args) {
-        Book1 myBook = new Book1("Principles");
+        Book myBook = new Book("Principles");
         String bookTitle = myBook.getTitle();
         System.out.println("Book title = " + bookTitle);
     }
