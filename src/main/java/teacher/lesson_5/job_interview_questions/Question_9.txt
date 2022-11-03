@@ -1,3 +1,0 @@
-Q9. Can we use Generics with an Array?
-
-No, we can not use generics with an Array.
