@@ -25,7 +25,7 @@ class ArrayUtil {
         int maxNumber = array[0];
 
         for (int i : array) {
-            if (i < maxNumber) {
+            if (i > maxNumber) {
                 maxNumber = i;
             }
         }
