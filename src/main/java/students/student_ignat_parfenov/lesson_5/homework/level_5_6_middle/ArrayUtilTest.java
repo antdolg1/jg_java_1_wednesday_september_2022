@@ -1,6 +1,6 @@
-package students.student_ignat_parfenov.lesson_5.homework.level_5_middle;
+package students.student_ignat_parfenov.lesson_5.homework.level_5_6_middle;
 
-import static students.student_ignat_parfenov.lesson_5.homework.level_5_middle.ArrayUtil.createArray;
+import static students.student_ignat_parfenov.lesson_5.homework.level_5_6_middle.ArrayUtil.createArray;
 
 public class ArrayUtilTest {
 

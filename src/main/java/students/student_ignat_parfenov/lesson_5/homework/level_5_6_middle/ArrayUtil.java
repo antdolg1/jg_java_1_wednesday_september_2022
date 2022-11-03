@@ -1,4 +1,4 @@
-package students.student_ignat_parfenov.lesson_5.homework.level_5_middle;
+package students.student_ignat_parfenov.lesson_5.homework.level_5_6_middle;
 
 import java.util.Random;
 
