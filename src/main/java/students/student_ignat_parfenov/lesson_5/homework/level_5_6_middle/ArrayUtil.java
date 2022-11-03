@@ -14,6 +14,12 @@ class ArrayUtil {
             array[i] = random.nextInt(999);
         }
     }
+
+    public void printArrayToConsole(int[] array) {
+        for (int element : array) {
+            System.out.println(element + " ");
+        }
+    }
 }
 
 
