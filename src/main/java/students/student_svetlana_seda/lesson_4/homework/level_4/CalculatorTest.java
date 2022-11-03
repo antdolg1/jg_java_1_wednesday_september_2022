@@ -163,7 +163,7 @@ public class CalculatorTest {
         }
 
     }
-    
+
     //третье число больше первого и второго
 
     public void maxOfThreeNumbersTest() {
