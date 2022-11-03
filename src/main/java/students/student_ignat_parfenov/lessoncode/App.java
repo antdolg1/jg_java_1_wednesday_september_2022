@@ -3,7 +3,7 @@ package students.student_ignat_parfenov.lessoncode;
 class Thing {
 
     String name;
-    static String description;
+    static String description; // = "I am the thing"; или присвоить имя прямо в классе
 
     void showName() {
         System.out.println(name);
@@ -27,7 +27,7 @@ public class App {
         thing1.showName();
         thing2.showName();
 
-        Thing.description = "I am the thing";
+        Thing.description = "I am the thing"; // в случае присвоения имени прямо в классе, эта строка не нужна!
         Thing.showDescription();
 
     }
