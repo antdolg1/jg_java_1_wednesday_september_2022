@@ -36,8 +36,8 @@ public class ArrayUtilTest {
     }
 
     public void shouldFindMinNumber() {
-        int[] array = {2, 6, 78, 56, 18};
-        int expectedResult = 2;
+        int[] array = {24, 6, 78, 56, 18};
+        int expectedResult = 24;
         int currentResult = findMinNumberInArray(array);
 
         if (expectedResult == currentResult) {
