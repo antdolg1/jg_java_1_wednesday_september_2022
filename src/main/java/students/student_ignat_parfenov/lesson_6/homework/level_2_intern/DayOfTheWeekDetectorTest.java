@@ -8,13 +8,6 @@ class DayOfTheWeekDetectorTest {
 
     }
 
-    void dayNumberConditionTest(boolean condition) {
-        if (condition) {
-            System.out.println("Test is DONE");
-        } else {
-            System.out.println("Test is FAILED");
-        }
-    }
     boolean getDayNumberFromUserTest() {
         DayOfTheWeekDetector dayOfTheWeekDetector = new DayOfTheWeekDetector();
         int realDateResult = dayOfTheWeekDetector.getDayNumberFromUser();

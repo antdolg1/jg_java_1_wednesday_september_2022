@@ -21,7 +21,7 @@ class DayOfTheWeekDetector {
 
         String dayName;
         switch (dayNumber) {
-            case 1 -> dayName = "Monday";
+            case 1 -> dayName = ("Monday");
             case 2 -> dayName = ("Tuesday");
             case 3 -> dayName = ("Wednesday");
             case 4 -> dayName = ("Thursday");
