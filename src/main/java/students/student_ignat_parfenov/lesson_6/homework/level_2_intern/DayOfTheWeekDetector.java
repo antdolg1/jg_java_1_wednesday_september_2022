@@ -10,11 +10,12 @@ class DayOfTheWeekDetector {
         return scanner.nextInt();
     }
 
+
     public static void main(String[] args) {
         DayOfTheWeekDetector detector = new DayOfTheWeekDetector();
         int dayNumber = detector.getDayNumberFromUser();
 
-        }
+    }
 
     public String findDayOfTheWeek(int dayNumber) {
 
