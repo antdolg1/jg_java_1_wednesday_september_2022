@@ -7,14 +7,4 @@ class DayOfTheWeekDetectorTest {
         dayOfTheWeekDetector.findDayOfTheWeek(dayOfTheWeekDetector.getDayNumberFromUser());
 
     }
-
-    boolean getDayNumberFromUserTest() {
-        DayOfTheWeekDetector dayOfTheWeekDetector = new DayOfTheWeekDetector();
-        int realDateResult = dayOfTheWeekDetector.getDayNumberFromUser();
-        return realDateResult >= 1 && realDateResult <= 7;
-    }
-    String findDayNameTest(int dayNumber) {
-        DayOfTheWeekDetector dayOfTheWeekDetector = new DayOfTheWeekDetector();
-        return dayOfTheWeekDetector.findDayOfTheWeek(dayNumber);
-    }
 }
