@@ -4,7 +4,6 @@ class DayOfTheWeekDetectorTest {
 
     public static void main(String[] args) {
         DayOfTheWeekDetector dayOfTheWeekDetector = new DayOfTheWeekDetector();
-        dayOfTheWeekDetector.findDayOfTheWeek(dayOfTheWeekDetector.getDayNumberFromUser());
         System.out.println(dayOfTheWeekDetector.findDayOfTheWeek(dayOfTheWeekDetector.getDayNumberFromUser()));
 
     }
