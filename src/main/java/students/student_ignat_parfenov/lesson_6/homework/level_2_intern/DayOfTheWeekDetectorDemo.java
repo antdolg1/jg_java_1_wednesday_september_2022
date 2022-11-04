@@ -19,4 +19,5 @@ class DayOfTheWeekDetectorDemo {
             default -> System.out.println("Not correct day number");
         }
     }
+
 }
