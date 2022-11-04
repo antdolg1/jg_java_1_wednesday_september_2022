@@ -10,7 +10,10 @@ class DayOfTheWeekDetector {
         return scanner.nextInt();
     }
 
-    public String findDayOfTheWeek(int dayNumber) {
+    public static void main(String[] args) {
+        DayOfTheWeekDetector detector = new DayOfTheWeekDetector();
+        int dayNumber = detector.getDayNumberFromUser();
+
         switch (dayNumber) {
             case 1 -> System.out.println("Monday");
             case 2 -> System.out.println("Tuesday");
@@ -21,6 +24,5 @@ class DayOfTheWeekDetector {
             case 7 -> System.out.println("Sunday");
             default -> System.out.println("Not correct day number");
         }
-    return findDayOfTheWeek(1);
     }
 }
