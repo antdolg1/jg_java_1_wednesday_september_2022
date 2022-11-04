@@ -5,9 +5,9 @@ import java.util.Scanner;
 class DayOfTheWeekDetectorDemo {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Input day number between 1 and 7 : ");
-        int dayNumber = scanner.nextInt();
+        DayOfTheWeekDetector detector = new DayOfTheWeekDetector();
+        int dayNumber = detector.getDayNumberFromUser();
+
         switch (dayNumber) {
             case 1 -> System.out.println("Monday");
             case 2 -> System.out.println("Tuesday");
