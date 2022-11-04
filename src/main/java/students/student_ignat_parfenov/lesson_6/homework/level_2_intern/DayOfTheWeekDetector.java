@@ -8,5 +8,4 @@ class DayOfTheWeekDetector {
         System.out.print("Input day number between 1 and 7 : ");
         return scanner.nextInt();
     }
-
 }
