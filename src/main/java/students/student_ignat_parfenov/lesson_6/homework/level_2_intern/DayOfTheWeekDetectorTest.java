@@ -5,9 +5,12 @@ class DayOfTheWeekDetectorTest {
     public static void main(String[] args) {
         DayOfTheWeekDetector dayOfTheWeekDetector = new DayOfTheWeekDetector();
         dayOfTheWeekDetector.findDayOfTheWeek(dayOfTheWeekDetector.getDayNumberFromUser());
+        System.out.println(dayOfTheWeekDetector.findDayOfTheWeek(dayOfTheWeekDetector.getDayNumberFromUser()));
 
     }
 
-    void findDayOfTheWeekTest() {
+    String findDayOfTheWeekTest(int dayNumber) {
+        DayOfTheWeekDetector dayOfTheWeekDetector = new DayOfTheWeekDetector();
+        return dayOfTheWeekDetector.findDayOfTheWeek(dayNumber);
     }
 }
