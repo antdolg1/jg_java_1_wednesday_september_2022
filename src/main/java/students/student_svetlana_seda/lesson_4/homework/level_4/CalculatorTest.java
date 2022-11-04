@@ -2,26 +2,6 @@ package students.student_svetlana_seda.lesson_4.homework.level_4;
 
 class CalculatorTest {
 
-    public static void main(String[] args) {
-
-        CalculatorTest calculatorTest = new CalculatorTest();
-
-        сalculatorTest.sumTest();
-        сalculatorTest.subtructionTest();
-        сalculatorTest.multiplicationTest();
-        сalculatorTest.divisionTest();
-        сalculatorTest.isEvenTest();
-        calculatorTest.maxOfTwoNumbersTest1();
-        calculatorTest.maxOfTwoNumbersTest2();
-        calculatorTest.maxOfTwoNumbersTest3();
-        calculatorTest.maxOfThreeNumbersTest1();
-        calculatorTest.maxOfThreeNumbersTest2();
-        calculatorTest.maxOfThreeNumbersTest3();
-        calculatorTest.maxOfThreeNumbersTest4();
-        calculatorTest.maxOfThreeNumbersTest5();
-
-    }
-
     public void sumTest() {
 
         int firstNumber = 10;  // подготавливаем тестовые данные
@@ -233,6 +213,26 @@ class CalculatorTest {
         } else {
             System.out.println("Max of three number test5 = FAIL");
         }
+
+    }
+
+    public static void main(String[] args) {
+
+        CalculatorTest calculatorTest = new CalculatorTest();
+
+        сalculatorTest.sumTest();
+        сalculatorTest.subtructionTest();
+        сalculatorTest.multiplicationTest();
+        сalculatorTest.divisionTest();
+        сalculatorTest.isEvenTest();
+        calculatorTest.maxOfTwoNumbersTest1();
+        calculatorTest.maxOfTwoNumbersTest2();
+        calculatorTest.maxOfTwoNumbersTest3();
+        calculatorTest.maxOfThreeNumbersTest1();
+        calculatorTest.maxOfThreeNumbersTest2();
+        calculatorTest.maxOfThreeNumbersTest3();
+        calculatorTest.maxOfThreeNumbersTest4();
+        calculatorTest.maxOfThreeNumbersTest5();
 
     }
 
