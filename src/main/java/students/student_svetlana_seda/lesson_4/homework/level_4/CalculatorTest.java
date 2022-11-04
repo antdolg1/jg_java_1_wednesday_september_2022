@@ -5,6 +5,7 @@ class CalculatorTest {
     public static void main(String[] args) {
 
         CalculatorTest calculatorTest = new CalculatorTest();
+
         сalculatorTest.sumTest();
         сalculatorTest.subtructionTest();
         сalculatorTest.multiplicationTest();
