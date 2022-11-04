@@ -1,6 +1,26 @@
 package students.student_svetlana_seda.lesson_4.homework.level_4;
 
 class CalculatorTest {
+
+    public static void main(String[] args) {
+
+        CalculatorTest calculatorTest = new CalculatorTest();
+        сalculatorTest.sumTest();
+        сalculatorTest.subtructionTest();
+        сalculatorTest.multiplicationTest();
+        сalculatorTest.divisionTest();
+        сalculatorTest.isEvenTest();
+        calculatorTest.maxOfTwoNumbersTest1();
+        calculatorTest.maxOfTwoNumbersTest2();
+        calculatorTest.maxOfTwoNumbersTest3();
+        calculatorTest.maxOfThreeNumbersTest1();
+        calculatorTest.maxOfThreeNumbersTest2();
+        calculatorTest.maxOfThreeNumbersTest3();
+        calculatorTest.maxOfThreeNumbersTest4();
+        calculatorTest.maxOfThreeNumbersTest5();
+
+    }
+
     public void sumTest() {
 
         int firstNumber = 10;  // подготавливаем тестовые данные
@@ -23,7 +43,7 @@ class CalculatorTest {
         int secondNumber = 5;  // подготавливаем тестовые данные
         int expectedResult = 5;  // подготавливаем тестовые данные
         Calculator calculator = new Calculator();
-        int realResult = calculator.subtruction(firstNumber, secondNumber);  // вызываем продакшен код, который хотим протестировать
+        int realResult = calculator.subtraction(firstNumber, secondNumber);  // вызываем продакшен код, который хотим протестировать
         if (realResult == expectedResult) {  // проверяем правильно ли сработал тестируемый код
             System.out.println("Subtruction Test = OK");
         } else {
@@ -79,7 +99,7 @@ class CalculatorTest {
     }
 
     //первое число больше второго
-    public void maxOfTwoNumbersTest() {
+    public void maxOfTwoNumbersTest1() {
 
         int firstNumber = 2;  // подготавливаем тестовые данные
         int secondNumber = 1;  // подготавливаем тестовые данные
@@ -87,16 +107,16 @@ class CalculatorTest {
         Calculator calculator = new Calculator();
         int realResult = calculator.maxOfTwoNumbers(firstNumber, secondNumber);  // вызываем продакшен код, который хотим протестировать
         if (realResult == expectedResult) {  // проверяем правильно ли сработал тестируемый код
-            System.out.println("Max  number test = OK");
+            System.out.println("Max  number test1 = OK");
         } else {
-            System.out.println("Max number test = FAIL");
+            System.out.println("Max number test1 = FAIL");
         }
 
     }
 
 //второе число больше первого
 
-    public void maxOfTwoNumbersTest() {
+    public void maxOfTwoNumbersTest2() {
 
         int firstNumber = 1;  // подготавливаем тестовые данные
         int secondNumber = 2;  // подготавливаем тестовые данные
@@ -104,16 +124,16 @@ class CalculatorTest {
         Calculator calculator = new Calculator();
         int realResult = calculator.maxOfTwoNumbers(firstNumber, secondNumber);  // вызываем продакшен код, который хотим протестировать
         if (realResult == expectedResult) {  // проверяем правильно ли сработал тестируемый код
-            System.out.println("Max  number test = OK");
+            System.out.println("Max  number test2 = OK");
         } else {
-            System.out.println("Max number test = FAIL");
+            System.out.println("Max number test2 = FAIL");
         }
 
     }
 
     //оба числа равны
 
-    public void maxOfTwoNumbersTest() {
+    public void maxOfTwoNumbersTest3() {
 
         int firstNumber = 2;  // подготавливаем тестовые данные
         int secondNumber = 2;  // подготавливаем тестовые данные
@@ -121,16 +141,16 @@ class CalculatorTest {
         Calculator calculator = new Calculator();
         int realResult = calculator.maxOfTwoNumbers(firstNumber, secondNumber);  // вызываем продакшен код, который хотим протестировать
         if (realResult == expectedResult) {  // проверяем правильно ли сработал тестируемый код
-            System.out.println("Max  number test = OK");
+            System.out.println("Max  number test3 = OK");
         } else {
-            System.out.println("Max number test = FAIL");
+            System.out.println("Max number test3 = FAIL");
         }
 
     }
 
 //первое число больше второго и третьего
 
-    public void maxOfThreeNumbersTest() {
+    public void maxOfThreeNumbersTest1() {
 
         int firstNumber = 3;  // подготавливаем тестовые данные
         int secondNumber = 2;  // подготавливаем тестовые данные
@@ -139,15 +159,15 @@ class CalculatorTest {
         Calculator calculator = new Calculator();
         int realResult = calculator.maxOfThreeNumbers(firstNumber, secondNumber, thirdNumber);  // вызываем продакшен код, который хотим протестировать
         if (realResult == expectedResult) {  // проверяем правильно ли сработал тестируемый код
-            System.out.println("Max of three numbers test = OK");
+            System.out.println("Max of three numbers test1 = OK");
         } else {
-            System.out.println("Max of three number test = FAIL");
+            System.out.println("Max of three number test1 = FAIL");
         }
 
     }
 
     //второе число больше первого и третьего
-    public void maxOfThreeNumbersTest() {
+    public void maxOfThreeNumbersTest2() {
 
         int firstNumber = 2;  // подготавливаем тестовые данные
         int secondNumber = 3;  // подготавливаем тестовые данные
@@ -156,16 +176,16 @@ class CalculatorTest {
         Calculator calculator = new Calculator();
         int realResult = calculator.maxOfThreeNumbers(firstNumber, secondNumber, thirdNumber);  // вызываем продакшен код, который хотим протестировать
         if (realResult == expectedResult) {  // проверяем правильно ли сработал тестируемый код
-            System.out.println("Max of three numbers test = OK");
+            System.out.println("Max of three numbers test2 = OK");
         } else {
-            System.out.println("Max of three number test = FAIL");
+            System.out.println("Max of three number test2 = FAIL");
         }
 
     }
 
     //третье число больше первого и второго
 
-    public void maxOfThreeNumbersTest() {
+    public void maxOfThreeNumbersTest3() {
 
         int firstNumber = 2;  // подготавливаем тестовые данные
         int secondNumber = 2;  // подготавливаем тестовые данные
@@ -174,15 +194,15 @@ class CalculatorTest {
         Calculator calculator = new Calculator();
         int realResult = calculator.maxOfThreeNumbers(firstNumber, secondNumber, thirdNumber);  // вызываем продакшен код, который хотим протестировать
         if (realResult == expectedResult) {  // проверяем правильно ли сработал тестируемый код
-            System.out.println("Max of three numbers test = OK");
+            System.out.println("Max of three numbers test3 = OK");
         } else {
-            System.out.println("Max of three number test = FAIL");
+            System.out.println("Max of three number test3 = FAIL");
         }
 
     }
 
     //первые два равны и больше третьего
-    public void maxOfThreeNumbersTest() {
+    public void maxOfThreeNumbersTest4() {
 
         int firstNumber = 3;  // подготавливаем тестовые данные
         int secondNumber = 3;  // подготавливаем тестовые данные
@@ -191,15 +211,15 @@ class CalculatorTest {
         Calculator calculator = new Calculator();
         int realResult = calculator.maxOfThreeNumbers(firstNumber, secondNumber, thirdNumber);  // вызываем продакшен код, который хотим протестировать
         if (realResult == expectedResult) {  // проверяем правильно ли сработал тестируемый код
-            System.out.println("Max of three numbers test = OK");
+            System.out.println("Max of three numbers test4 = OK");
         } else {
-            System.out.println("Max of three number test = FAIL");
+            System.out.println("Max of three number test4 = FAIL");
         }
 
     }
 
     //три числа равны
-    public void maxOfThreeNumbersTest() {
+    public void maxOfThreeNumbersTest5() {
 
         int firstNumber = 3;  // подготавливаем тестовые данные
         int secondNumber = 3;  // подготавливаем тестовые данные
@@ -208,23 +228,10 @@ class CalculatorTest {
         Calculator calculator = new Calculator();
         int realResult = calculator.maxOfThreeNumbers(firstNumber, secondNumber, thirdNumber);  // вызываем продакшен код, который хотим протестировать
         if (realResult == expectedResult) {  // проверяем правильно ли сработал тестируемый код
-            System.out.println("Max of three numbers test = OK");
+            System.out.println("Max of three numbers test5 = OK");
         } else {
-            System.out.println("Max of three number test = FAIL");
+            System.out.println("Max of three number test5 = FAIL");
         }
-
-    }
-
-    public static void main(String[] args) {
-
-        CalculatorTest calculatorTest = new CalculatorTest();
-        CalculatorTest.sumTest();
-        CalculatorTest.subtructionTest();
-        CalculatorTest.multiplicationTest();
-        CalculatorTest.divisionTest();
-        CalculatorTest.isEvenTest();
-        CalculatorTest.maxOfTwoNumbersTest();
-        CalculatorTest.maxOfThreeNumbersTest();
 
     }
 
