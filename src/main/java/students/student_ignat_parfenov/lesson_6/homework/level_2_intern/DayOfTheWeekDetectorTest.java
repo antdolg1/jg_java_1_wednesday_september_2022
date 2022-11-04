@@ -7,4 +7,7 @@ class DayOfTheWeekDetectorTest {
         dayOfTheWeekDetector.findDayOfTheWeek(dayOfTheWeekDetector.getDayNumberFromUser());
 
     }
+
+    void findDayOfTheWeekTest() {
+    }
 }
