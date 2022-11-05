@@ -1,4 +1,4 @@
-package students.student_svetlana_seda.level_2;
+package students.student_svetlana_seda.lesson_4.homework.level_2;
 
 import java.util.Scanner;
 

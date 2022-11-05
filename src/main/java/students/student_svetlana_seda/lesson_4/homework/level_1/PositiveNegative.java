@@ -1,8 +1,8 @@
-package students.student_svetlana_seda.level_1;
+package students.student_svetlana_seda.lesson_4.homework.level_1;
 
 import java.util.Scanner;
 
-class PositiveNegativeZero {
+class PositiveNegative {
 
     public static void main(String[] args) {
 
@@ -11,12 +11,9 @@ class PositiveNegativeZero {
         int number = scanner.nextInt();
         if (number > 0) {
             System.out.println("Number is positive.");
-        } else if (number == 0) {
-            System.out.println("Number is zero");
         } else {
             System.out.println("Number is negative.");
         }
-
     }
 
 }

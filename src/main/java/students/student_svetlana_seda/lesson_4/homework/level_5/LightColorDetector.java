@@ -1,4 +1,4 @@
-package students.student_svetlana_seda.level_5;
+package students.student_svetlana_seda.lesson_4.homework.level_5;
 
 class LightColorDetector {
 

@@ -1,4 +1,4 @@
-package students.student_svetlana_seda.level_4;
+package students.student_svetlana_seda.lesson_4.homework.level_4;
 
 class Calculator {
 
