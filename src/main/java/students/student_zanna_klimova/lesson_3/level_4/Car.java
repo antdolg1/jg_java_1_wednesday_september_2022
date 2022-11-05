@@ -1,6 +1,6 @@
 package students.student_zanna_klimova.lesson_3.level_4;
 
-public class Car {
+ class Car {
     String model;
 
     Car(String newModel) {

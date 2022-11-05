@@ -1,8 +1,8 @@
 package students.student_zanna_klimova.lesson_3.level_1;
 
-public class Robot {
+class Robot {
     String name;
-    public void sayHello() {
+    void sayHello() {
         System.out.println("Hello!");
     }
 
@@ -10,11 +10,11 @@ public class Robot {
         this.name = name;
     }
 
-    public void sayYourName() {
+    void sayYourName() {
         System.out.println("My name is " + this.name);
     }
 
-    public Robot() {
+    Robot() {
 
     }
 }

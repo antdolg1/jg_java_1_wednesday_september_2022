@@ -1,6 +1,6 @@
 package students.student_zanna_klimova.lesson_3.level_5;
 
-public class Dog {
+class Dog {
     String name;
     int age;
     String color;
