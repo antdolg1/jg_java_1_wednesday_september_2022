@@ -13,7 +13,6 @@ class ArrayServiceTest {
         int[] arr = arrayServiceTest.createTestedArray(arrayServiceTest.testInputDate());
         System.out.println("Please input search number: ");
         arrayServiceTest.fillArrayTest(arr);
-        //arrayServiceTest.fillArray(arr);
         System.out.println(Arrays.toString(arr));
         arrayServiceTest.condition(arrayService.contains(arr, arrayServiceTest.testInputDate()));
     }
