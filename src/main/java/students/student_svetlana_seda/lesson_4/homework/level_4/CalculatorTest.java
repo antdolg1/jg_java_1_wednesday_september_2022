@@ -219,7 +219,9 @@ class CalculatorTest {
     public static void main(String[] args) {
 
         CalculatorTest calculatorTest = new CalculatorTest();
-
+//идея предложила, чтобы исправить ошибку добавить это(нижняя строка):
+        CalculatorTest сalculatorTest = null;
+        
         сalculatorTest.sumTest();
         сalculatorTest.subtructionTest();
         сalculatorTest.multiplicationTest();

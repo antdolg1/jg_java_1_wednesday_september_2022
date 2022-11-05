@@ -32,7 +32,8 @@ class Calculator {
         } else if (secondNumber > firstNumber) {
             return secondNumber;
         }
-
+//идея предложила, чтобы исправить ошибку добавить это:
+        return firstNumber;
     }
 
     //Добавьте в класс Calculator метод для определения
@@ -47,7 +48,8 @@ class Calculator {
         } else if (thirdNumber > firstNumber && thirdNumber > secondNumber) {
             return thirdNumber;
         }
-
+//идея предложила, чтобы исправить ошибку добавить это:
+        return firstNumber;
     }
 
 }
