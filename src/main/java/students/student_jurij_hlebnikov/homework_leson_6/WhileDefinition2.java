@@ -1,6 +1,6 @@
-package students.student_jurij_hlebnikov.lesson_2.homework_leson_6;
+package students.student_jurij_hlebnikov.homework_leson_6;
 
-public class WhileDefinition4 {
+public class WhileDefinition2 {
 
     public static void main(String[] args) {
         int i = 1;

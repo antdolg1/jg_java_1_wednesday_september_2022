@@ -1,4 +1,4 @@
-package students.student_jurij_hlebnikov.lesson_2.homework_leson_6;
+package students.student_jurij_hlebnikov.homework_leson_6;
 
 public class WhileDefinition1 {
 
