@@ -1,4 +1,4 @@
-package students.student_oleg_gryazev;
+package students.student_oleg_gryazev.lesson_2;
 class Book {
     String title;
     Book(String title) {

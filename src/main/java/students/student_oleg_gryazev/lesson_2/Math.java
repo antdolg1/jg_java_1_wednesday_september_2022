@@ -1,4 +1,4 @@
-package students.student_oleg_gryazev;
+package students.student_oleg_gryazev.lesson_2;
 
  public class Math {
      int summa(int var1, int var2) {
