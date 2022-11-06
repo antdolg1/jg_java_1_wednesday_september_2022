@@ -4,61 +4,81 @@ public class DayOfTheWeekDetectorTest {
 
     public static void main(String[] args) {
 
+        DayOfTheWeekDetectorTest test = new DayOfTheWeekDetectorTest();
+        test.shouldReturnMonday();
+        test.shouldReturnTuesday();
+        test.shouldReturnWednesday();
+        test.shouldReturnThursday();
+        test.shouldReturnFriday();
+        test.shouldReturnSaturday();
+        test.shouldReturnSunday();
+        test.shouldReturnError();
+
+    }
+
+    public void shouldReturnMonday() {
         DayOfTheWeekDetector testDetector = new DayOfTheWeekDetector();
         String day = testDetector.findDayOfTheWeek(1);
-        if ("Monday".equals(day)) {
-            System.out.println("Day Monday Test: OK");
-        } else {
-            System.out.println("Day Monday Test: FAIL");
-        }
+        boolean result = "Monday".equals(day);
+        checkTestResult(result, "Day Monday Test: ");
+    }
 
-        day = testDetector.findDayOfTheWeek(2);
-        if ("Tuesday".equals(day)) {
-            System.out.println("Day Tuesday Test: OK");
-        } else {
-            System.out.println("Day Tuesday Test: FAIL");
-        }
+    public void shouldReturnTuesday() {
+        DayOfTheWeekDetector testDetector = new DayOfTheWeekDetector();
+        String day = testDetector.findDayOfTheWeek(2);
+        boolean result = "Tuesday".equals(day);
+        checkTestResult(result, "Day Tuesday Test: ");
+    }
 
-        day = testDetector.findDayOfTheWeek(3);
-        if ("Wednesday".equals(day)) {
-            System.out.println("Day Wednesday Test: OK");
-        } else {
-            System.out.println("Day Wednesday Test: FAIL");
-        }
+    public void shouldReturnWednesday() {
+        DayOfTheWeekDetector testDetector = new DayOfTheWeekDetector();
+        String day = testDetector.findDayOfTheWeek(3);
+        boolean result = "Wednesday".equals(day);
+        checkTestResult(result, "Day Wednesday Test: ");
+    }
 
-        day = testDetector.findDayOfTheWeek(4);
-        if ("Thursday".equals(day)) {
-            System.out.println("Day Thursday Test: OK");
-        } else {
-            System.out.println("Day Thursday Test: FAIL");
-        }
 
-        day = testDetector.findDayOfTheWeek(5);
-        if ("Friday".equals(day)) {
-            System.out.println("Day Friday Test: OK");
-        } else {
-            System.out.println("Day Friday Test: FAIL");
-        }
+    public void shouldReturnThursday() {
+        DayOfTheWeekDetector testDetector = new DayOfTheWeekDetector();
+        String day = testDetector.findDayOfTheWeek(4);
+        boolean result = "Thursday".equals(day);
+        checkTestResult(result, "Day Thursday Test: ");
+    }
 
-        day = testDetector.findDayOfTheWeek(6);
-        if ("Saturday".equals(day)) {
-            System.out.println("Day Saturday Test: OK");
-        } else {
-            System.out.println("Day Saturday Test: FAIL");
-        }
+    public void shouldReturnFriday() {
+        DayOfTheWeekDetector testDetector = new DayOfTheWeekDetector();
+        String day = testDetector.findDayOfTheWeek(5);
+        boolean result = "Friday".equals(day);
+        checkTestResult(result, "Day Friday Test: ");
+    }
 
-        day = testDetector.findDayOfTheWeek(7);
-        if ("Sunday".equals(day)) {
-            System.out.println("Day Sunday Test: OK");
-        } else {
-            System.out.println("Day Sunday Test: FAIL");
-        }
+    public void shouldReturnSaturday() {
+        DayOfTheWeekDetector testDetector = new DayOfTheWeekDetector();
+        String day = testDetector.findDayOfTheWeek(6);
+        boolean result = "Saturday".equals(day);
+        checkTestResult(result, "Day Saturday Test: ");
+    }
 
-        day = testDetector.findDayOfTheWeek(129);
-        if ("Not correct day number".equals(day)) {
-            System.out.println("Not correct day number Test: OK");
+    public void shouldReturnSunday() {
+        DayOfTheWeekDetector testDetector = new DayOfTheWeekDetector();
+        String day = testDetector.findDayOfTheWeek(7);
+        boolean result = "Sunday".equals(day);
+        checkTestResult(result, "Day Sunday Test: ");
+    }
+
+    public void shouldReturnError() {
+        DayOfTheWeekDetector testDetector = new DayOfTheWeekDetector();
+        String day = testDetector.findDayOfTheWeek(9);
+        boolean result = "Not correct day number".equals(day);
+        checkTestResult(result, "Not correct day number: ");
+    }
+
+
+    private void checkTestResult(boolean condition, String testName) {
+        if (condition) {
+            System.out.println(testName + "OK!");
         } else {
-            System.out.println("Not correct day number Test: FAIL");
+            System.out.println(testName + "FAIL!");
         }
     }
 }
