@@ -1,13 +1,15 @@
 package students.student_oleg_gryazev.lesson_5.level_2;
 
-import java.sql.SQLOutput;
+
 import java.util.Scanner;
 
  class Level_2 {                              // Task 10
 
     public static void main(String[] args) {
-        int[] numbers = new int[2];
-        numbers = new int[]{1, 2, 3};
+        int[] numbers = new int[3];
+       numbers[0] = 1;
+       numbers[1] = 2;
+       numbers[2] = 3;
 
         System.out.println("0 position is number " + numbers[0] + "\n 1 position is number " + numbers[1] + "\n2 position is number " + numbers[2]);
 //////////////////////////////////////////////////
@@ -46,7 +48,7 @@ import java.util.Scanner;
             }while (lenght < 2);
   /////////////////////////////////////////////////  Task 13
         double[] num1 = new double[3];
-        int lenght1 = -1;
+
         double a = Math.random()*1000;
         num1[0] = a;
         double b = Math.random()*1000;
