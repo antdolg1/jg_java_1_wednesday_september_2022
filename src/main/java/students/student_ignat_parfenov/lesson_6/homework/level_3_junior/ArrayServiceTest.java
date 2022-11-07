@@ -13,12 +13,12 @@ public class ArrayServiceTest {
     private void ifArrayContainsGivenNumber() {
         ArrayService arrayService = new ArrayService();
         int[] arr = {14, 5, 7, 9, 12};
-        int numberToSearch = 7;
+        int numberToSearch = 71;
         boolean contains = arrayService.contains(arr, numberToSearch);
         if (contains) {
             System.out.println("Test is DONE! Array contains the given number " + numberToSearch);
         } else {
-            System.out.println("Test is FAILED! The given number " + numberToSearch + " doesn't consist in the array");
+            System.out.println("Test is FAILED! The given number " + numberToSearch + " doesn't contain in this array");
         }
     }
 
@@ -26,7 +26,7 @@ public class ArrayServiceTest {
         ArrayService arrayService = new ArrayService();
         int[] arr = {14, 5, 7, 9, 12};
         int numberToSearch = 16;
-        boolean contains =! arrayService.contains(arr, numberToSearch);
+        boolean contains = arrayService.contains(arr, numberToSearch);
         if (contains) {
             System.out.println("Test is FAILED! Array contains the given number " + numberToSearch);
         } else {
