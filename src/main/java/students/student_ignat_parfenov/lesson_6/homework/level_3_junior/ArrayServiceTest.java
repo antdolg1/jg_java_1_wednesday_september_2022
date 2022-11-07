@@ -11,6 +11,11 @@ public class ArrayServiceTest {
          int[] arr = {2, 5, 7, 9, 12};
          int numberToSearch = 9;
          ArrayService arrayService = new ArrayService();
-         boolean realResult = arrayService
+         boolean realResult = arrayService.contains(arr, 9);
+         if (realResult) {
+             System.out.println("Test is DONE! Array consists the given number " + numberToSearch);
+         } else {
+             System.out.println("Test is FAILD! The given number " + numberToSearch + " doesn't consist in the array");
+         }
     }
 }
