@@ -12,10 +12,10 @@ public class ArrayServiceTest {
     private void isArrayContainsGivenNumber() {
         ArrayService arrayService = new ArrayService();
         int[] arr = {2, 5, 7, 9, 12};
-        int numberToSearch = 90;
+        int numberToSearch = 12;
         boolean contains = arrayService.contains(arr, numberToSearch);
         if (contains) {
-            System.out.println("Array contains the given number " + numberToSearch);
+            System.out.println("Test is DONE! Array contains the given number " + numberToSearch);
         } else {
             System.out.println("Test is FAILED! The given number " + numberToSearch + " doesn't consist in the array");
         }
