@@ -11,14 +11,14 @@ public class ArrayServiceTest {
     }
 
     private void isArrayContainsGivenNumber() {
-        int[] arr = {2, 5, 7, 9, 12};
-        int numberToSearch = 9;
         ArrayService arrayService = new ArrayService();
-        boolean realResult = arrayService.contains(arr, 9);
-        if (realResult) {
-            System.out.println("Test is DONE! Array consists the given number " + numberToSearch);
+        int[] arr = {2, 5, 7, 9, 12};
+        int numberToSearch = 91;
+        boolean contains = arrayService.contains(arr, numberToSearch);
+        if (contains) {
+            System.out.println("Array contains the given number " + numberToSearch);
         } else {
-            System.out.println("Test is FAILD! The given number " + numberToSearch + " doesn't consist in the array");
+            System.out.println("Test is FAILED! The given number " + numberToSearch + " doesn't consist in the array");
         }
     }
 }
