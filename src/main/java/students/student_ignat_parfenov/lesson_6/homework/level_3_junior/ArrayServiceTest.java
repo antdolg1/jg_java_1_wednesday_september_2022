@@ -6,18 +6,31 @@ public class ArrayServiceTest {
     public static void main(String[] args) {
 
         ArrayServiceTest arrayServiceTest = new ArrayServiceTest();
-        arrayServiceTest.isArrayContainsGivenNumber();
+        arrayServiceTest.ifArrayContainsGivenNumber();
+        arrayServiceTest.ifArrayDoesNotContainGivenNumber();
     }
 
-    private void isArrayContainsGivenNumber() {
+    private void ifArrayContainsGivenNumber() {
         ArrayService arrayService = new ArrayService();
-        int[] arr = {2, 5, 7, 9, 12};
-        int numberToSearch = 2;
+        int[] arr = {14, 5, 7, 9, 12};
+        int numberToSearch = 7;
         boolean contains = arrayService.contains(arr, numberToSearch);
         if (contains) {
             System.out.println("Test is DONE! Array contains the given number " + numberToSearch);
         } else {
             System.out.println("Test is FAILED! The given number " + numberToSearch + " doesn't consist in the array");
+        }
+    }
+
+    private void ifArrayDoesNotContainGivenNumber() {
+        ArrayService arrayService = new ArrayService();
+        int[] arr = {14, 5, 7, 9, 12};
+        int numberToSearch = 16;
+        boolean contains =! arrayService.contains(arr, numberToSearch);
+        if (contains) {
+            System.out.println("Test is FAILED! Array contains the given number " + numberToSearch);
+        } else {
+            System.out.println("Test is OK! The given number " + numberToSearch + " doesn't consist in the array");
         }
     }
 }
