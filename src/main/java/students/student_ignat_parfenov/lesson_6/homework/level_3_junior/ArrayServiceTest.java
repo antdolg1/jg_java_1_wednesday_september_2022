@@ -13,7 +13,7 @@ public class ArrayServiceTest {
     private void isArrayContainsGivenNumber() {
         ArrayService arrayService = new ArrayService();
         int[] arr = {2, 5, 7, 9, 12};
-        int numberToSearch = 91;
+        int numberToSearch = 90;
         boolean contains = arrayService.contains(arr, numberToSearch);
         if (contains) {
             System.out.println("Array contains the given number " + numberToSearch);
