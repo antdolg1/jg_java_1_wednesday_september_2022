@@ -21,7 +21,6 @@ for(int i = 0; i <= len ; i ++) {
     }
 }
     }
-
 class Massive1 {
 
     public static void main(String[] args) {          // Task 25
