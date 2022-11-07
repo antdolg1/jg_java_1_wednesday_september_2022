@@ -4,6 +4,7 @@ class WhileInfiniteLoop {
     public static void main(String[] args) {
         int i = 0;
         while (i < i + 1) {
+            i++;
             System.out.println("Learning JAVA");
         }
     }
