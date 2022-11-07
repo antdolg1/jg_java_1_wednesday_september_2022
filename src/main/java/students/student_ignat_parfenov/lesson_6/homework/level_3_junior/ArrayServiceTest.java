@@ -7,7 +7,6 @@ public class ArrayServiceTest {
 
         ArrayServiceTest arrayServiceTest = new ArrayServiceTest();
         arrayServiceTest.isArrayContainsGivenNumber();
-
     }
 
     private void isArrayContainsGivenNumber() {
