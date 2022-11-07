@@ -6,7 +6,8 @@ class ArrayService {
 
     boolean contains(int[] arr, int numberToSearch) {
         boolean contains;
-        if (Arrays.asList(arr).contains(Arrays.asList(numberToSearch))) contains = true;
+        if (Arrays.asList(arr).contains(Arrays.asList(numberToSearch)))
+            contains = true;
         else {
             contains = false;
         }
