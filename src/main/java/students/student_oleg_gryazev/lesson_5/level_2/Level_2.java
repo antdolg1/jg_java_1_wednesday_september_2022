@@ -1,6 +1,5 @@
 package students.student_oleg_gryazev.lesson_5.level_2;
 
-
 import java.util.Scanner;
 
  class Level_2 {                              // Task 10
