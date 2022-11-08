@@ -1,6 +1,5 @@
 package students.student_artjoms_trosihins.lesson_1;
-
-public class Addition {
+ class Addition {
     public static void main(String[] args) {
         int x = 85;
         int y = 90;

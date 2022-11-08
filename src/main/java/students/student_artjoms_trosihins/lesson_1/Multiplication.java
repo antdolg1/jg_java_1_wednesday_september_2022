@@ -1,6 +1,6 @@
 package students.student_artjoms_trosihins.lesson_1;
 
-public class Multiplication {
+class Multiplication {
     public static void main(String[] args) {
         int x = 29;
         int y = 30;
