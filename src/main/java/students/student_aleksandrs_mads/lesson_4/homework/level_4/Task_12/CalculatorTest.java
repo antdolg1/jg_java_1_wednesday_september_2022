@@ -27,7 +27,7 @@ class CalculatorTest {
         int secondNumber = 5;
         int expectedResult = 15;
         Calculator calculator = new Calculator();
-        int realResult = calculator.sum(firstNumber, secondNumber);
+        int realResult = calculator.subtraction(firstNumber, secondNumber);
         if (realResult == expectedResult) {
             System.out.println("Subtraction test = OK");
         } else {
@@ -40,7 +40,7 @@ class CalculatorTest {
         int secondNumber = 5;
         int expectedResult = 15;
         Calculator calculator = new Calculator();
-        int realResult = calculator.sum(firstNumber, secondNumber);
+        int realResult = calculator.multiplication(firstNumber, secondNumber);
         if (realResult == expectedResult) {
             System.out.println("Multiplication test = OK");
         } else {
@@ -53,7 +53,7 @@ class CalculatorTest {
         int secondNumber = 5;
         int expectedResult = 15;
         Calculator calculator = new Calculator();
-        int realResult = calculator.sum(firstNumber, secondNumber);
+        int realResult = calculator.division(firstNumber, secondNumber);
         if (realResult == expectedResult) {
             System.out.println("Division test = OK");
         } else {
