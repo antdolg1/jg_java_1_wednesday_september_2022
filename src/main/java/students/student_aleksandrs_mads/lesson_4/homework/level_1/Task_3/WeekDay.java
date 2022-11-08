@@ -25,9 +25,6 @@ class WeekDay {
         } else {
             System.out.println("Days of the week only 7");
         }
-
-
     }
-
 }
 
