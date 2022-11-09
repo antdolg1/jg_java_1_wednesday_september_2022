@@ -1,7 +1,7 @@
 package students.student_zanna_klimova.lesson_3.level_1;
 
-public class RobotDemo {
-    public static void main(String[] args) {
+class RobotDemo {
+     static void main(String[] args) {
         Robot robot = new Robot("Rider");
         Robot robot1 = new Robot("John");
         Robot robot2 = new Robot("Sam");
