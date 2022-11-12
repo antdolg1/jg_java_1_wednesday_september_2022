@@ -26,5 +26,8 @@ public class Dog {
         System.out.println(howOld + 1);
     }
 
-
+    public void DogNewColor(String color) {
+        System.out.println(dogName.repeat(3));
+        System.out.println("New color: " + color);
+    }
 }

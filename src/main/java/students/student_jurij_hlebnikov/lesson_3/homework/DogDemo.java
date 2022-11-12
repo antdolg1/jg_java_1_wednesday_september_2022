@@ -6,5 +6,6 @@ public class DogDemo {
         Dog sobaka = new Dog("Alfa ", 3, "Red");
         sobaka.dogVoice();
         sobaka.dogNewAge();
+        sobaka.DogNewColor("Black");
     }
 }
