@@ -1,6 +1,6 @@
 package students.student_jurij_hlebnikov.lesson_3.homework;
 
-public class Dog {
+class Dog {
 
     String dogName;
     int howOld;
@@ -21,13 +21,11 @@ public class Dog {
         System.out.println("Dog color: " + color);
     }
 
-    public void dogNewAge() {
-        System.out.println(dogName.repeat(3));
-        System.out.println(howOld + 1);
+    public void happyBirthday() {
+        howOld = howOld + 1;
     }
 
-    public void DogNewColor(String color) {
-        System.out.println(dogName.repeat(3));
-        System.out.println("New color: " + color);
+    public void changeColor(String newColor) {
+        this.color = newColor;
     }
 }

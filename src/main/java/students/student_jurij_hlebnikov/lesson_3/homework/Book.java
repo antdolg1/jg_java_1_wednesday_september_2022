@@ -1,6 +1,6 @@
 package students.student_jurij_hlebnikov.lesson_3.homework;
 
-public class Book {
+class Book {
 
     String title;
 

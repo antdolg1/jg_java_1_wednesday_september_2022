@@ -1,12 +1,12 @@
 package students.student_jurij_hlebnikov.lesson_3.homework;
 
-public class BankAccount {
+class BankAccount {
 
     String ownerFirstName;
     String ownerLastName;
     int moneyAmount;
 
-    BankAccount(String ownerFirstName, String ownerLastName,int moneyAmount) {
+    BankAccount(String ownerFirstName, String ownerLastName, int moneyAmount) {
         this.ownerFirstName = ownerFirstName;
         this.ownerLastName = ownerLastName;
         this.moneyAmount = moneyAmount;

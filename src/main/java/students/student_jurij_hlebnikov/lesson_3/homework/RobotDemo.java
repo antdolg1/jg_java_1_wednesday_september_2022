@@ -1,6 +1,6 @@
 package students.student_jurij_hlebnikov.lesson_3.homework;
 
-public class RobotDemo {
+class RobotDemo {
     public static void main(String[] args) {
 
         Robot boris = new Robot("kiborg ubijca");
