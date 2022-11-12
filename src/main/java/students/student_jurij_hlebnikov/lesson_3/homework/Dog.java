@@ -10,12 +10,18 @@ public class Dog {
         this.howOld = howOld;
     }
 
-    public Dog(){
+    public Dog() {
     }
 
-    public void dogVoice(){
+    public void dogVoice() {
         System.out.println(dogName.repeat(3));
         System.out.println(howOld + " Years Old");
     }
+
+    public void dogNewAge() {
+        System.out.println(dogName.repeat(3));
+        System.out.println(howOld + 1);
+    }
+
 
 }

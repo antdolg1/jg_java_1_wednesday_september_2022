@@ -5,6 +5,6 @@ public class DogDemo {
 
         Dog sobaka = new Dog("Alfa ",3);
         sobaka.dogVoice();
-
+        sobaka.dogNewAge();
     }
 }
