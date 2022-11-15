@@ -6,9 +6,15 @@ class Product {                  //Task 31
     double regularPrice;
     double discount;
 
-    public Product(String name, double regularPrice, double discount) {
+    public Product(String name) {
         this.name = name;
+    }
+
+    public void setRegularPrice(double regularPrice) {
         this.regularPrice = regularPrice;
+    }
+
+    public void setDiscount(double discount) {
         this.discount = discount;
     }
 
