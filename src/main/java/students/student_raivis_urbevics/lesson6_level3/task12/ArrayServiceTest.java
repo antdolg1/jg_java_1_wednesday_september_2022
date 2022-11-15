@@ -5,12 +5,12 @@ import java.util.Arrays;
 class ArrayServiceTest {
     public static void main(String[] args) {
         ArrayServiceTest arrayServiceTest = new ArrayServiceTest();
-          arrayServiceTest.containsTest();
-          arrayServiceTest.countOccurrencesTest();
-          arrayServiceTest.replaceFirstTest();
-          arrayServiceTest.replaceAllTest();
-          arrayServiceTest.revertArrayTest();
-          arrayServiceTest.sortArrayTest();
+        arrayServiceTest.containsTest();
+        arrayServiceTest.countOccurrencesTest();
+        arrayServiceTest.replaceFirstTest();
+        arrayServiceTest.replaceAllTest();
+        arrayServiceTest.revertArrayTest();
+        arrayServiceTest.sortArrayTest();
 
     }
 
