@@ -23,7 +23,6 @@ class ArrayUtilTest {
         int expectedResult = 5;
 
         int[] realResult = arrayUtil.createArray(arrayLength);
-        int testArrayLenght(realResult, expectedResult);
 
         if (realResult.length == arrayLength) {
             System.out.println("Test Array Length = OK");
@@ -34,5 +33,5 @@ class ArrayUtilTest {
 
 }
 
-//НЕПОНИМАЮ, ЧТО ДЕЛАЮ НЕ ТАК(((
+
 
