@@ -1,4 +1,4 @@
-package students.student_svetlana_seda.lesson_5.homework.level_5.task_31;
+package students.student_svetlana_seda.lesson_5.homework.level_5;
 
 import java.util.Random;
 //1.Напишите в этом классе метод для создания

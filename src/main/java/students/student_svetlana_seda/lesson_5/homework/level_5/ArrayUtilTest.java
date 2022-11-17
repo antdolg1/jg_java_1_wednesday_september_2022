@@ -1,4 +1,4 @@
-package students.student_svetlana_seda.lesson_5.homework.level_5.task_32;
+package students.student_svetlana_seda.lesson_5.homework.level_5;
 //1.В этом классе напишите автоматический тест
 //для метода int[] createArray(int arrayLength)
 //из предыдущего задания.
