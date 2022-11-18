@@ -1,4 +1,4 @@
-package students.student_svetlana_seda.lesson_5.homework.level_5;
+package students.student_svetlana_seda.lesson_5.homework.level_5and_6;
 
 import java.util.Random;
 //1.Напишите в этом классе метод для создания
@@ -6,10 +6,10 @@ import java.util.Random;
 
 //2.Создайте в классе ArrayUtil метод для
 //заполнения массива случайными целыми числами.
+
 class ArrayUtil {
 
     int[] createArray(int arrayLength) {
-
         return new int[arrayLength];
     }
 
@@ -19,13 +19,31 @@ class ArrayUtil {
             myArray[i] = random.nextInt(100);
         }
     }
-
-    static void printArray(int[] myArray) {
+//task34
+    static void printArrayToConsole(int[] array) {
         System.out.print("Array: [ ");
-        for (int element : myArray) {
+        for (int element : array) {
             System.out.print(element + " ");
         }
-        System.out.println("]" + "\n");
+
+    }
+//task 35
+    static int findMaxNumber(int [] array) {
+        int maxNumber = array[0];
+        for (int element : array) {
+            if (element > maxNumber) maxNumber =element;
+        }
+        return maxNumber;
+    }
+//task 37
+    static int findMinNumber(int[] array) {
+        int minNumber = array[0];
+        for (int element : array) {
+            if (element < minNumber) {
+                minNumber =element;
+            }
+        }
+        return minNumber;
     }
 
 }
