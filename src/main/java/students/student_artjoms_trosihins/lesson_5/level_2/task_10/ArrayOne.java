@@ -1,4 +1,4 @@
-package students.student_artjoms_trosihins.level_2.task_10;
+package students.student_artjoms_trosihins.lesson_5.level_2.task_10;
 
 import java.util.Arrays;
 
