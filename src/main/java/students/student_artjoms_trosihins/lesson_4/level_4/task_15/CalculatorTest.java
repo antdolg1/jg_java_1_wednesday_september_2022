@@ -1,4 +1,4 @@
-package students.student_artjoms_trosihins.level_4.task_15;
+package students.student_artjoms_trosihins.lesson_4.level_4.task_15;
 
 class CalculatorTest {
     public static void main(String[] args) {

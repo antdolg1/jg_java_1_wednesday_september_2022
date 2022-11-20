@@ -1,4 +1,4 @@
-package students.student_artjoms_trosihins.level_4.task_14;
+package students.student_artjoms_trosihins.lesson_4.level_4.task_14;
 
 class CalculatorTest {
 
