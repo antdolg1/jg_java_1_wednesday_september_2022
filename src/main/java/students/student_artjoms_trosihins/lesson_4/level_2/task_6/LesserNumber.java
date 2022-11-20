@@ -1,4 +1,4 @@
-package students.student_artjoms_trosihins.level_2.task_6;
+package students.student_artjoms_trosihins.lesson_4.level_2.task_6;
 
 import java.util.Scanner;
 
