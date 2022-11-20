@@ -1,13 +1,14 @@
 package students.student_jurij_hlebnikov.homework_leson_6;
 
-public class ArrayServiceTest {
+class ArrayServiceTest {
 
     public static void main(String[] args) {
 
         ArrayServiceTest test = new ArrayServiceTest();
         test.shouldContainTest();
         test.shouldNotContainTest();
-
+        test.shouldContainThisNumberTest();
+        test.shouldNotContainThisNumberTest();
     }
 
     public void shouldContainTest() {
@@ -30,5 +31,22 @@ public class ArrayServiceTest {
         } else {
             System.out.println(name + " FAIL!");
         }
+    }
+
+    public void shouldContainThisNumberTest() {
+        int[] array = new int[]{4, 7, 5, 8, 5, 5, 5};
+        ArrayService arrayService = new ArrayService();
+        int matchResult = arrayService.countOccurrences(array, 5);
+        boolean result = matchResult == 4;
+        checkResult(result, "shouldContainThisNumberTest");
+    }
+
+    public void shouldNotContainThisNumberTest() {
+        int[] array = new int[]{4, 7, 5, 8, 5, 5, 5};
+        ArrayService arrayService = new ArrayService();
+        int matchResult = arrayService.countOccurrences(array, 9);
+        boolean result = matchResult == 0;
+        checkResult(result, "shouldNotContainThisNumberTest");
+
     }
 }
