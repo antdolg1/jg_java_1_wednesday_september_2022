@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 class WordService {
     protected String text = "dim dom dm dom dom";
-    protected int maxCount = 0;
+    protected int maxCount;
 
 
     public static void main(String[] args) {
