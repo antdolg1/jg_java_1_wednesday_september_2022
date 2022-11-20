@@ -1,4 +1,4 @@
-package students.student_artjoms_trosihins.level_5.task_16;
+package students.student_artjoms_trosihins.lesson_4.level_5.task_16;
 
 class LightColorDetector {
 
