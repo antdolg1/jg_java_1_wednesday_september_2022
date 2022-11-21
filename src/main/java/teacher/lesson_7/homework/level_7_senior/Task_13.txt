@@ -1,0 +1,44 @@
+Работаем над улучшением кода.
+
+Ниже приведён код класса WordService. Качество этого кода вызывает
+сомнения. Код в этом классе трудно читается и нужно потратить
+не малое время, что бы в нём разобраться.
+
+Ваша задача - улучшить код в классе WordService таким образом,
+что бы в нём можно было быстро разобраться и понять что он делает.
+
+Профессионально подойти к улучшению кода значит:
+1. понять, что делает этот код;
+2. перед изменением кода написать на него автоматические тесты;
+3. придумать и реализовать улучшения;
+4. убедиться, что после ваших улучшений тесты по-прежнему проходят.
+
+class WordService {
+
+     public String findMostFrequentWord(String text) {
+         String[] textArray;
+         int[] wordCountArray;
+         textArray = text.split(" ");
+         wordCountArray = new int[textArray.length];
+
+         int wordCounter = 0;
+         for (int wordCount = 0; wordCount < textArray.length; wordCount++) {
+             for (String s : textArray) {
+                 if (textArray[wordCount].equals(s)) {
+                     wordCounter++;
+                 }
+             }
+             wordCountArray[wordCount] = wordCounter;
+             wordCounter = 0;
+         }
+
+         int max = 0;
+         for (int count =0; count < wordCountArray.length; count++) {
+             if (wordCountArray[count] > max) {
+                 max = count;
+             }
+         }
+        return textArray[max];
+     }
+
+}
