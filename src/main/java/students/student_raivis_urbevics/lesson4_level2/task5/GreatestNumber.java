@@ -1,7 +1,8 @@
 package students.student_raivis_urbevics.lesson4_level2.task5;
 
 import java.util.Scanner;
-    class GreatestNumber {
+
+class GreatestNumber {
     public static void main(String[] args) {
         System.out.println("Input the first number");
         System.out.println("Input the second number");
@@ -10,7 +11,7 @@ import java.util.Scanner;
         int number2 = scanner.nextInt();
         if (number1 > number2) {
             System.out.println(number1);
-        } else if (number2 > number1) {
+        } else {
             System.out.println(number2);
         }
     }
