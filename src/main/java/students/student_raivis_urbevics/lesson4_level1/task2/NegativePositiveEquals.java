@@ -1,7 +1,8 @@
 package students.student_raivis_urbevics.lesson4_level1.task2;
 
-  import java.util.Scanner;
-    class NegativePositiveEquals {
+import java.util.Scanner;
+
+class NegativePositiveEquals {
 
     public static void main(String[] args) {
 
@@ -10,11 +11,9 @@ package students.student_raivis_urbevics.lesson4_level1.task2;
         int number = scanner.nextInt();
         if (number > 0) {
             System.out.println("Number is positive");
-        }
-         else if (number < 0) {
+        } else if (number < 0) {
             System.out.println("Number is negative");
-        }
-            else {
+        } else {
             System.out.println("Number equals to  0");
         }
     }
