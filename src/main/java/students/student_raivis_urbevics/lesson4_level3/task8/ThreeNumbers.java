@@ -2,7 +2,7 @@ package students.student_raivis_urbevics.lesson4_level3.task8;
 
 import java.util.Scanner;
 
-   class ThreeNumbers {
+class ThreeNumbers {
     public static void main(String[] args) {
         System.out.println("Input the first number");
         System.out.println("Input the second number");
@@ -14,7 +14,7 @@ import java.util.Scanner;
 
         if (number1 == number2 && number1 == number3) {
             System.out.println("Numbers are equals");
-        } else if (number1 != number2 && number1 != number3) {
+        } else {
             System.out.println("Numbers are different");
         }
     }
