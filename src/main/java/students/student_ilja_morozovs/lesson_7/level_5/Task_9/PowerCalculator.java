@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 class PowerCalculator {
     private double num;
-    private double degree;
+    private int degree;
 
     public double getNum() {
         return num;
@@ -14,11 +14,11 @@ class PowerCalculator {
         this.num = num;
     }
 
-    public double getDegree() {
+    public int getDegree() {
         return degree;
     }
 
-    public void setDegree(double degree) {
+    public void setDegree(int degree) {
         this.degree = degree;
     }
 
@@ -31,9 +31,9 @@ class PowerCalculator {
     }
 
 
-    double exponentiation(double num, double degree) {
+    double exponentiation(double num, int degree) {
         double result = 1;
-        for (int i = 1; i <= degree; i++) {
+        for (double i = 1; i <=degree; i++) {
             result *= num;
         }
         return result;
@@ -46,7 +46,7 @@ class PowerCalculator {
 
     void degreeEntering() {
         System.out.println("Please enter the number: ");
-        setDegree(keyboardUtils());
+        setDegree((int) keyboardUtils());
     }
 
     static double keyboardUtils() {
