@@ -48,7 +48,7 @@ class  Massive2 {                                   // Task 27
         int max = num[0];
 
             for (i = 1; i < num.length; i++)
-            if (num[i] > max)
+                if (num[i] > max)
                 max = num[i];
             System.out.println("Massive = " + Arrays.toString(num));
         return max;
@@ -64,46 +64,68 @@ class  Massive3 {                                   // Task 28
     {
         int i;
         int min = num[0];
-
         for (i = 1; i < num.length; i++)
             if (num[i] < min)
                 min = num[i];
-        System.out.println("Massive = " + Arrays.toString(num));
+            System.out.println("Massive = " + Arrays.toString(num));
         return min;
     }
     public static void main(String[] args) {
-        System.out.println("Largest in given array is " + smallest());
+        System.out.println("Smallest in given array is " + smallest());
     }
 }
 
-class  Massive4 {                                   // Task 29
-    static int[] num = {3,10,45,16,77,2};
-     //for (int i = 0; i < 5; int[i] = (i % 2 == 0 ? EVEN : ODD), i++);
+class  Massive4 {                                // Task 29
 
-
-
-        static void largest()
-    {
-        int i;
-        int even = num[0];
-
-        for (i = 1; i <= num.length; i++)
-            if (num[i]%2 ==0){
-               continue;
+    static int[] num = new int[5];
+    static Random random = new Random();
+    static void randomMassive() {
+    for (int i = 0; i < num.length; i++) {
+            num[i] = random.nextInt(100);
+            System.out.print("randomMassive = " + num[i] + "; ");
+        }
+    }
+      static   void  evenNumber(){
+            for (int i = 0; i < num.length; i++){
+                if (num [i] % 2 == 0){
+                    System.out.print("\nEven numbers of random massive = " + num [i]);
+                }
             }
+        }
+        public static void main(String[] args) {
+                 randomMassive();
+                 evenNumber();
+        }
+             }
 
 
-        System.out.println("Massive = " + num[i]);
-       // return even;
+class Massive5{
+static int[] num = new int[5];
+    static Random random = new Random();
+    static void randomMassive() {
+        for (int i = 0; i < num.length; i++) {
+            num[i] = random.nextInt(100);
+            System.out.print("randomMassive = " + num[i] + "; ");
+        }
     }
-
+    static   void  oddNumber(){
+        for (int i = 0; i < num.length; i++){
+            if (num [i] % 2 != 0){
+                System.out.print("\nOdd numbers of random massive = " + num [i]);
+            }
+        }
+    }
     public static void main(String[] args) {
-largest();
-
-        //System.out.println("Largest in given array is " + largest());
+        randomMassive();
+        oddNumber();
     }
 }
-// Task 28
+
+
+
+
+
+
 
 
 
