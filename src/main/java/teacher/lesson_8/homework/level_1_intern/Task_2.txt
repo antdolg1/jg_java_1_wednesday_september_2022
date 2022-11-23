@@ -1,0 +1,11 @@
+Изучаем Single Responsibility Principle.
+
+Создайте конструктор для класса Trader, через который
+можно установить начальные значения всем свойствам класса.
+
+class Trader {
+
+    private String fullName;
+    private String city;
+
+}

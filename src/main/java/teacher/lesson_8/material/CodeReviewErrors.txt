@@ -1,0 +1,116 @@
+WARNING: есть такой принцип при проверке чего-либо: fail fast
+(проваливайся быстро). Смысл его заключается в том, чтобы при
+обнаружении первой ошибки сразу заканчивать алгоритм проверки
+и возвращать негативный результат.
+
+В нашем случае, при проверке транзакции на мошенничество, при
+обнаружении первого правила, которое определяет транзакцию как
+мошенничество не имеет смысла проверять все остальные правила.
+Так как от этого результат не изменится. Нужно применять метод
+fail fast, при обнаружении мошенничества первым же правилом
+прекращать алгоритм проверки и возвращать негативный результат.
+
+Проверка всех правил в реальной системе может быть задачей
+трудоёмкой и ресурсо затратной. Тратить впустую ресурсы системы
+не имеет никакого смысла, если от этого результат не поменяется
+(какая разница сколько правил (одно, два, или много) признают
+транзакцию мошенничеством - она все равно останется мошенничеством).
+
+Проверять все правила имеет смысл тогда, когда нас интересуют все
+правила, проверку которых не прошла транзакция. Например, это может
+понадобиться для сбора статистики в системе (какие правила прошла
+транзакция, а какие нет). В таком случае надо изменить вид
+возвращаемого результата (там должны быть отображены результаты проверок
+всех правил), и проверять транзакцию всеми правилами.
+
+    public FraudDetectionResult isFraud(Transaction transaction) {
+
+        String ruleName = null;
+        boolean isFraud = false;
+
+        for (FraudRule rule : fraudRules) {
+            if (rule.isFraud(transaction)) {
+                ruleName = rule.getRuleName();
+                System.out.println();
+                System.out.println(ruleName + " - " + transaction.toString());
+                isFraud = true;
+            }
+        }
+        return new FraudDetectionResult(isFraud, ruleName);
+    }
+
+Лучше (используя правило fail fast):
+        public FraudDetectionResult isFraud(Transaction transaction) {
+
+            String ruleName = null;
+            boolean isFraud = false;
+
+            for (FraudRule rule : fraudRules) {
+                if (rule.isFraud(transaction)) {
+                    ruleName = rule.getRuleName();
+                    isFraud = true;
+                    break;
+                }
+            }
+            return new FraudDetectionResult(isFraud, ruleName);
+        }
+
+-------------------------------------------------------------
+
+WARNING: упрощайте код условий!
+
+    public boolean isFraud(Transaction t) {
+        if (t.getTrader().getFullName().equals("Pokemon")) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public boolean isFraud(Transaction t) {
+        if (t.getAmount() > 1000000) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+Лучше:
+    public boolean isFraud(Transaction t) {
+        return t.getTrader().getFullName().equals("Pokemon");
+    }
+
+    public boolean isFraud(Transaction t) {
+        return t.getAmount() > 1000000;
+    }
+--------------------------------------------------------------
+
+WARNING: потенциальная проблема производительности - вызов одного
+и того же метода несколько раз для одних и тех же данных (транзакции).
+В реальных системах вызов метода может приводить к сложным расчётам,
+обращениям к внешним системам (таким как базы данных) и так далее.
+Лишнее выполнение одного и того же метода приводит к дополнительной
+нагрузке для системы. Этого можно избежать, если сохранить или запомнить
+результат первого вызова и использовать его повторно.
+
+    FraudDetectionResult isFraud(Transaction t) {
+        Trader trader = t.getTrader();
+        for (FraudRule fraudRule : fraudRules){
+           if (fraudRule.isFraud(t)){
+               return new FraudDetectionResult(fraudRule.isFraud(t), fraudRule.getRuleName());
+           }
+        }
+        return new FraudDetectionResult(false, null);
+    }
+
+Лучше:
+
+    FraudDetectionResult isFraud(Transaction t) {
+        Trader trader = t.getTrader();
+        for (FraudRule fraudRule : fraudRules){
+           if (fraudRule.isFraud(t)){
+               return new FraudDetectionResult(false, fraudRule.getRuleName());
+           }
+        }
+        return new FraudDetectionResult(false, null);
+    }

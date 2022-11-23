@@ -1,0 +1,11 @@
+Изучаем Single Responsibility Principle.
+
+Создайте конструктор для класса Transaction, через который
+можно установить начальные значения всем свойствам класса.
+
+class Transaction {
+
+    private Trader trader;
+    private int amount;
+
+}
