@@ -11,8 +11,7 @@ class Task_28 {
         int randomArrayLength = random.nextInt(10);
         int[] numbers = new int[randomArrayLength];
         for (int i = 0; i < numbers.length; i++) {
-            int randomNumber = random.nextInt(100);
-            numbers[i] = randomNumber;
+            numbers[i] = random.nextInt(100);
             System.out.println("Element " + "[" + i + "]" + " = " + numbers[i]);
         }
 
@@ -22,7 +21,9 @@ class Task_28 {
 
         for (int number : numbers) {
 
-            if (number < minValue) minValue = number;
+            if (number < minValue) {
+                minValue = number;
+            }
         }
         System.out.println("The smallest number is " + minValue);
     }

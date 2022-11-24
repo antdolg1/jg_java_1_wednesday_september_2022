@@ -8,7 +8,6 @@ class Task_11 {
 
         Scanner scanner = new Scanner(System.in);
 
-
         int[] number = new int[3];
         System.out.println("Please, enter a number:");
         number[0] = scanner.nextInt();
@@ -20,5 +19,4 @@ class Task_11 {
         System.out.println("Second number = " + number[1]);
         System.out.println("Third number = " + number[2]);
     }
-
 }

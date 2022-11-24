@@ -14,8 +14,7 @@ class Task_26 {
         int userArrayLength = scanner.nextInt();
         int[] numbers = new int[userArrayLength];
         for (int i = 0; i < numbers.length; i++) {
-            int randomNumber = random.nextInt(100);
-            numbers[i] = randomNumber;
+            numbers[i] = random.nextInt(100);
         }
 
         for (int i = 0; i < numbers.length; i++) {

@@ -6,10 +6,10 @@ class ArrayUtil {
 
     public void fillArrayWithRandomNumbers(int[] array) {
 
-        Random random = new Random(100);
-        int randomNumber = random.nextInt();
-        int [] arrayElements = new int[randomNumber];
-
+        Random random = new Random();
+        int[] arrayElements = new int[10];
+        for (int i = 0; i < arrayElements.length; i++) {
+            arrayElements[i] = random.nextInt(10);
+        }
     }
-
 }

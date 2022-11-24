@@ -19,7 +19,7 @@ public class Task_30 {
         System.out.println("_____________________________");
 
         for (int i = 0; i < numbers.length; i++) {
-            if ((numbers[i] % 2) > 0) {
+            if (numbers[i] % 2 != 0) {
                 System.out.println("Number " + numbers[i] + " is not even!");
             }
         }
