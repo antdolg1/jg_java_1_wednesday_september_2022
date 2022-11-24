@@ -3,10 +3,10 @@ package students.student_aleksandrs_mads.lesson_4.homework.level_4.Task_13;
 class CalculatorTest {
     public static void main(String[] args) {
         CalculatorTest calculatorTest = new CalculatorTest();
-//        calculatorTest.sumTest();
-//        calculatorTest.subtractionTest();
-//        calculatorTest.multiplicationTest();
-//        calculatorTest.divisionTest();
+        calculatorTest.sumTest();
+        calculatorTest.subtractionTest();
+        calculatorTest.multiplicationTest();
+        calculatorTest.divisionTest();
         calculatorTest.isEvenTest();
     }
 
@@ -26,9 +26,9 @@ class CalculatorTest {
     public void subtractionTest() {
         int firstNumber = 10;
         int secondNumber = 5;
-        int expectedResult = 15;
+        int expectedResult = 5;
         Calculator calculator = new Calculator();
-        int realResult = calculator.sum(firstNumber, secondNumber);
+        int realResult = calculator.subtraction(firstNumber, secondNumber);
         if (realResult == expectedResult) {
             System.out.println("Subtraction test = OK");
         } else {
@@ -39,9 +39,9 @@ class CalculatorTest {
     public void multiplicationTest() {
         int firstNumber = 10;
         int secondNumber = 5;
-        int expectedResult = 15;
+        int expectedResult = 50;
         Calculator calculator = new Calculator();
-        int realResult = calculator.sum(firstNumber, secondNumber);
+        int realResult = calculator.multiplication(firstNumber, secondNumber);
         if (realResult == expectedResult) {
             System.out.println("Multiplication test = OK");
         } else {
@@ -52,9 +52,9 @@ class CalculatorTest {
     public void divisionTest() {
         int firstNumber = 10;
         int secondNumber = 5;
-        int expectedResult = 15;
+        int expectedResult = 2;
         Calculator calculator = new Calculator();
-        int realResult = calculator.sum(firstNumber, secondNumber);
+        int realResult = calculator.division(firstNumber, secondNumber);
         if (realResult == expectedResult) {
             System.out.println("Division test = OK");
         } else {

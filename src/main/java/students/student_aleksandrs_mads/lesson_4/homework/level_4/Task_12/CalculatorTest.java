@@ -25,7 +25,7 @@ class CalculatorTest {
     public void subtractionTest() {
         int firstNumber = 10;
         int secondNumber = 5;
-        int expectedResult = 15;
+        int expectedResult = 5;
         Calculator calculator = new Calculator();
         int realResult = calculator.subtraction(firstNumber, secondNumber);
         if (realResult == expectedResult) {
@@ -38,7 +38,7 @@ class CalculatorTest {
     public void multiplicationTest() {
         int firstNumber = 10;
         int secondNumber = 5;
-        int expectedResult = 15;
+        int expectedResult = 50;
         Calculator calculator = new Calculator();
         int realResult = calculator.multiplication(firstNumber, secondNumber);
         if (realResult == expectedResult) {
@@ -51,7 +51,7 @@ class CalculatorTest {
     public void divisionTest() {
         int firstNumber = 10;
         int secondNumber = 5;
-        int expectedResult = 15;
+        int expectedResult = 2;
         Calculator calculator = new Calculator();
         int realResult = calculator.division(firstNumber, secondNumber);
         if (realResult == expectedResult) {
