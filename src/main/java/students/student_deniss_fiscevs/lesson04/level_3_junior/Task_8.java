@@ -21,7 +21,7 @@ public class Task_8 {
 
         if (userNumber1 == userNumber2 && userNumber2 == userNumber3) {
             System.out.println("All numbers are equal");
-        } else if (userNumber1 != userNumber2 && userNumber2 != userNumber3) {
+        } else if ((userNumber1 != userNumber2 && userNumber2 != userNumber3) && userNumber1 != userNumber3) {
             System.out.println("All numbers are different");
         } else {
             System.out.println("Neither all are equal or different");

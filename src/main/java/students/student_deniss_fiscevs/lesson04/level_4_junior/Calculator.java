@@ -19,41 +19,24 @@ public class Calculator {
     }
 
     public boolean isEven(int number) {
-        boolean result = true;
-        if (number % 2 == 0) {
-            return result;
-        } else {
-            return false;
-        }
+        return number % 2 == 0;
     }
 
     public int maxOfTwoNumbers(int firstNumber, int secondNumber) {
         if (firstNumber > secondNumber) {
             return firstNumber;
-        } else if (secondNumber > firstNumber) {
-            return secondNumber;
         } else {
-            return firstNumber;
+            return secondNumber;
         }
     }
 
     public int maxOfThreeNumbers(int firstNumber, int secondNumber, int thirdNumber) {
-        if (firstNumber == secondNumber && firstNumber < thirdNumber) {
-            return thirdNumber;
-        } else if (firstNumber == secondNumber && firstNumber > thirdNumber) {
+        if (firstNumber >= secondNumber && firstNumber > thirdNumber) {
             return firstNumber;
-        } else if (secondNumber == thirdNumber && secondNumber < firstNumber) {
-            return firstNumber;
-        } else if (secondNumber == thirdNumber && secondNumber > firstNumber) {
+        } else if (secondNumber > firstNumber && secondNumber > thirdNumber) {
             return secondNumber;
-        } else if (firstNumber > secondNumber && firstNumber > thirdNumber) {
-            return firstNumber;
-        } else if (secondNumber > thirdNumber) {
-            return secondNumber;
-        } else if (thirdNumber > firstNumber) {
-            return thirdNumber;
         } else {
-            return firstNumber;
+            return thirdNumber;
         }
     }
 }
