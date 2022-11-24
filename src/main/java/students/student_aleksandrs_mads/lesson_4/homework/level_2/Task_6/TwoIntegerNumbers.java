@@ -1,8 +1,8 @@
-package students.student_aleksandrs_mads.lesson_4.homework.level_2.Task_7;
+package students.student_aleksandrs_mads.lesson_4.homework.level_2.Task_6;
 
 import java.util.Scanner;
 
-public class LargestNumbers {
+public class TwoIntegerNumbers {
     public static void main(String[] args) {
         int firstNumber;
         int secondNumber;
@@ -12,10 +12,12 @@ public class LargestNumbers {
         System.out.println("Enter second number: ");
         Scanner scanner1 = new Scanner(System.in);
         secondNumber = scanner1.nextInt();
-        if (firstNumber == secondNumber) {
-            System.out.println("Numbers are equal");
-        } else   {
-            System.out.println("Numbers are different");
+        if (firstNumber < secondNumber) {
+            System.out.println(firstNumber);
+        } else if (secondNumber < firstNumber) {
+            System.out.println(secondNumber);
+        } else {
+            System.out.println("The numbers are equal ");
         }
     }
 }
