@@ -19,12 +19,12 @@ class DayOfTheWeekDetector {
         switch (dayNumberFromUser) {
             case 1 -> dayName = "Monday";
             case 2 -> dayName = "Tuesday";
-            case 3 -> dayName = ("Wednesday");
-            case 4 -> dayName = ("Thursday");
-            case 5 -> dayName = ("Friday");
-            case 6 -> dayName = ("Saturday");
-            case 7 -> dayName = ("Sunday");
-            default -> dayName = ("Not correct day number");
+            case 3 -> dayName = "Wednesday";
+            case 4 -> dayName = "Thursday";
+            case 5 -> dayName = "Friday";
+            case 6 -> dayName = "Saturday";
+            case 7 -> dayName = "Sunday";
+            default -> dayName = "Not correct day number";
         }
         return dayName;
     }
