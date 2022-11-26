@@ -12,7 +12,24 @@ public class Stock {
         this.minimumPrice = minimumPrice;
         this.maximumPrice = maximumPrice;
     }
+
+    int updatePrice(int setPrice) {
+        if (setPrice > price && setPrice > maximumPrice) {
+            maximumPrice = setPrice;
+            return maximumPrice;
+        } else if (setPrice < price && setPrice < minimumPrice) {
+            minimumPrice = setPrice;
+            return minimumPrice;
+        } else {
+            return price = setPrice;
+        }
+    }
+
+    void getPriceInformation() {
+        System.out.println(companyName + " " + "current price is: " + price + " maximum price: " + maximumPrice + " minimum price: " + minimumPrice);
+    }
 }
+
 
 
 
