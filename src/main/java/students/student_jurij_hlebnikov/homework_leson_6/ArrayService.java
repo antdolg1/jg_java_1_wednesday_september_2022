@@ -20,4 +20,15 @@ class ArrayService {
         }
         return matchCounter;
     }
+
+    int replaceFirst(int[] arr, int numberToFind, int newNumber) {
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == numberToFind) {
+                arr[i] = newNumber;
+                return i;
+            }
+        }
+        return -1;
+    }
+
 }

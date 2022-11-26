@@ -9,6 +9,8 @@ class ArrayServiceTest {
         test.shouldNotContainTest();
         test.shouldContainThisNumberTest();
         test.shouldNotContainThisNumberTest();
+        test.shouldChangeFirst();
+
     }
 
     public void shouldContainTest() {
@@ -25,13 +27,6 @@ class ArrayServiceTest {
         checkResult(!result, "shouldNotContainTest:");
     }
 
-    private void checkResult(boolean result, String name) {
-        if (result) {
-            System.out.println(name + " OK!");
-        } else {
-            System.out.println(name + " FAIL!");
-        }
-    }
 
     public void shouldContainThisNumberTest() {
         int[] array = new int[]{4, 7, 5, 8, 5, 5, 5};
@@ -48,5 +43,25 @@ class ArrayServiceTest {
         boolean result = matchResult == 0;
         checkResult(result, "shouldNotContainThisNumberTest");
 
+    }
+
+    public void shouldChangeFirst() {
+        int[] array = new int[]{31, 41, 51, 61};
+        ArrayService arrayService = new ArrayService();
+        int changeNumber = arrayService.replaceFirst(array, 31, 4);
+        //boolean result = changeNumber;
+        //checkResult(result,"shouldChangeFirstTest:");
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+        }   //            System.out.println(changeNumber);
+
+    }
+
+    private void checkResult(boolean result, String name) {
+        if (result) {
+            System.out.println(name + " OK!");
+        } else {
+            System.out.println(name + " FAIL!");
+        }
     }
 }
