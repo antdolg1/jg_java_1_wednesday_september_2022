@@ -31,4 +31,14 @@ class ArrayService {           //Task 14
         return false;
     }
 
+    int replaceAll(int[] arr, int numberToFind, int newNumber) {
+        int counter = 0;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == numberToFind) {
+                arr[i] = newNumber;
+                counter++;
+            }
+        }
+        return counter;
+    }
 }

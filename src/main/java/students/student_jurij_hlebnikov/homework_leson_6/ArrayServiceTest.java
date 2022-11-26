@@ -9,8 +9,10 @@ class ArrayServiceTest {
         test.shouldNotContainTest();
         test.shouldContainThisNumberTest();
         test.shouldNotContainThisNumberTest();
-        test.shouldChangeFirst();
-        test.shouldNotChangeFirst();
+        test.shouldChangeFirstTest();
+        test.shouldNotChangeFirstTest();
+        test.shouldChangeAllTest();
+        test.shouldNotChangeAllTest();
 
     }
 
@@ -46,7 +48,7 @@ class ArrayServiceTest {
 
     }
 
-    public void shouldChangeFirst() {
+    public void shouldChangeFirstTest() {
         int[] array = new int[]{31, 41, 51, 61};
         ArrayService arrayService = new ArrayService();
         boolean numberIsChanged = arrayService.replaceFirst(array, 41, 4);
@@ -54,12 +56,28 @@ class ArrayServiceTest {
 
     }
 
-    public void shouldNotChangeFirst() {
+    public void shouldNotChangeFirstTest() {
         int[] array = new int[]{31, 41, 51, 61};
         ArrayService arrayService = new ArrayService();
         boolean numberIsChanged = arrayService.replaceFirst(array, 11, 4);
-        checkResult(!numberIsChanged, "shouldChangeNotFirstTest:");
+        checkResult(!numberIsChanged, "shouldNotChangeFirstTest:");
 
+    }
+
+    public void shouldChangeAllTest() {
+        int[] arr = new int[]{13, 92, 37, 49, 81, 94, 75, 74, 92, 56, 92, 98};
+        ArrayService arrayService = new ArrayService();
+        int counter = arrayService.replaceAll(arr, 92, 3);
+        boolean result = counter != 0;
+        checkResult(result, "shouldChangeAllTest: ");
+    }
+
+    public void shouldNotChangeAllTest() {
+        int[] arr = new int[]{13, 92, 37, 49, 81, 94, 75, 74, 92, 56, 92, 98};
+        ArrayService arrayService = new ArrayService();
+        int counter = arrayService.replaceAll(arr, 9, 3);
+        boolean result = counter == 0;
+        checkResult(result, "shouldNotChangeAllTest: ");
     }
 
     private void checkResult(boolean result, String name) {
