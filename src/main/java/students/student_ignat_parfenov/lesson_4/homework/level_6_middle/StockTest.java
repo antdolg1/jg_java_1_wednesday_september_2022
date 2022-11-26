@@ -8,7 +8,7 @@ public class StockTest {
     }
 
     void updatePriceTest() {
-        int setPrice = 250;
+        int setPrice = 10;
         int maxPriceResult = 250;
         int minPriceResult = 20;
         int currentPrice = 50;
