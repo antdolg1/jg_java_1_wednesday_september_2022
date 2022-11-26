@@ -4,6 +4,7 @@ public class StockTest {
 
     public static void main(String[] args) {
         StockTest stockTest = new StockTest();
+        stockTest.updatePriceTest();
     }
 
     void updatePriceTest() {
@@ -14,19 +15,19 @@ public class StockTest {
         Stock stock = new Stock("Eni", 20, 150, 10);
         int realPriceResult = stock.updatePrice(setPrice);
         if (realPriceResult >= maxPriceResult) {
-            System.out.println("updatePrice Max.Price: TEST OK");
+            System.out.println("updatePrice Maximum Price: TEST is OK");
         } else {
-            System.out.println("updatePrice Max.Price: TEST FAIL");
+            System.out.println("updatePrice Maximum Price: TEST is FAILED");
         }
         if (realPriceResult < minPriceResult) {
-            System.out.println("updatePrice Min.Price: TEST OK");
+            System.out.println("updatePrice Minimum Price: TEST is OK");
         } else {
-            System.out.println("updatePrice Min.Price: TEST FAIL");
+            System.out.println("updatePrice Minimum Price: TEST is FAILED");
         }
         if (realPriceResult == currentPrice) {
-            System.out.println("updatePrice Current.Price: TEST OK");
+            System.out.println("updatePrice Current Price: TEST is OK");
         } else {
-            System.out.println("updatePrice Current.Price: TEST FAIL");
+            System.out.println("updatePrice Current Price: TEST is FAILED");
         }
     }
 }
