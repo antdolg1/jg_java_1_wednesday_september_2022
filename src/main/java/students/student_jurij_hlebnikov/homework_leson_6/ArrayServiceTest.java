@@ -10,6 +10,7 @@ class ArrayServiceTest {
         test.shouldContainThisNumberTest();
         test.shouldNotContainThisNumberTest();
         test.shouldChangeFirst();
+        test.shouldNotChangeFirst();
 
     }
 
@@ -48,12 +49,16 @@ class ArrayServiceTest {
     public void shouldChangeFirst() {
         int[] array = new int[]{31, 41, 51, 61};
         ArrayService arrayService = new ArrayService();
-        int changeNumber = arrayService.replaceFirst(array, 31, 4);
-        //boolean result = changeNumber;
-        //checkResult(result,"shouldChangeFirstTest:");
-        for (int i = 0; i < array.length; i++) {
-            System.out.println(array[i]);
-        }   //            System.out.println(changeNumber);
+        boolean numberIsChanged = arrayService.replaceFirst(array, 41, 4);
+        checkResult(numberIsChanged, "shouldChangeFirstTest:");
+
+    }
+
+    public void shouldNotChangeFirst() {
+        int[] array = new int[]{31, 41, 51, 61};
+        ArrayService arrayService = new ArrayService();
+        boolean numberIsChanged = arrayService.replaceFirst(array, 11, 4);
+        checkResult(!numberIsChanged, "shouldChangeNotFirstTest:");
 
     }
 

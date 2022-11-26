@@ -1,6 +1,6 @@
 package students.student_jurij_hlebnikov.homework_leson_6;
 
-class ArrayService {
+class ArrayService {           //Task 14
 
     boolean contains(int[] arr, int numberToSearch) {
         for (int i = 0; i < arr.length; i++) {
@@ -21,14 +21,14 @@ class ArrayService {
         return matchCounter;
     }
 
-    int replaceFirst(int[] arr, int numberToFind, int newNumber) {
+    boolean replaceFirst(int[] arr, int numberToFind, int newNumber) {
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == numberToFind) {
                 arr[i] = newNumber;
-                return i;
+                return true;
             }
         }
-        return -1;
+        return false;
     }
 
 }
