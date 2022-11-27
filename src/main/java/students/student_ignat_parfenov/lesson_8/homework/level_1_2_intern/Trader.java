@@ -41,6 +41,10 @@ class FraudDetector {
     boolean isFraud(Transaction t) {
         return false;
     }
+
+    boolean isTransactionAmountIsTooBig(Transaction amount) {
+        return false;
+    }
 }
 
 
