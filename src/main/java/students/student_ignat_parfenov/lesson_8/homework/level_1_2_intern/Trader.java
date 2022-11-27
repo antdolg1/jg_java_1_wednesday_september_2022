@@ -38,8 +38,8 @@ class Transaction {
 
 class FraudDetector {
 
-    boolean isFraud(Transaction pokemon) {
-        return true;
+    boolean isFraud(Transaction t) {
+        return false;
     }
 }
 

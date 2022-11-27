@@ -3,7 +3,13 @@ package students.student_ignat_parfenov.lesson_8.homework.level_1_2_intern;
 public class FraudDetectorTest {
     public static void main(String[] args) {
 
-        Trader trader = new Trader("Pokemon", "New York");
+        Trader trader1 = new Trader("Pokemon", "New York");
 
+        if () {
+            System.out.println("Transaction is interrupted. Test is FAILED");
+        } else {
+            System.out.println("Test is OK");
+        }
     }
 }
+
