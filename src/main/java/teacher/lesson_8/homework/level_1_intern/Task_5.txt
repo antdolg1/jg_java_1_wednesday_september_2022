@@ -1,0 +1,15 @@
+Изучаем Single Responsibility Principle.
+
+Создайте в классе Transaction get методы для всех свойств класса.
+
+class Transaction {
+
+    private Trader trader;
+    private int amount;
+
+    Trader(Trader trader, int amount) {
+        this.trader = trader;
+        this.amount = amount;
+    }
+
+}

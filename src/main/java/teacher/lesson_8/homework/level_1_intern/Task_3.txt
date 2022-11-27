@@ -1,0 +1,15 @@
+Изучаем Single Responsibility Principle.
+
+Создайте в классе Trader get методы для всех свойств класса.
+
+class Trader {
+
+    private String fullName;
+    private String city;
+
+    Trader(String fullName, String city) {
+        this.fullName = fullName;
+        this.city = city;
+    }
+
+}

@@ -1,0 +1,35 @@
+Изучаем Single Responsibility Principle.
+
+Ниже приведён неполный код системы обработки транзакций.
+Вам будет необходимо внести в него изменения и доработать его
+согласно бизнес требованиям.
+
+Каждая транзакция в системе должна быть проверена на мошенничество (fraud).
+Для автоматического обнаружения мошенничества при проверке транзакций
+в систему нужно добавить правила, которые будут приведены ниже.
+
+class Trader {
+
+    private String fullName;
+    private String city;
+
+}
+
+
+class Transaction {
+
+    private Trader trader;
+    private int amount;
+
+}
+
+
+class FraudDetector {
+
+    boolean isFraud(Transaction t) {
+        return true;
+    }
+
+}
+
+Создайте приведённые выше классы в вашем коде.
