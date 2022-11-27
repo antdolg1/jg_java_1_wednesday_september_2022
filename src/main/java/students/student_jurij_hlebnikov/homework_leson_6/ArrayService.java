@@ -41,4 +41,18 @@ class ArrayService {           //Task 14
         }
         return counter;
     }
+
+    void revert(int[] arr) {
+        int[] temp = new int[arr.length];
+
+        for (int i = 0; i < arr.length; i++) {
+            temp[arr.length - 1 - i] = arr[i];
+        }
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = temp[i];
+        }
+    }
+
+
 }
+

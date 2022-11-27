@@ -1,5 +1,7 @@
 package students.student_jurij_hlebnikov.homework_leson_6;
 
+import java.util.Arrays;
+
 class ArrayServiceTest {
 
     public static void main(String[] args) {
@@ -13,7 +15,8 @@ class ArrayServiceTest {
         test.shouldNotChangeFirstTest();
         test.shouldChangeAllTest();
         test.shouldNotChangeAllTest();
-
+        test.shouldRevertTest();
+        test.shouldNotRevertTest();
     }
 
     public void shouldContainTest() {
@@ -78,6 +81,24 @@ class ArrayServiceTest {
         int counter = arrayService.replaceAll(arr, 9, 3);
         boolean result = counter == 0;
         checkResult(result, "shouldNotChangeAllTest: ");
+    }
+
+    public void shouldRevertTest() {
+        int[] nums = {1, 2, 3, 4, 5, 7, 9, 1};
+        int[] numsExpected = {1, 9, 7, 5, 4, 3, 2, 1};
+        ArrayService arrayService = new ArrayService();
+        arrayService.revert(nums);
+        boolean result = Arrays.equals(nums, numsExpected);
+        checkResult(result, "shouldRevertTest: ");
+    }
+
+    public void shouldNotRevertTest() {
+        int[] nums = {1, 2, 3, 4, 5, 7, 9, 1};
+        int[] numsExpected = {1, 2, 3, 4, 5, 7, 9, 1};
+        ArrayService arrayService = new ArrayService();
+        arrayService.revert(nums);
+        boolean result = !Arrays.equals(nums, numsExpected);
+        checkResult(result, "shouldNotRevertTest: ");
     }
 
     private void checkResult(boolean result, String name) {
