@@ -39,7 +39,7 @@ class Transaction {
 class FraudDetector {
 
     boolean isFraud(Transaction pokemon) {
-        return false;
+        return true;
     }
 }
 
