@@ -10,6 +10,8 @@ public class FraudDetectorTest {
             System.out.println("Transaction is interrupted. Test is FAILED");
         } else if ((transaction1.getAmount() > 1000000)) {
             System.out.println("Transaction is interrupted. The sum of transaction is exceeded! Test is FAILED");
+        } else if (trader1.getCity().equals("Sydney")){
+            System.out.println("All transactions from Sydney are declined. Test is FAILED");
         } else {
             System.out.println("Transaction is APPLIED. Test is OK");
         }
