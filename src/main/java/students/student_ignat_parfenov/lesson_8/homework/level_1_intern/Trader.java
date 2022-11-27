@@ -10,11 +10,11 @@ class Trader {
     }
 
     public String getFullName() {
-        return fullName;
+        return this.fullName;
     }
 
     public String getCity() {
-        return city;
+        return this.city;
     }
 }
 
@@ -25,6 +25,14 @@ class Transaction {
     Transaction(Trader trader, int amount) {
         this.trader = trader;
         this.amount = amount;
+    }
+
+    public Trader getTrader() {
+        return this.trader;
+    }
+
+    public int getAmount() {
+        return this.amount;
     }
 }
 
