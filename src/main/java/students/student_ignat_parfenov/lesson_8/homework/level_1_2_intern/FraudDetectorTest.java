@@ -5,10 +5,10 @@ public class FraudDetectorTest {
 
         Trader trader1 = new Trader("Pokemon", "New York");
 
-        if (trader1.) {
+        if (trader1.getFullName().equals("Pokemon")) {
             System.out.println("Transaction is interrupted. Test is FAILED");
         } else {
-            System.out.println("Test is OK");
+            System.out.println("Transaction is done. Test is OK");
         }
     }
 }
