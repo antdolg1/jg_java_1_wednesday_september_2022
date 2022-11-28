@@ -1,4 +1,4 @@
-package students.student_svetlana_seda.level_1;
+package students.student_svetlana_seda.lesson_7.homework.level_1;
 
 class WordServiceTest {
 
@@ -20,6 +20,5 @@ class WordServiceTest {
             System.out.println("Frequent word Test = FAIL");
         }
     }
-
 
 }

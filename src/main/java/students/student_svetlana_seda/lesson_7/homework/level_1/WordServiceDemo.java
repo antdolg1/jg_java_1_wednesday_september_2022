@@ -1,6 +1,6 @@
-package students.student_svetlana_seda.level_1;
+package students.student_svetlana_seda.lesson_7.homework.level_1;
 
-import java.util.Arrays;
+import students.student_svetlana_seda.lesson_7.homework.level_1.WordService;
 
 class WordServiceDemo {
 
