@@ -34,3 +34,4 @@ class WordService {
         return w[index];
     }
 }
+
