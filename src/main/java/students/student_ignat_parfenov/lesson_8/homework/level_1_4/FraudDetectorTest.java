@@ -4,7 +4,7 @@ public class FraudDetectorTest {
 
     public static void main(String[] args) {
 
-        Trader trader1 = new Trader("Dean", "Kingston", "Jamaica");
+        Trader trader1 = new Trader("Duke", "Kingston", "Jamaica");
         FraudDetector fraudDetector = new FraudDetector();
         Transaction transaction1 = new Transaction(trader1, 550000);
         if (trader1.getFullName().equals("Pokemon")) {
