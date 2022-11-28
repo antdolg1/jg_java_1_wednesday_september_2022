@@ -4,7 +4,7 @@ public class FraudDetectorTest {
 
     public static void main(String[] args) {
 
-        Trader trader1 = new Trader("Dean", "London");
+        Trader trader1 = new Trader("Dean", "Kingston", "Jamaica");
         FraudDetector fraudDetector = new FraudDetector();
         Transaction transaction1 = new Transaction(trader1, 550000);
         if (trader1.getFullName().equals("Pokemon")) {
@@ -13,6 +13,8 @@ public class FraudDetectorTest {
             System.out.println("FRAUD!! Transaction is interrupted. The sum of transaction is exceeded! Test is FAILED");
         } else if (trader1.getCity().equals("Sydney")) {
             System.out.println("FRAUD!! All transactions from Sydney (AUS) are prohibited. Test is FAILED");
+        } else if (trader1.getCountry().equals("Jamaica")) {
+            System.out.println("FRAUD!! All transactions from Jamaica are prohibited. Test is FAILED");
         } else {
             System.out.println("Transaction is APPLIED. Test is OK");
         }
