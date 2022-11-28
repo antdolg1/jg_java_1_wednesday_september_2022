@@ -10,7 +10,7 @@ class OddOrEven {
         System.out.println("Please enter integer number:");
         inNumber = sc.nextInt();
 
-        if ( 0 == inNumber%2 ){
+        if ( inNumber%2 == 0 ){
             System.out.println("Entered number " + inNumber + " is even");
         } else {
             System.out.println("Entered number " + inNumber + " is odd");

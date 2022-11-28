@@ -19,30 +19,28 @@ class Calculator {
     }
 
     boolean isEven(int number) {
-        if (0 == (number % 2)) {
+        if (number % 2 == 0){
             return true;
-        } else {
+        } else{
             return false;
         }
     }
 
     int getMax(int number1, int number2) {
-        if (number1 > number2) {
+        if (number1 >= number2) {
             return number1;
-        } else if (number2 > number1) {
-            return number2;
         } else {
-            return number1;
+            return number2;
         }
     }
 
-    int getMaxOfThree(int number1, int number2, int number3){
-        if (number1 >= number2 && number1 > number3){
-            return number1;
-        } else if (number2 > number3 && number2 > number1) {
-            return number2;
-        } else {
+    int getMaxOfThree(int number1, int number2, int number3) {
+        int max = getMax(number1, number2);
+
+        if (number3 >= max) {
             return number3;
+        } else {
+            return max;
         }
     }
 }

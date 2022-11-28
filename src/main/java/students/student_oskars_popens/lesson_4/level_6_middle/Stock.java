@@ -9,8 +9,6 @@ class Stock {
     Stock() {
     }
 
-    ;
-
     Stock(String companyName, double currentValue) {
         this.companyName = companyName;
         this.minValue = this.maxValue = this.currentValue = currentValue;
@@ -26,7 +24,7 @@ class Stock {
         this.currentValue = newValue;
     }
 
-    String getPriceInformation(){
+    String getPriceInformation() {
         return "Company: " + this.companyName +
                 ", Current price: " + this.currentValue +
                 ", Min price: " + this.minValue +
