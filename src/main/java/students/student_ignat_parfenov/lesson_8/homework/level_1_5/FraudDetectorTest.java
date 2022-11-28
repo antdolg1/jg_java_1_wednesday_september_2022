@@ -1,4 +1,4 @@
-package students.student_ignat_parfenov.lesson_8.homework.level_1_4;
+package students.student_ignat_parfenov.lesson_8.homework.level_1_5;
 
 public class FraudDetectorTest {
 
