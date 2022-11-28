@@ -1,6 +1,8 @@
 package students.student_jurij_hlebnikov.homework_leson_6;
 
-class ArrayService {           //Task 14
+import java.util.Arrays;
+
+class ArrayService {           //Task 14 - 17
 
     boolean contains(int[] arr, int numberToSearch) {
         for (int i = 0; i < arr.length; i++) {
@@ -51,6 +53,11 @@ class ArrayService {           //Task 14
         for (int i = 0; i < arr.length; i++) {
             arr[i] = temp[i];
         }
+    }
+
+    void sortAll(int[] arr) {
+        Arrays.sort(arr);
+
     }
 
 

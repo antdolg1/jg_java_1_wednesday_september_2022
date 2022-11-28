@@ -17,6 +17,8 @@ class ArrayServiceTest {
         test.shouldNotChangeAllTest();
         test.shouldRevertTest();
         test.shouldNotRevertTest();
+        test.shouldSortTest();
+        test.shouldNotSortTest();
     }
 
     public void shouldContainTest() {
@@ -99,6 +101,24 @@ class ArrayServiceTest {
         arrayService.revert(nums);
         boolean result = !Arrays.equals(nums, numsExpected);
         checkResult(result, "shouldNotRevertTest: ");
+    }
+
+    public void shouldSortTest() {
+        int[] array = new int[]{20, 95, 10, 15, 83, 52};
+        int[] sortedArray = new int[]{10, 15, 20, 52, 83, 95};
+        ArrayService arrayService = new ArrayService();
+        arrayService.sortAll(array);
+        boolean result = Arrays.equals(array, sortedArray);
+        checkResult(result, "shouldSortTest: ");
+    }
+
+    public void shouldNotSortTest() {
+        int[] array = new int[]{20, 95, 10, 15, 83, 52};
+        int[] sortedArray = new int[]{10, 15, 20, 52, 83, 95};
+        ArrayService arrayService = new ArrayService();
+        arrayService.sortAll(array);
+        boolean result = !Arrays.equals(array, sortedArray);
+        checkResult(!result, "shouldNotSortTest: ");
     }
 
     private void checkResult(boolean result, String name) {
