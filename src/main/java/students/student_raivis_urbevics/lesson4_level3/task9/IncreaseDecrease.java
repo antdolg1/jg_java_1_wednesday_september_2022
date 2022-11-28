@@ -4,20 +4,19 @@ import java.util.Scanner;
 
 class IncreaseDecrease {
     public static void main(String[] args) {
-        System.out.println("Input the first number");
-        System.out.println("Input the second number");
-        System.out.println("Input the third number");
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Input the first number");
         int n1 = scanner.nextInt();
+        System.out.println("Input the second number");
         int n2 = scanner.nextInt();
+        System.out.println("Input the third number");
         int n3 = scanner.nextInt();
-        if (n1 > n2 && n1 > n3 && n2 > n3) {
+        if (n1 > n2 && n2 > n3) {
             System.out.println("Decreasing ");
-        } else if (n1 < n2 && n1 < n3 && n2 < n3) {
+        } else if (n1 < n2 && n2 < n3) {
             System.out.println("Increasing");
         } else {
             System.out.println("Neither increasing or decreasing order");
         }
     }
 }
-
