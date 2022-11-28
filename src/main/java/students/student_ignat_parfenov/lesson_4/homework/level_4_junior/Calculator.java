@@ -36,14 +36,10 @@ public class Calculator {
     }
 
     public int maxOfThreeNumbers(int firstNumber, int secondNumber, int thirdNumber) {
-        if ((firstNumber > secondNumber) && (firstNumber > thirdNumber)) {
-            return firstNumber;
-        } else if ((secondNumber > firstNumber) && (secondNumber > thirdNumber)) {
-            return secondNumber;
-        } else {
-            return thirdNumber;
-        }
+        int maxFirstTwoNumbers = maxOfTwoNumbers(firstNumber, secondNumber);
+        return maxOfTwoNumbers(maxFirstTwoNumbers, thirdNumber);
     }
+
 
     public boolean allThreeNumbersAreEqual(double firstNumber, double secondNumber, double thirdNumber) {
         if ((firstNumber == secondNumber) && (secondNumber == thirdNumber)) {

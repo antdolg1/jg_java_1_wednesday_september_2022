@@ -123,7 +123,7 @@ public class CalculatorTest {
     private void maxOfThreeNumbers() {
         int firstNumber = 12;
         int secondNumber = 13;
-        int thirdNumber = 16;
+        int thirdNumber = 10;
         Calculator calculator = new Calculator();
         int realResult = calculator.maxOfThreeNumbers(firstNumber, secondNumber, thirdNumber);
         if ((realResult > secondNumber) && (realResult > thirdNumber)) {
