@@ -4,7 +4,7 @@ public class FraudDetectorTest {
 
     public static void main(String[] args) {
 
-        Trader trader1 = new Trader("Duke", "Kingston", "Jamaica");
+        Trader trader1 = new Trader("Duke", "Munich", "Germany");
         FraudDetector fraudDetector = new FraudDetector();
         Transaction transaction1 = new Transaction(trader1, 550000);
         if (trader1.getFullName().equals("Pokemon")) {
@@ -15,9 +15,12 @@ public class FraudDetectorTest {
             System.out.println("FRAUD!! All transactions from Sydney (AUS) are prohibited. Test is FAILED");
         } else if (trader1.getCountry().equals("Jamaica")) {
             System.out.println("FRAUD!! All transactions from Jamaica are prohibited. Test is FAILED");
+        } else if (trader1.getCountry().equals("Germany")) { //&& (fraudDetector.isTransactionAmountIsTooBig(transaction1)))
+            System.out.println("Transactions is interrupted! All transaction from Germany if they more than USD1000 are prohibited. Test is FAILED");
         } else {
             System.out.println("Transaction is APPLIED. Test is OK");
         }
     }
 }
 
+// проблема с тестом на макс.сумму. И в случае больше 1 000 000, и в случае с Германией и! суммой транзакции больше 1000 USD.
