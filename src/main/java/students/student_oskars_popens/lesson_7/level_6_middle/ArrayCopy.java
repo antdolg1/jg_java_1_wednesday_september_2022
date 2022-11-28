@@ -11,11 +11,6 @@ class ArrayCopy {
         }
         return retArray;
     }
-    private int[] addToArray(int[] array, int nrToAdd){
-        int[] retArray = new int[array.length+1];
-        retArray[array.length]=nrToAdd;
-        return retArray;
-    }
 
     private int countPassedElements(int[] array, int minValue, int maxValue) {
         int retValue = 0;

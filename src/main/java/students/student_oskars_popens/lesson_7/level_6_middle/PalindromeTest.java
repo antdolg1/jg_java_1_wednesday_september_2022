@@ -16,7 +16,7 @@ class PalindromeTest {
     void shouldNotBePalindrome(){
         Palindrome palindrome = new Palindrome();
         String testString = "А роза упала на лапу Азора";
-        checkTestResult(!palindrome.isPalindrome(testString), "Is palindrome test:");
+        checkTestResult(!palindrome.isPalindrome(testString), "Is not palindrome test:");
     }
 
     private void checkTestResult(boolean condition, String testName) {

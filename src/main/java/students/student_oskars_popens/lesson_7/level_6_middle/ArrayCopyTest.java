@@ -13,9 +13,7 @@ class ArrayCopyTest {
         int[] arrayFrom = {1, 2, 3, 11, 4, 12, 5, 6, 78, 9, 443, 234, 55, 34, 23, 15, 46, 67, 78, 45, 34, 2};
         int[] expectedArray = {11, 12, 15};
         int minNr = 10, maxNr = 20;
-        boolean result = true;
-
-        result = compareIntArray(expectedArray, arrayCopy.copyInRange(arrayFrom, minNr, maxNr));
+        boolean result = compareIntArray(expectedArray, arrayCopy.copyInRange(arrayFrom, minNr, maxNr));
         checkTestResult(result, "Array copy test");
     }
 
@@ -24,9 +22,7 @@ class ArrayCopyTest {
         int[] arrayFrom = {1, 2, 3, 11, 4, 12, 5, 6, 78, 9, 443, 234, 55, 34, 23, 15, 46, 67, 78, 45, 34, 2};
         int[] expectedArray = {11, 12, 22};
         int minNr = 10, maxNr = 20;
-        boolean result = true;
-
-        result = compareIntArray(expectedArray, arrayCopy.copyInRange(arrayFrom, minNr, maxNr));
+        boolean result = compareIntArray(expectedArray, arrayCopy.copyInRange(arrayFrom, minNr, maxNr));
         checkTestResult(!result, "Array copy negative test ");
     }
 
