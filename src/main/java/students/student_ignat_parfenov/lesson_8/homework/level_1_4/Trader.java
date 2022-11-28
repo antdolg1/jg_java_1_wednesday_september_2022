@@ -1,4 +1,4 @@
-package students.student_ignat_parfenov.lesson_8.homework.level_1_2_intern;
+package students.student_ignat_parfenov.lesson_8.homework.level_1_4;
 
 class Trader {
     private String fullName;
