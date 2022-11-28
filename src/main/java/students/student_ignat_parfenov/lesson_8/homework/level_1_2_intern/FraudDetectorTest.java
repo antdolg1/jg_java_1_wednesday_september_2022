@@ -7,7 +7,7 @@ public class FraudDetectorTest {
         Trader trader1 = new Trader("Pokemon", "Sydney");
         FraudDetector fraudDetector = new FraudDetector();
         Transaction transaction1 = new Transaction(trader1, 550000);
-        if (fraudDetector.isFraud(trader1)) {
+        if (trader1.getFullName().equals("Pokemon")) {
             System.out.println("FRAUD, Pokemon!! Transaction is interrupted. Test is FAILED");
         } else if (fraudDetector.isTransactionAmountIsTooBig(transaction1)) {
             System.out.println("FRAUD!! Transaction is interrupted. The sum of transaction is exceeded! Test is FAILED");

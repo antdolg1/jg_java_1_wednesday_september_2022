@@ -38,7 +38,7 @@ class Transaction {
 
 class FraudDetector {
 
-    boolean isFraud(Trader trader) {
+    boolean isFraud(Transaction trader) {
         return false;
     }
 
