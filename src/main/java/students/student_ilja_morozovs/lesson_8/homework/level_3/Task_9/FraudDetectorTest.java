@@ -8,8 +8,8 @@ class FraudDetectorTest {
     }
 
     boolean isFraudTest() {
-        Trader trader = new Trader("Pokemon", "Riga");
-        Transaction transaction = new Transaction(trader, 100);
+        Trader trader = new Trader("Dimon", "Riga");
+        Transaction transaction = new Transaction(trader, 1200000);
         FraudDetector fraudDetector = new FraudDetector();
         return fraudDetector.isFraud(transaction);
     }

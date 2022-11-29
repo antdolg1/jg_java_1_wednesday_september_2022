@@ -4,7 +4,7 @@ class FraudDetector {
 
 //    public static void main(String[] args) {
 //        Trader trader = new Trader("Pokemon", "Riga");
-//        Transaction transaction = new Transaction(trader, 12000);
+//        Transaction transaction = new Transaction(trader, 12000000);
 //        FraudDetector fraudDetector = new FraudDetector();
 ////        System.out.println(fraudDetector.isFraud1(transaction));
 //        fraudDetector.transactionStatus(fraudDetector.isFraud(transaction));
@@ -35,7 +35,11 @@ class FraudDetector {
     boolean isFraud(Transaction t) {
         String blackListName = "Pokemon";
         double amountRule = 1000000;
-        return !t.getTrader().getFullName().equals(blackListName) && t.getAmount() < amountRule;
+        boolean condition;
+        if (t.getTrader().getFullName().equals(blackListName)) {
+            condition = false;
+        } else condition = t.getAmount() < amountRule;
+        return condition;
     }
 
 }
