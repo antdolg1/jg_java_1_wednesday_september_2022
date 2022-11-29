@@ -1,4 +1,4 @@
-package students.student_svetlana_seda.lesson_7.homework.level_6;
+package students.student_svetlana_seda.lesson_7.homework.level_6.task_10;
 
 import java.util.Scanner;
 
