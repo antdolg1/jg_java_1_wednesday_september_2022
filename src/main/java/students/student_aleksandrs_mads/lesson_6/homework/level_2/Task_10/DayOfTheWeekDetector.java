@@ -1,13 +1,8 @@
-package students.student_aleksandrs_mads.lesson_6.homework.level_2.Task_8;
+package students.student_aleksandrs_mads.lesson_6.homework.level_2.Task_10;
 
 import java.util.Scanner;
 
 class DayOfTheWeekDetector {
-    public static void main(String[] args) {
-        DayOfTheWeekDetector dayOfTheWeekDetector = new DayOfTheWeekDetector();
-        System.out.println(dayOfTheWeekDetector.findDayNumber(dayOfTheWeekDetector.getDateFromUser()));
-    }
-
     int getDateFromUser() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Intput day number between 1 and 7 :");

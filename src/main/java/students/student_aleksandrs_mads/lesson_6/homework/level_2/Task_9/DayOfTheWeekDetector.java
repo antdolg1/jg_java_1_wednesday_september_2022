@@ -5,16 +5,16 @@ import java.util.Scanner;
 class DayOfTheWeekDetector {
     public static void main(String[] args) {
         DayOfTheWeekDetector dayOfTheWeekDetector = new DayOfTheWeekDetector();
-        System.out.println(dayOfTheWeekDetector.dayNumber(dayOfTheWeekDetector.dateFromUser()));
+        System.out.println(dayOfTheWeekDetector.findDayNumber(dayOfTheWeekDetector.getDateFromUser()));
     }
 
-    int dateFromUser() {
+    int getDateFromUser() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Intput day number between 1 and 7 :");
         return scanner.nextInt();
     }
 
-    String dayNumber(int dayNumberFromUser) {
+    String findDayNumber(int dayNumberFromUser) {
         String dayName;
         switch (dayNumberFromUser) {
             case 1 -> dayName = "Monday";
