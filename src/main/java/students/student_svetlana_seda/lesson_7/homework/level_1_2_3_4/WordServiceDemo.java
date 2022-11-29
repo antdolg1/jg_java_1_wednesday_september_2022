@@ -1,6 +1,4 @@
-package students.student_svetlana_seda.lesson_7.homework.level_1;
-
-import students.student_svetlana_seda.lesson_7.homework.level_1.WordService;
+package students.student_svetlana_seda.lesson_7.homework.level_1_2_3_4;
 
 class WordServiceDemo {
 

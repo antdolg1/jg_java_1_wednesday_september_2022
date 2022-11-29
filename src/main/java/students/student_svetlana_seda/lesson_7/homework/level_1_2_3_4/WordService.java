@@ -1,4 +1,4 @@
-package students.student_svetlana_seda.lesson_7.homework.level_1;
+package students.student_svetlana_seda.lesson_7.homework.level_1_2_3_4;
 
 import java.util.Arrays;
 
