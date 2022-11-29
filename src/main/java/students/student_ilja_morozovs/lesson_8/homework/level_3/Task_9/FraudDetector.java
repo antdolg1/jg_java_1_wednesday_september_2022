@@ -17,20 +17,21 @@ class FraudDetector {
             System.out.println("Transaction blocked!!!");
         }
     }
-/*
-    boolean isFraud1(Transaction t) {
-        String blackListName = "Pokemon";
-        double amountRule = 1000000;
-        if (!t.getTrader().getFullName().equals(blackListName) && t.getAmount() < amountRule) {
-            System.out.println("Transaction confirmed!!!");
-            return true;
-        } else {
-            System.out.println("Transaction blocked!!!");
-            return false;
+
+    /*
+        boolean isFraud1(Transaction t) {
+            String blackListName = "Pokemon";
+            double amountRule = 1000000;
+            if (!t.getTrader().getFullName().equals(blackListName) && t.getAmount() < amountRule) {
+                System.out.println("Transaction confirmed!!!");
+                return true;
+            } else {
+                System.out.println("Transaction blocked!!!");
+                return false;
+            }
         }
-    }
-    Думаю теперь метод isFraud лучше
-*/
+        Думаю теперь метод isFraud лучше
+    */
     boolean isFraud(Transaction t) {
         String blackListName = "Pokemon";
         double amountRule = 1000000;
