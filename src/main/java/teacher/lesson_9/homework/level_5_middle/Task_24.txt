@@ -1,0 +1,19 @@
+Создание вспомогательного кода для иерархии Shape (геометрическая фигура).
+
+В классе ShapeUtil реализуйте метод:
+
+    Shape createRandomShape() {
+        Random rnd = new Random();
+        int randomNumber = rnd.nextInt(4);
+        if (randomNumber == 0) {
+            return createRandomCircle();
+        } else if (randomNumber == 1) {
+            return createRandomSquare();
+        } else if (randomNumber == 2) {
+            return createRandomRectangle();
+        } else {
+            return createRandomTriangle();
+        }
+    }
+
+Этот метод должен создавать случайную геометрическую фигуру.

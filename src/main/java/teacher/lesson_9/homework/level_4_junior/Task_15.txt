@@ -1,0 +1,23 @@
+Создание иерархии класса Shape (геометрическая фигура).
+
+Создайте наследника класс Shape - класс Circle.
+Реализуйте в нём абстрактные методы из класса
+Shape: calculateArea() и calculatePerimeter().
+
+PS: подсказка - необходимые значения для
+расчёта площади и периметра подавайте в
+класс через конструктор.
+
+class Circle extends Shape {
+
+    private double radius;
+
+    Circle(double radius) {
+        this.radius = radius;
+    }
+
+    // реализуйте метод calculateArea()
+
+    // реализуйте метод calculatePerimeter()
+
+}

@@ -1,0 +1,22 @@
+Создание вспомогательного кода для иерархии Shape (геометрическая фигура).
+
+В классе ShapeUtil создайте методы:
+
+    double calculateArea(Shape shape) {
+        return shape.calculateArea();
+    }
+
+    double calculatePerimeter(Shape shape) {
+        return shape.calculatePerimeter();
+    }
+
+Создайте ShapeUtilDemo класс и продемонстрируйте
+расчёт площади и периметра любой геометрической фигуры.
+
+
+Пример для круга:
+
+ShapeUtil shapeUtil = new ShapeUtil();
+Shape circle = shapeUtil.createRandomCircle();
+double circleArea = shapeUtil.calculateArea(circle);
+double circlePerimeter = shapeUtil.calculatePerimeter(circle);
