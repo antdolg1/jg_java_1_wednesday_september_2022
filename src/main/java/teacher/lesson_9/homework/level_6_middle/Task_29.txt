@@ -1,0 +1,13 @@
+Найти в интернете (javadoc) иерархию наследования
+для класса java.util.ArrayList.
+
+Создайте класс ArrayListInheritanceHierarchy и
+в комментарии распишите иерархию наследования
+вплоть до класса Object:
+
+/*
+    Распишите иерархию наследования класса java.util.ArrayList.
+*/
+class ArrayListInheritanceHierarchy {
+
+}

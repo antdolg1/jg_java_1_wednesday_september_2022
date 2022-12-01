@@ -1,0 +1,15 @@
+Создание вспомогательного кода для иерархии Shape (геометрическая фигура).
+
+Создайте класс ShapeUtilTest и напишите тесты для методов:
+
+    double calculateArea(Shape[] shapes);
+    double calculatePerimeter(Shape[] shapes);
+
+PS: пример создания и заполнения массива геометрических фигур:
+
+ShapeUtil shapeUtil = new ShapeUtil();
+Shape[] shapes = new Shape[4];
+shape[0] = new Circle(4);
+shape[1] = new Square(4);
+shape[2] = new Rectangle(4, 4);
+shape[3] = new Triangle(4, 4, 4);
