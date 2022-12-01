@@ -1,0 +1,9 @@
+package students.student_ignat_parfenov.lesson_9.homework.level_1_intern;
+
+public class DefaultConstructorDemo {
+
+    public static void main(String[] args) {
+
+        DefaultConstructor defaultConstructor = new DefaultConstructor();
+    }
+}
