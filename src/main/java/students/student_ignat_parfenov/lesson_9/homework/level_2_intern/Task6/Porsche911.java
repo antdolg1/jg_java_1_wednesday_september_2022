@@ -6,7 +6,14 @@ class Porsche911 extends Car {
 
     private int topSpeed;
 
-    // создайте конструктор
+    public Porsche911(int releaseYear) {
+        super(releaseYear);
+        this.topSpeed = topSpeed;
+    }
+
+    public int getTopSpeed() {
+        return topSpeed;
+    }
 }
 
 
