@@ -1,7 +1,5 @@
 package students.student_ignat_parfenov.lesson_9.homework.level_2_intern.Task6;
 
-import students.student_ignat_parfenov.lesson_9.homework.level_2_intern.Task6.Car;
-
 class Porsche911 extends Car {
 
     private int topSpeed;
@@ -11,7 +9,7 @@ class Porsche911 extends Car {
         this.topSpeed = topSpeed;
     }
 
-    public int getTopSpeed() {
+    public int getTopSpeed(int i) {
         return topSpeed;
     }
 }
