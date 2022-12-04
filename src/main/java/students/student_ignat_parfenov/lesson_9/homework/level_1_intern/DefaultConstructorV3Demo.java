@@ -1,6 +1,6 @@
 package students.student_ignat_parfenov.lesson_9.homework.level_1_intern;
 
-public class DefaultConstructorV3Demo {
+class DefaultConstructorV4Demo {
 
     public static void main(String[] args) {
 
