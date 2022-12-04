@@ -10,9 +10,8 @@ class Player {
 }
 
 class HumanPlayer extends Player {
-
+    
     HumanPlayer(String name) {
-        super(String name);
-
+        super(name);
     }
 }
