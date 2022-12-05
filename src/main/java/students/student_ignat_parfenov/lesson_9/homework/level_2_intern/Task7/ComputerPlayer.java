@@ -6,6 +6,7 @@ class ComputerPlayer extends Player {
 
     public ComputerPlayer(String name, int experience) {
         super(name);
+        this.experience = experience;
     }
 
     @Override
