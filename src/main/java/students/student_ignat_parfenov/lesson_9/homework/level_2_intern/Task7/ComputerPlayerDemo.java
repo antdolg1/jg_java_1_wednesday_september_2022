@@ -5,7 +5,7 @@ public class ComputerPlayerDemo {
     public static void main(String[] args) {
 
         Player player = new Player("Ivan");
-        ComputerPlayer computerPlayer = new ComputerPlayer("Ivan");
+        ComputerPlayer computerPlayer = new ComputerPlayer("Ivan", 5);
 
         System.out.println(player);
         System.out.println(computerPlayer);
