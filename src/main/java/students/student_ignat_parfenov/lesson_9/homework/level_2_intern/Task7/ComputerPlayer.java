@@ -11,8 +11,8 @@ class ComputerPlayer extends Player {
 
     @Override
     public String toString() {
-        return "ComputerPlayer{" +
-                "experience=" + experience +
+        return "ComputerPlayer {" +
+                "experience = " + experience + " years" +
                 '}';
     }
 }
