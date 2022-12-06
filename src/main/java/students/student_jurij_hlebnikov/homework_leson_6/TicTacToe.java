@@ -1,4 +1,31 @@
 package students.student_jurij_hlebnikov.homework_leson_6;
 
 class TicTacToe {
+
+    public boolean isWinPositionForHorizontals(int[][] field, int playerToCheck) {
+
+        boolean lineOneWin = checkLineForWin(field, playerToCheck, 0);
+        boolean lineTwoWin = checkLineForWin(field, playerToCheck, 1);
+        boolean lineThreeWin = checkLineForWin(field, playerToCheck, 2);
+
+        if (lineOneWin || lineTwoWin || lineThreeWin) {
+            return true;
+        } else {
+
+            return false;
+        }
+    }
+
+    private boolean checkLineForWin(int[][] field,
+                                    int playerToCheck,
+                                    int lineNumber) {
+
+        if (field[lineNumber][0] == playerToCheck &&
+                field[lineNumber][1] == playerToCheck &&
+                field[lineNumber][2] == playerToCheck) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
