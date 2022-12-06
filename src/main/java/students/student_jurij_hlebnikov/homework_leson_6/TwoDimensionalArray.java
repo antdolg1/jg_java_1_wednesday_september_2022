@@ -6,20 +6,16 @@ class TwoDimensionalArray {             //Task 21
 
         TwoDimensionalArrayMethods twoDimensionalArray = new TwoDimensionalArrayMethods();
 
-        int sum = 0;
-        int axisX = twoDimensionalArray.mathRandom();
-        int axisY = twoDimensionalArray.mathRandom();
-        int[][] array = new int[axisX][axisY];
+        int axisX = twoDimensionalArray.generateRandomNumber();
+        int axisY = twoDimensionalArray.generateRandomNumber();
 
-        for (int x = 0; x < array.length; x++) {
-            for (int y = 0; y < array[x].length; y++) {
-                array[x][y] = (int) (Math.random() * 10 + 1);
+        int[][] array = twoDimensionalArray.initArr(axisX, axisY);
+        twoDimensionalArray.printArray(array);
+        System.out.println("+++++++++++++++++++++++++");
+        int[][] filledArray = twoDimensionalArray.fillArrayRandomNumbers(array);
 
-                System.out.print(array[x][y] + "    ");
-                sum += array[x][y];
-            }
-            System.out.println();
-        }
+        twoDimensionalArray.printArray(filledArray);
+        int sum = twoDimensionalArray.arraySum(filledArray);
         System.out.println("Sum of all number is :" + sum);
     }
 }
