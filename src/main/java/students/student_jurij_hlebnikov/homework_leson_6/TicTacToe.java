@@ -16,6 +16,19 @@ class TicTacToe {
         }
     }
 
+    public boolean isWinPositionForVerticals(int[][] field, int playerToCheck) {
+
+        boolean pilarOneWin = checkPilarForWin(field, playerToCheck, 0);
+        boolean pilarTwoWin = checkPilarForWin(field, playerToCheck, 1);
+        boolean pilarThreeWin = checkPilarForWin(field, playerToCheck, 2);
+
+        if (pilarOneWin || pilarTwoWin || pilarThreeWin) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     private boolean checkLineForWin(int[][] field,
                                     int playerToCheck,
                                     int lineNumber) {
@@ -23,6 +36,19 @@ class TicTacToe {
         if (field[lineNumber][0] == playerToCheck &&
                 field[lineNumber][1] == playerToCheck &&
                 field[lineNumber][2] == playerToCheck) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    private boolean checkPilarForWin(int[][] field,
+                                     int playertoCheck,
+                                     int pilarNumber) {
+
+        if (field[0][pilarNumber] == playertoCheck &&
+                field[1][pilarNumber] == playertoCheck &&
+                field[2][pilarNumber] == playertoCheck) {
             return true;
         } else {
             return false;
