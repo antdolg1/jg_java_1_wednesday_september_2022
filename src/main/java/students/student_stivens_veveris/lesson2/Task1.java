@@ -1,8 +1,8 @@
-package students.student_stivens_veveris;
+package students.student_stivens_veveris.lesson2;
 
 import java.util.Scanner;
 
-public class lesson2_level1_task1 {
+public class Task1 {
 
     public static void main(String[] args) {
 
