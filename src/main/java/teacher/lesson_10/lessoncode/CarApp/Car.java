@@ -1,8 +1,9 @@
-package teacher.lesson_9.lessoncode;
+package teacher.lesson_10.lessoncode.CarApp;
 
 public abstract class Car {
 
     private String model;
+    private int power;
 
     public abstract void start();
 
@@ -10,11 +11,10 @@ public abstract class Car {
 
     public abstract boolean updateSystem();
 
-    public Car(String model) {
+    public Car(String model, int power) {
         this.model = model;
+        this.power = power;
     }
-
-    public Car(){}
 
     public String getModel() {
         return model;
@@ -22,5 +22,13 @@ public abstract class Car {
 
     public void setModel(String model) {
         this.model = model;
+    }
+
+    public int getPower() {
+        return power;
+    }
+
+    public void setPower(int power) {
+        this.power = power;
     }
 }
