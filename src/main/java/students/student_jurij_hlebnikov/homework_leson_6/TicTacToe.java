@@ -43,12 +43,12 @@ class TicTacToe {
     }
 
     private boolean checkPilarForWin(int[][] field,
-                                     int playertoCheck,
+                                     int playerToCheck,
                                      int pilarNumber) {
 
-        if (field[0][pilarNumber] == playertoCheck &&
-                field[1][pilarNumber] == playertoCheck &&
-                field[2][pilarNumber] == playertoCheck) {
+        if (field[0][pilarNumber] == playerToCheck &&
+                field[1][pilarNumber] == playerToCheck &&
+                field[2][pilarNumber] == playerToCheck) {
             return true;
         } else {
             return false;
