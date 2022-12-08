@@ -12,8 +12,7 @@ import java.util.Scanner;
         int number2 = scanner.nextInt();
         if (number1 == number2) {
             System.out.println("Numbers are equal");
-        }
-         else {
+        }          else {
             System.out.println("Numbers are different");
         }
     }
