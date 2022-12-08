@@ -1,16 +1,22 @@
 package students.student_raivis_urbevics.lesson5_level4.task29;
 
 import java.util.Arrays;
+import java.util.Random;
 
-  class EvenNumbersOfArray {
+class EvenNumbersOfArray {
     public static void main(String[] args) {
+
         int[] numbers = new int[6];
-        numbers[0] = ((int)(Math.random()*100));
-        numbers[1] = ((int)(Math.random()*100));
-        numbers[2] = ((int)(Math.random()*100));
-        numbers[3] = ((int)(Math.random()*100));
-        numbers[4] = ((int)(Math.random()*100));
-        numbers[5] = ((int)(Math.random()*100));
+
+        Random random = new Random();
+
+        numbers[0] = random.nextInt(100);
+        numbers[1] = random.nextInt(100);
+        numbers[2] = random.nextInt(100);
+        numbers[3] = random.nextInt(100);
+        numbers[4] = random.nextInt(100);
+        numbers[5] = random.nextInt(100);
+
         System.out.println(numbers[0]);
         System.out.println(numbers[1]);
         System.out.println(numbers[2]);
@@ -18,7 +24,7 @@ import java.util.Arrays;
         System.out.println(numbers[4]);
         System.out.println(numbers[5]);
 
-        System.out.println(          );
+        System.out.println();
 
 
         for (int i = 0; i < numbers.length; i++) {
