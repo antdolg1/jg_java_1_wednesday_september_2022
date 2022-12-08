@@ -5,16 +5,20 @@ class Dog {
     String dogName;
     String color;
     String newColor;
-  void voice() {
+ 
+ void voice() {
       System.out.println(dogName + "! " + dogName + "! " + dogName + "!");
     }
+    
     void voice2() {
         System.out.println(dogName + "! I am " + age + " years old.");
     }
+    
     void happyBirthday() {
         age += 1;
         System.out.println("Dog birthday");
     }
+    
     void voice3(){
         System.out.println("Woof! Woof! Woof!");
     }
