@@ -12,11 +12,9 @@ import java.util.Scanner;
         int number2 = scanner.nextInt();
         if (number1 > number2) {
             System.out.println("Greater number - " + (number1));
-        }
-        else if (number1 < number2) {
+        }         else if (number1 < number2) {
                 System.out.println("Greater number - " + (number2));
-        }
-         else {
+        }         else {
             System.out.println("Entered numbers are equal");
         }
     }
