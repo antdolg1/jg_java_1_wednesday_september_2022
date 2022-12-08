@@ -6,6 +6,7 @@ package students.student_konstantin_karetnikov.lesson_3.level_4;
          Phone(String phoneModel) {
              this.model = phoneModel;
          }
+         
          String getModel() {
              return this.model;
          }
