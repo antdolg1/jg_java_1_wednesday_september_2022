@@ -21,14 +21,14 @@ class Calculator {
         return number % 2 == 0;
     }
 
-    public int GreaterOfTwoNumbers(int firstNumber, int secondNumber) {
+    public int greaterOfTwoNumbers(int firstNumber, int secondNumber) {
         if (firstNumber > secondNumber) return firstNumber;
         else {
             return secondNumber;
         }
     }
 
-    public int GreaterOfThreeNumbers(int firstNumber, int secondNumber, int thirdNumber) {
+    public int greaterOfThreeNumbers(int firstNumber, int secondNumber, int thirdNumber) {
         if (firstNumber > secondNumber && firstNumber > thirdNumber) return firstNumber;
         else if (secondNumber > firstNumber && secondNumber > thirdNumber) return secondNumber;
         else if (thirdNumber > firstNumber && thirdNumber > secondNumber) return thirdNumber;
