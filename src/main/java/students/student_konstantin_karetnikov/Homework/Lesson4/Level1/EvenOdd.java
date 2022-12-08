@@ -9,7 +9,7 @@ class EvenOdd {
     Scanner scanner = new Scanner (System.in);
     int number = scanner.nextInt();
 
-    if (number%2==0){
+    if (number %2 == 0){
         System.out.println("Even");
     }
     else {
