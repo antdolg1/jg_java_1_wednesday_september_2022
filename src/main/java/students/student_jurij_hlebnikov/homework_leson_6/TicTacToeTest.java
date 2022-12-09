@@ -18,7 +18,8 @@ class TicTacToeTest {
         test.shouldWinDiagonalTwoTest();
         test.shouldNotWinDiagonalOneTest();
         test.shouldNotWinDiagonalTwoTest();
-
+        test.shouldWinTest();
+        test.shouldNotWinTest();
     }
 
     public void shouldWinVerticalLineOneTest() {
@@ -37,7 +38,6 @@ class TicTacToeTest {
         } else {
             System.out.println("TicTacToeTest Win Line One: FAIL");
         }
-
     }
 
     public void shouldWinVerticalLineTwoTest() {
@@ -220,6 +220,32 @@ class TicTacToeTest {
             System.out.println("TicTacToeTest Not Win Diagonal Two: OK");
         } else {
             System.out.println("TicTacToeTest Not Win Diagonal Two: FAIL");
+        }
+    }
+
+    public void shouldWinTest() {
+        TicTacToe ticTacToe = new TicTacToe();
+        int[][] square = {{1, -1, 1}, {1, 0, -1,}, {1, -1, -1}};
+
+        boolean playerWin = ticTacToe.isWinPosition(square, 1);
+
+        if (playerWin == true) {
+            System.out.println("TicTacToeTest Win: OK");
+        } else {
+            System.out.println("TicTacToeTest Win: FAIL");
+        }
+    }
+
+    public void shouldNotWinTest() {
+        TicTacToe ticTacToe = new TicTacToe();
+        int[][] square = {{1, -1, 1}, {-1, 0, -1,}, {1, -1, -1}};
+
+        boolean playerWin = ticTacToe.isWinPosition(square, 1);
+
+        if (playerWin == false) {
+            System.out.println("TicTacToeTest Not Win: OK");
+        } else {
+            System.out.println("TicTacToeTest Not Win: FAIL");
         }
     }
 

@@ -2,6 +2,20 @@ package students.student_jurij_hlebnikov.homework_leson_6;
 
 class TicTacToe {   //Task 22
 
+    public boolean isWinPosition(int[][] field, int playerToCheck) {
+
+        if (isWinPositionForHorizontals(field, playerToCheck) ||
+                isWinPositionForDiagonals(field, playerToCheck) ||
+                isWinPositionForVerticals(field, playerToCheck) ||
+                checkDiagonalOneForWin(field, playerToCheck) ||
+                checkDiagonalTwoForWin(field, playerToCheck)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+
     public boolean isWinPositionForDiagonals(int[][] field, int playerToCheck) {
 
         boolean diagonalWinOne = checkDiagonalOneForWin(field, playerToCheck);
