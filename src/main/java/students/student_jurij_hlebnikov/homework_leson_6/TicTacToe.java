@@ -1,6 +1,19 @@
 package students.student_jurij_hlebnikov.homework_leson_6;
 
-class TicTacToe {
+class TicTacToe {   //Task 22
+
+    public boolean isWinPositionForDiagonals(int[][] field, int playerToCheck) {
+
+        boolean diagonalWinOne = checkDiagonalOneForWin(field, playerToCheck);
+        boolean diagonalWinTwo = checkDiagonalTwoForWin(field, playerToCheck);
+
+        if (diagonalWinOne || diagonalWinTwo) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
 
     public boolean isWinPositionForHorizontals(int[][] field, int playerToCheck) {
 
@@ -49,6 +62,36 @@ class TicTacToe {
         if (field[0][pilarNumber] == playerToCheck &&
                 field[1][pilarNumber] == playerToCheck &&
                 field[2][pilarNumber] == playerToCheck) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    private boolean checkDiagonalOneForWin(int[][] field,
+                                           int playerToCheck) {
+        int diagonalOne1 = field[0][0];
+        int diagonalOne2 = field[1][1];
+        int diagonalOne3 = field[2][2];
+
+        if (diagonalOne1 == playerToCheck &&
+                diagonalOne2 == playerToCheck &&
+                diagonalOne3 == playerToCheck) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    private boolean checkDiagonalTwoForWin(int[][] field, int playerToCheck) {
+
+        int diagonalTwo1 = field[0][2];
+        int diagonalTwo2 = field[1][1];
+        int diagonalTwo3 = field[2][0];
+
+        if (diagonalTwo1 == playerToCheck &&
+                diagonalTwo2 == playerToCheck &&
+                diagonalTwo3 == playerToCheck) {
             return true;
         } else {
             return false;
