@@ -2,6 +2,21 @@ package students.student_jurij_hlebnikov.homework_leson_6;
 
 class TicTacToe {   //Task 22
 
+    public boolean isDrawPosition(int[][] field) {
+
+        int isDraw = -1;
+        for (int i = 0; i < field.length; i++) {
+            for (int j = 0; j < field[i].length; j++) {
+
+                if (field[i][j] == isDraw) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+
     public boolean isWinPosition(int[][] field, int playerToCheck) {
 
         if (isWinPositionForHorizontals(field, playerToCheck) ||

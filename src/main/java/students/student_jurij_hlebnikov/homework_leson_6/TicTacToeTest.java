@@ -20,6 +20,37 @@ class TicTacToeTest {
         test.shouldNotWinDiagonalTwoTest();
         test.shouldWinTest();
         test.shouldNotWinTest();
+        test.isDrawPositionTest();
+        test.isNotDrawPositionTest();
+    }
+
+    public void isDrawPositionTest() {
+
+        TicTacToe ticTacToe = new TicTacToe();
+        int[][] square = {{1, 1, 1}, {1, 1, 1,}, {1, -1, 1}};
+
+        boolean isDraw = ticTacToe.isDrawPosition(square);
+
+        if (isDraw == true) {
+            System.out.println("TicTacToeTest is Draw: OK");
+        } else {
+            System.out.println("TicTacToeTest is Draw: FALSE");
+        }
+
+    }
+
+    public void isNotDrawPositionTest() {
+
+        TicTacToe ticTacToe = new TicTacToe();
+        int[][] square = {{0, 1, 1}, {0, 0, 1,}, {1, 0, 1}};
+
+        boolean isDraw = ticTacToe.isDrawPosition(square);
+
+        if (isDraw == false) {
+            System.out.println("TicTacToeTest is Not Draw: OK");
+        } else {
+            System.out.println("TicTacToeTest is Not Draw: FALSE");
+        }
     }
 
     public void shouldWinVerticalLineOneTest() {
