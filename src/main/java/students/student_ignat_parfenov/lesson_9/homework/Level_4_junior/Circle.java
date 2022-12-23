@@ -1,7 +1,6 @@
 package students.student_ignat_parfenov.lesson_9.homework.Level_4_junior;
 
 public class Circle extends Shape {
-
     private double radius;
 
     Circle(double radius) {
