@@ -26,7 +26,7 @@ public class Triangle extends Shape {
 
     @Override
     double calculateArea() {
-        return Math.sqrt(triangleHalfPerimeter * (triangleHalfPerimeter - triangleFirstSide) * (triangleHalfPerimeter - triangleSecondSide) * (triangleHalfPerimeter - triangleThirdSide));
+        return Math.sqrt((triangleHalfPerimeter * (triangleHalfPerimeter - triangleFirstSide) * (triangleHalfPerimeter - triangleSecondSide) * (triangleHalfPerimeter - triangleThirdSide)));
     }
 
     @Override
