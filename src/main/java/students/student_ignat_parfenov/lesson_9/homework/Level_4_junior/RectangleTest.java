@@ -7,6 +7,6 @@ public class RectangleTest {
         System.out.println("Rectangle first side = " + rectangle.getSideOne());
         System.out.println("Rectangle second side = " + rectangle.getSideTwo());
         System.out.println("Rectangle area = " + rectangle.calculateArea());
-        System.out.println("Square perimeter = " + rectangle.calculatePerimeter());
+        System.out.println("Rectangle perimeter = " + rectangle.calculatePerimeter());
     }
 }
