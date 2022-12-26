@@ -18,6 +18,6 @@ class Calculator {
     }
 
     public boolean isEven(int number) {
-        return number % 2 == 0 ? true : false;
+        return number % 2 == 0;
     }
 }

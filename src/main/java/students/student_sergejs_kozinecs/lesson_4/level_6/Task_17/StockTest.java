@@ -22,7 +22,7 @@ class StockTest {
     }
 
     boolean isMaxPriceValid(Stock stock, int expectedMaxPrice) {
-        return stock.maxPrice == expectedMaxPrice ? true : false;
+        return stock.maxPrice == expectedMaxPrice;
     }
 
     void googleStockTest() {
@@ -110,7 +110,7 @@ class StockTest {
 
         }
     }
-    
+
     void maxTwentySevenTest() {
         Stock testStock = new Stock("KEK", 9);
         testStock.updatePrice(27);

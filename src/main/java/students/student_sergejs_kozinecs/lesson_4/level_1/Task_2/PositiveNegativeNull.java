@@ -4,7 +4,11 @@ import java.util.Scanner;
 
 class PositiveNegativeNull {
     static String isPositiveNegativeOrNull(int number) {
-        return number == 0 ? "is 0" : number > 0 ? "is positive" : " is negative";
+        if (number == 0) {
+            return "is 0";
+        }
+
+        return number > 0 ? "is positive" : " is negative";
     }
 
     public static void main(String[] args) {
