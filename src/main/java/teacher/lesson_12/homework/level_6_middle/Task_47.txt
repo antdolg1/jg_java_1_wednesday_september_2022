@@ -1,0 +1,36 @@
+Последний шаг - это рефакторинг! Наше решение протестировано и работает.
+Теперь мы его можем улучшить без изменения функциональности.
+
+В классе ProductValidatorImpl есть повторяющийся код - три блока try.
+Для избавления от дублирования кода воспользуемся интерфейсом ProductValidationRule:
+
+class ProductValidatorImpl implements ProductValidator {
+
+    private List<ProductValidationRule> validationRules = new ArrayList<>();
+
+    public ProductValidatorImpl(ProductTitleValidationRule titleValidationRule,
+                                ProductPriceValidationRule priceValidationRule,
+                                ProductDescriptionValidationRule descriptionValidationRule) {
+        validationRules.add(titleValidationRule);
+        validationRules.add(priceValidationRule);
+        validationRules.add(descriptionValidationRule);
+    }
+
+    public List<ValidationException> validate(Product product) {
+        List<ValidationException> exceptions = new ArrayList<>();
+        for (ProductValidationRule validationRule : validationRules) {
+            try {
+                validationRule.validate(product);
+            } catch (ValidationException e) {
+                exceptions.add(e);
+            }
+        }
+        return exceptions;
+    }
+
+}
+
+Убедитесь, что после нашего рефакторинга все тесты по-прежнему проходят!
+
+Поздравляем, вы успешно завершили разработку прототипа функциональности
+по валидации данных продукта! Вы большие молодцы!

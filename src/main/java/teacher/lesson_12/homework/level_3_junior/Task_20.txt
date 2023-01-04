@@ -1,0 +1,12 @@
+Правильно ли написан try catch блок? Откомпилируется ли код?
+
+try {
+
+} catch (Exception e) {
+
+} catch (ArithmeticException a) {
+
+}
+
+Создайте класс MultiCatchExample и в его main() методе
+поместите правильный try catch блок и в комментариях напишите пояснение.

@@ -1,0 +1,15 @@
+Создайте класс ProductPriceValidationRule:
+
+class ProductPriceValidationRule implements FieldValidationRule {
+
+    public void validate(Product product) throws ValidationException {
+        // реализуйте все требования для валидации цены продукта:
+        К цене продукта выдвигаются следующие требования:
+            - RULE-5: не должна быть пустой
+            - RULE-6: должна быть больше 0
+    }
+
+}
+
+Если срабатывает одно из правил, то создавайте объект ValidationException,
+заполняйте его правильными данными и кидайте его.

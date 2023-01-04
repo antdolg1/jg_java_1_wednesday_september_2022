@@ -1,0 +1,36 @@
+В ИТ решениях нет однозначно правильного дизайна. Всегда есть возможные варианты.
+
+Возможный дизайн (наша версия):
+
+class ValidationException
+interface ProductValidator
+class ProductValidatorImpl implements ProductValidator
+interface FieldValidationRule
+    class ProductTitleValidationRule implements FieldValidationRule
+    class ProductPriceValidationRule implements FieldValidationRule
+    class ProductDescriptionValidationRule implements FieldValidationRule
+
+interface FieldValidationRule
+    void validate(Product product) throws ValidationException
+    // получает продукт и в случае ошибки кидает ошибку в которой
+    // указано название правила, описание ошибки и название поля
+
+Классы:
+    class ProductTitleValidationRule implements FieldValidationRule
+    class ProductPriceValidationRule implements FieldValidationRule
+    class ProductDescriptionValidationRule implements FieldValidationRule
+    // для каждого свойства объекта Product свой класс для проверки
+
+class ProductValidatorImpl implements ProductValidator
+    List<ValidationException> validate(Product product)
+    // может вызывать все правила валидации, собирать ошибки в список и возвращать его
+
+Этот дизайн разделяет правила валидации по свойствам объекта Product.
+Это хорошо, потому что все правила уже не будут лежать в одном классе
+сваленные в кучу, а будут разделены по трём классам:
+- ProductTitleValidationRule
+- ProductPriceValidationRule
+- ProductDescriptionValidationRule
+
+Такое решение позволит сделать код более читабельным
+и расширяемым в будущем, в него будет легче добавлять новые правила валидации.

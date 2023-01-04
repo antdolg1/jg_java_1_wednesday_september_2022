@@ -1,0 +1,41 @@
+Класс BankClient должен выглядеть так:
+
+class BankClient {
+
+    private String uid;
+    private String fullName;
+
+    public BankClient(String uid, String fullName) {
+        this.uid = uid;
+        this.fullName = fullName;
+    }
+
+    public String getUid() {
+        return this.uid;
+    }
+
+    public String getFullName() {
+        return this.fullName;
+    }
+}
+
+Время пришло создавать интерфейс для нашего API.
+Почему мы начинаем реализацию задачи именно с интерфейса?
+Потому что интерфейс позволит нам чётко очертить границы
+нашего будущего решения. В интерфейсе мы сможем чётко обозначить
+какую функциональность мы предоставляем (названия методов),
+какие входные параметры мы принимаем и что отдаём в качестве результата.
+
+Создайте интерфейс BankApi:
+
+interface BankApi {
+
+    Optional<BankClient> findByUid(UserCredentials credentials, String uid);
+
+}
+
+Метод findByUid() должен возвращать ("кидать") ошибку
+если в переданных credentials нет роли Role.CAN_SEARCH_CLIENTS.
+
+Внесите необходимые изменения в интерфейс BankApi,
+что бы реализовать требование описанное выше.

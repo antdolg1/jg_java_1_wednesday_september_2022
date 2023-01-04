@@ -1,0 +1,12 @@
+Знакомство с классами ошибок.
+
+Найдите в документации Java (javadoc) для чего используются
+следующие ошибки:
+- ArrayIndexOutOfBoundsException
+- IllegalArgumentException
+- IOException
+- StackOverflowError
+- OutOfMemoryError
+- NumberFormatException
+
+Ответ напишите в текстовом файле.

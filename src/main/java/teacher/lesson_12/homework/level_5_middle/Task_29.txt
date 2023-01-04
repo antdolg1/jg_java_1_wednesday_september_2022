@@ -1,0 +1,89 @@
+Класс Product:
+
+import java.util.Objects;
+
+class Product {
+
+	private String title;
+	private Integer price;    // указана в центах
+	private String description;
+
+	public Product(String title,
+				   Integer price,
+				   String description) {
+		this.title = title;
+		this.price = price;
+		this.description = description;
+	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public Integer getPrice() {
+		return price;
+	}
+
+	public void setPrice(Integer price) {
+		this.price = price;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	@Override
+	public boolean equals(Object o) {
+		if (this == o)
+			return true;
+		if (o == null || getClass() != o.getClass())
+			return false;
+		Product product = (Product) o;
+		return Objects.equals(title, product.title) &&
+				Objects.equals(price, product.price) &&
+				Objects.equals(description, product.description);
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(title, price, description);
+	}
+
+	@Override
+	public String toString() {
+		return "Product{" +
+				"title='" + title + '\'' +
+				", price=" + price +
+				", description='" + description + '\'' +
+				'}';
+	}
+}
+
+Далее давайте подумаем над тем, как и кто будет пользоваться
+нашим процессом валидации данных по продукту? Здесь имеется
+в виду какое место будет занимать наш прототип процесса валидации
+вводимых сотрудниками данных по новым продуктам в общей картине.
+Как и кто им будет пользоваться? Что соответственно хотят получить
+те кто будет пользоваться нашим процессом валидации?
+
+Всегда важно перед тем как создавать решение задачи, встать на сторону
+того кто будет пользоваться вашим решением и посмотреть его глазами
+на вашу функциональность (которой ещё даже нет). Что хотят получить
+от вашей функциональности те кто будет ей пользоваться? Ответ на
+этот главный вопрос поможет вам разработать качественное решение,
+которое будет востребовано у ваших клиентов и будет удовлетворять
+их ожидания.
+
+Какое место в общей картине занимает разрабатываемое нами решение?
+
+Кто будет пользоваться нашим решением?
+
+Что хотят получить от нашего решения те кто будет им пользоваться?

@@ -1,0 +1,58 @@
+К названию продукта выдвигаются следующие требования:
+- RULE-1: не должно быть пустым
+- RULE-2: не должно быть короче 3 символов
+- RULE-3: не должно быть длиннее 100 символов
+- RULE-4: должно содержать только английские буквы и цифры, другие символы не допустимы
+
+К цене продукта выдвигаются следующие требования:
+- RULE-5: не должна быть пустой
+- RULE-6: должна быть больше 0
+
+К описанию продукта выдвигаются следующие требования:
+- RULE-7: не должно быть длиннее 2000 символов
+- RULE-8: должно содержать только английские буквы и цифры, другие символы не допустимы
+
+
+Класс ProductValidatorImplTest и примеры тестов на все требования:
+
+class ProductValidatorImplTest {
+
+    private ProductValidator validator = new ProductValidatorImpl();
+
+    public static void main(String[] args) {
+        ProductValidatorImplTest test = new ProductValidatorImplTest();
+        test.rule1_v1();
+        test.rule1_v2();
+        // тесты на остальные правила допишите по аналогии
+        // тестов будет много! напишите их все!
+        // они пишутся легко, и если вы напишите их все то ваше решение будет полностью протестировано!
+    }
+
+    public void rule1_v1() {
+        Product product = new Product(null, 1, "description");
+        List<ValidationException> exceptions = validator.validate(product);
+        checkResult(exceptions.size() == 1, "rule1");
+        checkResult(exceptions.get(0).getRuleName().equals("RULE-1"), "rule1");
+        checkResult(exceptions.get(0).getFieldName().equals("title"), "rule1");
+        checkResult(exceptions.get(0).getDescription().equals("Title can not be empty"), "rule1");
+    }
+
+    public void rule1_v2() {
+        Product product = new Product("", 1, "description");
+        List<ValidationException> exceptions = validator.validate(product);
+        checkResult(exceptions.size() == 1, "rule1");
+        checkResult(exceptions.get(0).getRuleName().equals("RULE-1"), "rule1");
+        checkResult(exceptions.get(0).getFieldName().equals("title"), "rule1");
+        checkResult(exceptions.get(0).getDescription().equals("Title can not be empty"), "rule1");
+    }
+
+
+    private void checkResults(boolean condition, String testName) {
+		if (condition) {
+			System.out.println(testName + " = OK");
+		} else {
+			System.out.println(testName + " = FAIL");
+		}
+	}
+
+}

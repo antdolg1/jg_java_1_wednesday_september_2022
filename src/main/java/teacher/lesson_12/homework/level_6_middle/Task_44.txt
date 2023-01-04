@@ -1,0 +1,15 @@
+Создайте класс ProductDescriptionValidationRule:
+
+class ProductDescriptionValidationRule implements FieldValidationRule {
+
+    public void validate(Product product) throws ValidationException {
+        // реализуйте все требования для валидации описания продукта:
+        К описанию продукта выдвигаются следующие требования:
+            - RULE-8: не должно быть длиннее 2000 символов
+            - RULE-9: должно содержать только английские буквы и цифры, другие символы не допустимы
+    }
+
+}
+
+Если срабатывает одно из правил, то создавайте объект ValidationException,
+заполняйте его правильными данными и кидайте его.

@@ -1,0 +1,9 @@
+Теперь, когда у нас есть тесты пора приступать к реализации нашего дизайна.
+
+Создайте интерфейс
+
+interface FieldValidationRule {
+
+    void validate(Product product) throws ValidationException;
+
+}

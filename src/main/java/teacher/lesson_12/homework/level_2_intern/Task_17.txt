@@ -1,0 +1,6 @@
+Почему класс AccessDeniedException в нашем случае
+лучше наследовать от Exception, а не от RuntimeException?
+
+class AccessDeniedException extends Exception {
+
+}

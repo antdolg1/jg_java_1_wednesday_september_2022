@@ -1,0 +1,4 @@
+Создайте класс NullPointerExceptionDemo
+и в main() методе этого класса напишите код,
+который приводит к появлению NullPointerException.
+В комментариях напишите, когда происходит NullPointerException.
