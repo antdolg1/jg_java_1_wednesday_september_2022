@@ -12,7 +12,6 @@ class Trader {
         this.country = country;
     }
 
-
     public String getFullName() {
         return fullName;
     }

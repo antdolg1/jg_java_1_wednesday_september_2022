@@ -9,7 +9,7 @@ class TraderDemo {
         FraudDetector fraudDetector = new FraudDetector();
         fraudDetector.isFraud(transaction);
 
-        Trader trader1 = new Trader("Yoru", "Shanghai", "China");
+        Trader trader1 = new Trader("Ken", "Shanghai", "China");
         Transaction transaction1 = new Transaction(trader1, 1000000);
         FraudDetector fraudDetector1 = new FraudDetector();
         fraudDetector1.checkAmount(transaction1);
