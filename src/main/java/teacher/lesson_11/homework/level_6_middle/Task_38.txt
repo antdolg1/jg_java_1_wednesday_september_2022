@@ -1,0 +1,4 @@
+Разработка UI (User Interface) для интерфейса BookDatabase.
+
+Реализуйте UIAction классы для каждого метода из интерфейса BookDatabase.
+Подключите каждый UIAction в классе BookLibrary.

@@ -1,0 +1,19 @@
+Разработка UI (User Interface) для интерфейса BookDatabase.
+
+Создайте и реализуйте класс FindByIdUIAction:
+
+class FindByIdUIAction implements UIAction {
+
+    private BookDatabase bookDatabase;
+
+    public FindByIdUIAction(BookDatabase bookDatabase) {
+        this.bookDatabase = bookDatabase;
+    }
+
+    public void execute() {
+        // запросите id книги с консоли у пользователя
+        // поиск книги в базе данных: Optional<Book> bookOpt = bookDatabase.findById(id);
+        // выведите на консоль результаты поиска
+    }
+
+}
