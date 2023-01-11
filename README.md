@@ -71,6 +71,9 @@
 * [Лекция 7](https://www.youtube.com/watch?v=OHAeIf5BYLI)
 * [Лекция 8](https://www.youtube.com/watch?v=i5JWOgZ7zRg)
 * [Лекция 9](https://www.youtube.com/watch?v=XBd8klRUAOM)
+* [Лекция 10](https://www.youtube.com/watch?v=YOgwRNxRX4s)
+* [Лекция 11](https://www.youtube.com/watch?v=rwtCZOL9QVk)
+* [Лекция 12](https://www.youtube.com/watch?v=73Y4rYbpToY)
 
 ---
 
